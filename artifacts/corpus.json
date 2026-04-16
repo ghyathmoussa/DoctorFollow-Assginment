@@ -1,0 +1,1203 @@
+{
+  "generated_at": "2026-04-16T11:39:32.262856+00:00",
+  "source": {
+    "name": "PubMed E-utilities",
+    "medical_terms_path": "/home/ghyath/projects/doctor-follow/medical_terms.csv",
+    "max_results_per_term": 5
+  },
+  "summary": {
+    "terms_processed": 10,
+    "unique_articles": 50,
+    "duplicates_removed": 0,
+    "matched_pmids": 50,
+    "errors": 0
+  },
+  "terms": [
+    "atrial fibrillation",
+    "type 2 diabetes mellitus",
+    "pediatric asthma management",
+    "acute otitis media",
+    "chronic kidney disease",
+    "iron deficiency anemia",
+    "community acquired pneumonia",
+    "gestational diabetes",
+    "celiac disease diagnosis",
+    "allergic rhinitis treatment"
+  ],
+  "articles": [
+    {
+      "pmid": "41520281",
+      "title": "Comparative insights into the gut-heart axis: cross-species and cross-population perspectives.",
+      "abstract": "Gut microbiota research has rapidly expanded our understanding of host-microbe interactions in cardiovascular diseases, yet translation of these insights remains challenged by species-specific differences and substantial population heterogeneity. In this review, we synthesize current evidence across rodents, swine, non-human primates, and multi-ethnic human cohorts to delineate conserved versus context-dependent features of the gut-heart axis. Rodent models remain indispensable for mechanistic discovery, enabling causal testing through germ-free, antibiotic-treated, and humanized microbiota platforms, whereas large-animal models better replicate human cardiac anatomy, physiology, and microbial ecology. Human studies provide essential clinical relevance, demonstrating that patients with myocardial infarction, coronary artery disease, atrial fibrillation, and heart failure harbor distinct microbial and metabolite signatures. However, these findings vary across populations due to differences in diet, lifestyle, host genetics, medication exposure, and environmental transitions. Despite taxonomic variability, several functional pathways, most notably short-chain fatty acid production, bile acid biotransformation, and aromatic amino acid metabolism generating molecules such as trimethylamine-N-oxide and phenylacetylglutamine, consistently associate with cardiovascular risk. At the same time, population-specific features, including glycan-microbe interactions shaped by ABO and FUT2 genotypes, diet-responsive metabolite profiles, and variable drug-microbiome interactions, highlight the importance of genetic and environmental context. By integrating cross-species and cross-population evidence, this review outlines a framework for identifying robust microbial pathways, clarifying their translational boundaries, and guiding the development of microbiota-informed diagnostics and interventions that account for biological, cultural, and environmental diversity.",
+      "authors": [
+        "Tony W H Tang",
+        "Kiramat Ullah",
+        "Jia-Jung Lee",
+        "Hung-Chih Chen",
+        "Patrick C H Hsieh"
+      ],
+      "first_author": "Tony W H Tang",
+      "journal": "Gut microbes",
+      "year": 2026,
+      "doi": "10.1080/19490976.2025.2611617",
+      "matched_terms": [
+        "atrial fibrillation"
+      ],
+      "retrieval_text": "Comparative insights into the gut-heart axis: cross-species and cross-population perspectives. Gut microbiota research has rapidly expanded our understanding of host-microbe interactions in cardiovascular diseases, yet translation of these insights remains challenged by species-specific differences and substantial population heterogeneity. In this review, we synthesize current evidence across rodents, swine, non-human primates, and multi-ethnic human cohorts to delineate conserved versus context-dependent features of the gut-heart axis. Rodent models remain indispensable for mechanistic discovery, enabling causal testing through germ-free, antibiotic-treated, and humanized microbiota platforms, whereas large-animal models better replicate human cardiac anatomy, physiology, and microbial ecology. Human studies provide essential clinical relevance, demonstrating that patients with myocardial infarction, coronary artery disease, atrial fibrillation, and heart failure harbor distinct microbial and metabolite signatures. However, these findings vary across populations due to differences in diet, lifestyle, host genetics, medication exposure, and environmental transitions. Despite taxonomic variability, several functional pathways, most notably short-chain fatty acid production, bile acid biotransformation, and aromatic amino acid metabolism generating molecules such as trimethylamine-N-oxide and phenylacetylglutamine, consistently associate with cardiovascular risk. At the same time, population-specific features, including glycan-microbe interactions shaped by ABO and FUT2 genotypes, diet-responsive metabolite profiles, and variable drug-microbiome interactions, highlight the importance of genetic and environmental context. By integrating cross-species and cross-population evidence, this review outlines a framework for identifying robust microbial pathways, clarifying their translational boundaries, and guiding the development of microbiota-informed diagnostics and interventions that account for biological, cultural, and environmental diversity.",
+      "has_abstract": true
+    },
+    {
+      "pmid": "41620634",
+      "title": "Dynamic involvement of the core gut microbiome XNP_Guild1 in the evolution of gestational diabetes mellitus.",
+      "abstract": "Integrated large-scale maternal microbiome cohort analyses are critical for understanding the development of gestational diabetes mellitus (GDM) and its impact on maternal and offspring health. Here, we analyzed the microbiomes of 2,717 mothers and infants from 9 global cohorts, including both public datasets and a prospective cohort in China, using high-throughput sequencing and multilayer network modeling. We systematically identified and characterized a group of \"predicted grey zone\" individuals whose gut microbial network features fell between those of healthy and GDM subjects, which represent dynamic ecological transition states in disease development. Notably, we identified and validated across cohorts a core gut microbial guild (XNP_Guild1) that remained highly stable and functionally cohesive across healthy, grey zone, and GDM states, and was significantly associated with both disease progression and early pregnancy risk. In an exploratory intergenerational network analysis, we estimated the vertical transmission effect of the core guild and its potential influence on neonatal growth outcomes. These findings highlight the tight interconnection among core functional gut microbes, transitional ecological states, disease evolution, and maternal-infant health, providing a foundation for future targeted interventions and mechanistic studies of the maternal-offspring microecosystem in GDM.",
+      "authors": [
+        "Hualongyue Du",
+        "Qiaoxi Lin",
+        "Xiaojing He",
+        "Bin Yang",
+        "Yiyao Huang",
+        "Qianbei Li",
+        "Yudi Wang",
+        "Ruijing Wen",
+        "Wenlong Lin",
+        "Shenghui Li",
+        "Lei Zheng",
+        "Zihao Ou"
+      ],
+      "first_author": "Hualongyue Du",
+      "journal": "Gut microbes",
+      "year": 2026,
+      "doi": "10.1080/19490976.2026.2623353",
+      "matched_terms": [
+        "gestational diabetes"
+      ],
+      "retrieval_text": "Dynamic involvement of the core gut microbiome XNP_Guild1 in the evolution of gestational diabetes mellitus. Integrated large-scale maternal microbiome cohort analyses are critical for understanding the development of gestational diabetes mellitus (GDM) and its impact on maternal and offspring health. Here, we analyzed the microbiomes of 2,717 mothers and infants from 9 global cohorts, including both public datasets and a prospective cohort in China, using high-throughput sequencing and multilayer network modeling. We systematically identified and characterized a group of \"predicted grey zone\" individuals whose gut microbial network features fell between those of healthy and GDM subjects, which represent dynamic ecological transition states in disease development. Notably, we identified and validated across cohorts a core gut microbial guild (XNP_Guild1) that remained highly stable and functionally cohesive across healthy, grey zone, and GDM states, and was significantly associated with both disease progression and early pregnancy risk. In an exploratory intergenerational network analysis, we estimated the vertical transmission effect of the core guild and its potential influence on neonatal growth outcomes. These findings highlight the tight interconnection among core functional gut microbes, transitional ecological states, disease evolution, and maternal-infant health, providing a foundation for future targeted interventions and mechanistic studies of the maternal-offspring microecosystem in GDM.",
+      "has_abstract": true
+    },
+    {
+      "pmid": "41672571",
+      "title": "Application of Shengxuening tablets for the prevention of anemia in pregnancy: stratified efficacy analysis based on serum ferritin levels and thalassemia subgroups.",
+      "abstract": "OBJECTIVE: To investigate the effects of Shengxuening (SXN) tablets on gestational anemia and iron metabolism, focusing on efficacy differences among pregnant women with the thalassemia trait and those stratified by baseline serum ferritin (SF) levels.\nMETHODS: A retrospective single-center cohort (2016-2022) reviewed prenatal records of 843 pregnant women. Participants were allocated to either an SXN prophylaxis group (n = 620) or a non-prophylaxis group (n = 223) based on whether hemoglobin (Hb) was ≥110 g/L when iron supplementation was initiated. Within the SXN group, women were further stratified by baseline SF levels (<30, 30-70, 71-100, and >100 µg/L) to evaluate efficacy across SF subgroups. Primary endpoints were the incidence of gestational anemia and iron deficiency (ID). Secondary outcomes included changes in Hb, red blood cell (RBC) count, mean corpuscular volume (MCV), mean corpuscular hemoglobin (MCH), mean corpuscular hemoglobin concentration (MCHC), and SF.\nRESULTS: Among the 843 pregnant women, the incidence of ID ranged from 59.52% to 73.58% in the second and third trimesters, while iron deficiency anemia (IDA) was observed in 22.51% to 32.84% of cases. Comparative analysis within the SXN prophylaxis group, stratified by baseline SF levels, revealed that participants with SF ≥ 30 μg/L had significantly higher rates of adequate Hb levels before delivery (p = 0.003) and higher mean SF concentrations at 30-34 weeks of gestation (p = 0.025) compared to those with SF < 30 μg/L. Among 57 pregnant women with the thalassemia trait, the SXN prophylaxis group demonstrated significantly better Hb adequacy rates across gestational weeks and superior iron-related parameters compared to the non-prophylaxis group (p < 0.05).\nCONCLUSION: SXN tablets effectively ameliorate ID and anemia in both the general obstetric population and pregnant women with the thalassemia trait. The greatest benefit occurs when prophylaxis is initiated at baseline SF ≥30 μg/L. Baseline SF levels positively correlate with therapeutic response, indicating that adequate iron reserves enhance treatment efficacy. Routine, guideline-based iron supplementation should remain a cornerstone of antenatal care; however, individualized regimens tailored to initial iron status warrant further investigation.",
+      "authors": [
+        "Yang Rui",
+        "Xu Hongmei",
+        "Wan Xiaoli",
+        "Zhang Lexia",
+        "Zeng Yamin",
+        "Xu Jing"
+      ],
+      "first_author": "Yang Rui",
+      "journal": "The journal of maternal-fetal & neonatal medicine : the official journal of the European Association of Perinatal Medicine, the Federation of Asia and Oceania Perinatal Societies, the International Society of Perinatal Obstetricians",
+      "year": 2026,
+      "doi": "10.1080/14767058.2026.2625570",
+      "matched_terms": [
+        "iron deficiency anemia"
+      ],
+      "retrieval_text": "Application of Shengxuening tablets for the prevention of anemia in pregnancy: stratified efficacy analysis based on serum ferritin levels and thalassemia subgroups. OBJECTIVE: To investigate the effects of Shengxuening (SXN) tablets on gestational anemia and iron metabolism, focusing on efficacy differences among pregnant women with the thalassemia trait and those stratified by baseline serum ferritin (SF) levels.\nMETHODS: A retrospective single-center cohort (2016-2022) reviewed prenatal records of 843 pregnant women. Participants were allocated to either an SXN prophylaxis group (n = 620) or a non-prophylaxis group (n = 223) based on whether hemoglobin (Hb) was ≥110 g/L when iron supplementation was initiated. Within the SXN group, women were further stratified by baseline SF levels (<30, 30-70, 71-100, and >100 µg/L) to evaluate efficacy across SF subgroups. Primary endpoints were the incidence of gestational anemia and iron deficiency (ID). Secondary outcomes included changes in Hb, red blood cell (RBC) count, mean corpuscular volume (MCV), mean corpuscular hemoglobin (MCH), mean corpuscular hemoglobin concentration (MCHC), and SF.\nRESULTS: Among the 843 pregnant women, the incidence of ID ranged from 59.52% to 73.58% in the second and third trimesters, while iron deficiency anemia (IDA) was observed in 22.51% to 32.84% of cases. Comparative analysis within the SXN prophylaxis group, stratified by baseline SF levels, revealed that participants with SF ≥ 30 μg/L had significantly higher rates of adequate Hb levels before delivery (p = 0.003) and higher mean SF concentrations at 30-34 weeks of gestation (p = 0.025) compared to those with SF < 30 μg/L. Among 57 pregnant women with the thalassemia trait, the SXN prophylaxis group demonstrated significantly better Hb adequacy rates across gestational weeks and superior iron-related parameters compared to the non-prophylaxis group (p < 0.05).\nCONCLUSION: SXN tablets effectively ameliorate ID and anemia in both the general obstetric population and pregnant women with the thalassemia trait. The greatest benefit occurs when prophylaxis is initiated at baseline SF ≥30 μg/L. Baseline SF levels positively correlate with therapeutic response, indicating that adequate iron reserves enhance treatment efficacy. Routine, guideline-based iron supplementation should remain a cornerstone of antenatal care; however, individualized regimens tailored to initial iron status warrant further investigation.",
+      "has_abstract": true
+    },
+    {
+      "pmid": "41684123",
+      "title": "Clinical, laboratory, and radiological features of community-acquired pneumonia due to Chlamydia psittaci and Legionella pneumophila confirmed using next-generation sequencing.",
+      "abstract": "BACKGROUND AND OBJECTIVE: Chlamydia psittaci and Legionella pneumophila are common atypical pathogens that cause severe community-acquired pneumonia (CAP). This study aimed to compare the clinical features and outcomes of Chlamydia psittaci pneumonia (CPP) and Legionella pneumophila pneumonia (LPP) identified using next-generation sequencing (NGS) for accurate identification.\nMETHODS: This retrospective study included 68 patients with CPP and 42 patients with LPP. All cases were confirmed by metagenomic or targeted next-generation sequencing (mNGS/tNGS) of bronchoalveolar lavage fluid, serum, or sputum samples.\nRESULTS: Patients with LPP had a higher prevalence of diabetes and were predominantly male. Poultry contact was common in CPP (64.7% vs. 14.3%), whereas recent travel was associated with LPP (47.6% vs. 2.9%). LPP presented with increased extrapulmonary symptoms. Inflammatory marker levels were higher in LPP, including leukocytosis, neutrophilia, C-reactive protein, and procalcitonin (all p < 0.05). Organ dysfunction was more frequent in LPP, with higher creatinine levels. Patients with LPP had more severe hypoxemia, required more respiratory support, and had higher intensive care admission rates. Targeted therapy guided by NGS was effective, with no significant differences in mortality or hospital stay between the two groups.\nCONCLUSION: LPP demonstrated greater initial clinical and laboratory severity compared to CPP. Under NGS-guided targeted therapy, both groups achieved comparable outcomes. The observational finding that both pathogens respond to azithromycin and cause severe disease when left undetected underscore the value of guideline-recommended β-lactams/macrolide combination therapy in CAP settings, particularly where these intracellular pathogens remain undiagnosed without NGS.",
+      "authors": [
+        "Ran Cheng",
+        "Zhonghua Deng",
+        "Fei Lin",
+        "Biying Zhang",
+        "Jingjin Liang",
+        "Ming Lu"
+      ],
+      "first_author": "Ran Cheng",
+      "journal": "Annals of medicine",
+      "year": 2026,
+      "doi": "10.1080/07853890.2026.2627122",
+      "matched_terms": [
+        "community acquired pneumonia"
+      ],
+      "retrieval_text": "Clinical, laboratory, and radiological features of community-acquired pneumonia due to Chlamydia psittaci and Legionella pneumophila confirmed using next-generation sequencing. BACKGROUND AND OBJECTIVE: Chlamydia psittaci and Legionella pneumophila are common atypical pathogens that cause severe community-acquired pneumonia (CAP). This study aimed to compare the clinical features and outcomes of Chlamydia psittaci pneumonia (CPP) and Legionella pneumophila pneumonia (LPP) identified using next-generation sequencing (NGS) for accurate identification.\nMETHODS: This retrospective study included 68 patients with CPP and 42 patients with LPP. All cases were confirmed by metagenomic or targeted next-generation sequencing (mNGS/tNGS) of bronchoalveolar lavage fluid, serum, or sputum samples.\nRESULTS: Patients with LPP had a higher prevalence of diabetes and were predominantly male. Poultry contact was common in CPP (64.7% vs. 14.3%), whereas recent travel was associated with LPP (47.6% vs. 2.9%). LPP presented with increased extrapulmonary symptoms. Inflammatory marker levels were higher in LPP, including leukocytosis, neutrophilia, C-reactive protein, and procalcitonin (all p < 0.05). Organ dysfunction was more frequent in LPP, with higher creatinine levels. Patients with LPP had more severe hypoxemia, required more respiratory support, and had higher intensive care admission rates. Targeted therapy guided by NGS was effective, with no significant differences in mortality or hospital stay between the two groups.\nCONCLUSION: LPP demonstrated greater initial clinical and laboratory severity compared to CPP. Under NGS-guided targeted therapy, both groups achieved comparable outcomes. The observational finding that both pathogens respond to azithromycin and cause severe disease when left undetected underscore the value of guideline-recommended β-lactams/macrolide combination therapy in CAP settings, particularly where these intracellular pathogens remain undiagnosed without NGS.",
+      "has_abstract": true
+    },
+    {
+      "pmid": "41693486",
+      "title": "SII serves as an independent diagnostic indicator for GDM and is regulated by placental 5-HT/NF-κB signaling.",
+      "abstract": "Gestational diabetes mellitus (GDM) poses a significant threat to perinatal health. Diagnosis based solely on glycemic parameters shows limited accuracy. The Systemic Immune-Inflammation Index (SII), a quantitative marker of inflammation, may improve diagnostic precision. This study analyzed clinical data stratified by GDM and obesity status to evaluate the diagnostic utility of SII and its underlying mechanisms involving placental NF-κB and 5-hydroxytryptamine (5-HT) signaling. We observed elevated SII levels in GDM patients, which correlated positively with glucose levels and inflammatory indicators (white blood cell count, fasting blood glucose, postprandial blood glucose). Logistic regression and receiver operating characteristic analyses confirmed the diagnostic value of SII, which was further enhanced when combined with clinical covariates. Placental expression of tryptophan hydroxylase 1 (TPH1) and NF-κB was significantly increased in GDM and closely linked to SII levels. Dysregulation of placental 5-HT signaling, characterized by increased TPH1 and monoamine oxidase A (MAO-A) expression alongside reduced serotonin transporter (SERT), was associated with maternal overweight. Moreover, SII, BMI, TPH1, and NF-κB all correlated with insulin resistance (IR). These results support SII as a non-invasive diagnostic indicator for GDM and highlight the role of placental 5-HT/NF-κB signaling in its pathogenesis, providing insights for early diagnosis and targeted therapy.",
+      "authors": [
+        "Weizhao Lin",
+        "Yujuan Tang",
+        "Jiahua Chen",
+        "Furong Liu",
+        "Shixin Chen",
+        "Qing Zhang",
+        "Xian Li",
+        "Pingping Song",
+        "Xuefeng Ma"
+      ],
+      "first_author": "Weizhao Lin",
+      "journal": "Hypertension in pregnancy",
+      "year": 2026,
+      "doi": "10.1080/10641955.2026.2627865",
+      "matched_terms": [
+        "gestational diabetes"
+      ],
+      "retrieval_text": "SII serves as an independent diagnostic indicator for GDM and is regulated by placental 5-HT/NF-κB signaling. Gestational diabetes mellitus (GDM) poses a significant threat to perinatal health. Diagnosis based solely on glycemic parameters shows limited accuracy. The Systemic Immune-Inflammation Index (SII), a quantitative marker of inflammation, may improve diagnostic precision. This study analyzed clinical data stratified by GDM and obesity status to evaluate the diagnostic utility of SII and its underlying mechanisms involving placental NF-κB and 5-hydroxytryptamine (5-HT) signaling. We observed elevated SII levels in GDM patients, which correlated positively with glucose levels and inflammatory indicators (white blood cell count, fasting blood glucose, postprandial blood glucose). Logistic regression and receiver operating characteristic analyses confirmed the diagnostic value of SII, which was further enhanced when combined with clinical covariates. Placental expression of tryptophan hydroxylase 1 (TPH1) and NF-κB was significantly increased in GDM and closely linked to SII levels. Dysregulation of placental 5-HT signaling, characterized by increased TPH1 and monoamine oxidase A (MAO-A) expression alongside reduced serotonin transporter (SERT), was associated with maternal overweight. Moreover, SII, BMI, TPH1, and NF-κB all correlated with insulin resistance (IR). These results support SII as a non-invasive diagnostic indicator for GDM and highlight the role of placental 5-HT/NF-κB signaling in its pathogenesis, providing insights for early diagnosis and targeted therapy.",
+      "has_abstract": true
+    },
+    {
+      "pmid": "41714845",
+      "title": "The shared mechanisms and potential diagnostic markers for IgA nephropathy and celiac disease.",
+      "abstract": "IgA nephropathy (IgAN) and celiac disease (CeD) are autoimmune disorders characterized by dysregulated immune responses; however, the molecular mechanisms underlying their comorbidity remain incompletely understood. Here, we integrated transcriptomic datasets from IgAN and CeD to perform differential expression analysis, weighted gene co-expression network analysis (WGCNA), functional enrichment analysis, and machine learning-based hub gene identification. The expression profiles and diagnostic performance of the identified hub genes were validated across multiple independent cohorts using receiver operating characteristic analysis, and their cellular localization was further explored using single-cell RNA sequencing data. In addition, we conducted clinical correlation analysis, immune infiltration profiling, therapeutic drug prediction, and constructed transcription factor-miRNA-mRNA regulatory networks. We identified ITGB2, CD74, and KLK1 as shared biomarkers with robust diagnostic performance (AUC > 0.7, with an AUC > 0.9 in the combined model). These genes were closely associated with immune dysregulation and disease progression, and four candidate therapeutic agents were predicted. Collectively, our findings provide novel insights into the shared pathogenic mechanisms and potential therapeutic strategies for IgAN and CeD.",
+      "authors": [
+        "Shaoguo Tao",
+        "Xuemei Fan",
+        "Xiaoyou Liu",
+        "Yannic Becker",
+        "Patricia Schroder",
+        "Qian Zhao",
+        "Zhuoying He",
+        "Hanzhi Jiang",
+        "Jie Xiao",
+        "Hermann Haller",
+        "Guibao Ke"
+      ],
+      "first_author": "Shaoguo Tao",
+      "journal": "Autoimmunity",
+      "year": 2026,
+      "doi": "10.1080/08916934.2026.2635179",
+      "matched_terms": [
+        "celiac disease diagnosis"
+      ],
+      "retrieval_text": "The shared mechanisms and potential diagnostic markers for IgA nephropathy and celiac disease. IgA nephropathy (IgAN) and celiac disease (CeD) are autoimmune disorders characterized by dysregulated immune responses; however, the molecular mechanisms underlying their comorbidity remain incompletely understood. Here, we integrated transcriptomic datasets from IgAN and CeD to perform differential expression analysis, weighted gene co-expression network analysis (WGCNA), functional enrichment analysis, and machine learning-based hub gene identification. The expression profiles and diagnostic performance of the identified hub genes were validated across multiple independent cohorts using receiver operating characteristic analysis, and their cellular localization was further explored using single-cell RNA sequencing data. In addition, we conducted clinical correlation analysis, immune infiltration profiling, therapeutic drug prediction, and constructed transcription factor-miRNA-mRNA regulatory networks. We identified ITGB2, CD74, and KLK1 as shared biomarkers with robust diagnostic performance (AUC > 0.7, with an AUC > 0.9 in the combined model). These genes were closely associated with immune dysregulation and disease progression, and four candidate therapeutic agents were predicted. Collectively, our findings provide novel insights into the shared pathogenic mechanisms and potential therapeutic strategies for IgAN and CeD.",
+      "has_abstract": true
+    },
+    {
+      "pmid": "41719027",
+      "title": "External validation of risk scores and multivariate models for the diagnosis of community-acquired pneumonia in outpatients.",
+      "abstract": "BACKGROUND: While several risk scores for the diagnosis of community-acquired pneumonia (CAP) have been developed, they require prospective external validation.\nOBJECTIVES: To externally validate existing prediction models, risk scores, and heuristics for the diagnosis of CAP in adults.\nMETHODS: The Enhancing Antibiotic Stewardship in Primary Care (EAST-PC) study recorded signs, symptoms, demographics, and vitals in 718 adults presenting to primary or urgent care clinics with acute lower respiratory tract infection between 2019 and 2023. C-reactive protein (CRP) was available for 575. The diagnosis of CAP was based on the clinician diagnosis and/or chest radiograph. Literature was searched for previous risk scores. Using the EAST-PC population, the area under the receiver operating characteristic curve (AUROCC), calibration curves, and percentage with CAP in each risk group were calculated for each risk score.\nRESULTS: We identified 11 studies describing 4 risk scores, 9 multivariate models, and 5 simple heuristics. The Genomics to Combat Resistance Against Antibiotics in Community-acquired LRTI in Europe (GRACE) risk score using the absence of a runny nose, the presence of breathlessness, crackles, diminished vesicular breathing, heart rate > 100/min, temperature >37.8 °C, and CRP > 30 mg/L was the most accurate (AUROCC 0.81). It classified 280 patients as low (0.7% CAP), 265 as moderate (5.7%) and 30 as high risk (33.3%) for CAP. The GRACE score without CRP performed similarly. Other risk scores had poor calibration or failed to accurately classify patients as low or high risk.\nCONCLUSIONS: The previously derived GRACE risk scores were successfully externally validated in a contemporary US outpatient population.",
+      "authors": [
+        "Mark Ebell",
+        "Dan J Merenstein",
+        "Bruce Barrett",
+        "Theo Verheij",
+        "Paul Little"
+      ],
+      "first_author": "Mark Ebell",
+      "journal": "The European journal of general practice",
+      "year": 2026,
+      "doi": "10.1080/13814788.2026.2628370",
+      "matched_terms": [
+        "community acquired pneumonia"
+      ],
+      "retrieval_text": "External validation of risk scores and multivariate models for the diagnosis of community-acquired pneumonia in outpatients. BACKGROUND: While several risk scores for the diagnosis of community-acquired pneumonia (CAP) have been developed, they require prospective external validation.\nOBJECTIVES: To externally validate existing prediction models, risk scores, and heuristics for the diagnosis of CAP in adults.\nMETHODS: The Enhancing Antibiotic Stewardship in Primary Care (EAST-PC) study recorded signs, symptoms, demographics, and vitals in 718 adults presenting to primary or urgent care clinics with acute lower respiratory tract infection between 2019 and 2023. C-reactive protein (CRP) was available for 575. The diagnosis of CAP was based on the clinician diagnosis and/or chest radiograph. Literature was searched for previous risk scores. Using the EAST-PC population, the area under the receiver operating characteristic curve (AUROCC), calibration curves, and percentage with CAP in each risk group were calculated for each risk score.\nRESULTS: We identified 11 studies describing 4 risk scores, 9 multivariate models, and 5 simple heuristics. The Genomics to Combat Resistance Against Antibiotics in Community-acquired LRTI in Europe (GRACE) risk score using the absence of a runny nose, the presence of breathlessness, crackles, diminished vesicular breathing, heart rate > 100/min, temperature >37.8 °C, and CRP > 30 mg/L was the most accurate (AUROCC 0.81). It classified 280 patients as low (0.7% CAP), 265 as moderate (5.7%) and 30 as high risk (33.3%) for CAP. The GRACE score without CRP performed similarly. Other risk scores had poor calibration or failed to accurately classify patients as low or high risk.\nCONCLUSIONS: The previously derived GRACE risk scores were successfully externally validated in a contemporary US outpatient population.",
+      "has_abstract": true
+    },
+    {
+      "pmid": "41774050",
+      "title": "Incidence of silent cerebral lesions during pulsed field ablation for paroxysmal atrial fibrillation.",
+      "abstract": "BACKGROUND: Radiofrequency catheter ablation (RFCA) is a first-line treatment for paroxysmal atrial fibrillation (PAF). Complications such as silent cerebral lesion (SCL) may occur during ablation. Pulsed field ablation (PFA) is a non-thermal method thatablates cardiac tissue via irreversible electroporation. Limited studies have reported the incidence of SCL during PFA, with highly variable results. However, randomized controlled trials (RCTs) remain scarce. The objective of this study was to compare perioperative SCL incidence between PFA and RFCA, and to identify risk factors for SCL during PFA.\nMETHODS: In this prospective pilot RCT (ChiCTR2400088774), 62 patients with PAF were randomized 1:1 to undergo PFA or RFCA. Cerebral MRI (3.0 T) was performed preoperatively and 24-48h postoperatively. SCL was defined as a new acute brain lesion on MRI without neurological deficits. Baseline and surgical data of the patients were collected.\nRESULTS: SCL was detected post-procedure in 6.45% (2/31) in the RFCA group, 12.90% (4/31) in the PFA group. No statistically significant difference in the incidence of postoperative SCL was detected between the two groups (p = 0.67). Left atrium dimension (LAD), left atrial operation time (LAOT), left ventricular end-diastolic dimension (LVEDD), and total operation time (TOT) were significantly higher in SCL group than those in no-SCL group (p < 0.05) through univariate analyses.\nCONCLUSIONS: SCL incidence was 12.90% in the PFA group versus 6.45% in the RFCA group. While no statistically significant difference was detected between two groups, the numerically higher rate in the PFA group warrants larger studies to evaluate cerebral safety associated with PFA.",
+      "authors": [
+        "Peiqi Ding",
+        "Wensu Chen",
+        "Jianfan Shen",
+        "Bowen Qiu",
+        "Xiaoqin Hu",
+        "Lixiang Xie",
+        "Zhongxiao Liu",
+        "Fei Li",
+        "Liqi Ge",
+        "Hui Wei",
+        "Baixiang Zhang",
+        "Quan Zhang",
+        "Zhirong Wang",
+        "Minglong Chen",
+        "Chengzong Li",
+        "Chaoqun Zhang"
+      ],
+      "first_author": "Peiqi Ding",
+      "journal": "Annals of medicine",
+      "year": 2026,
+      "doi": "10.1080/07853890.2026.2634472",
+      "matched_terms": [
+        "atrial fibrillation"
+      ],
+      "retrieval_text": "Incidence of silent cerebral lesions during pulsed field ablation for paroxysmal atrial fibrillation. BACKGROUND: Radiofrequency catheter ablation (RFCA) is a first-line treatment for paroxysmal atrial fibrillation (PAF). Complications such as silent cerebral lesion (SCL) may occur during ablation. Pulsed field ablation (PFA) is a non-thermal method thatablates cardiac tissue via irreversible electroporation. Limited studies have reported the incidence of SCL during PFA, with highly variable results. However, randomized controlled trials (RCTs) remain scarce. The objective of this study was to compare perioperative SCL incidence between PFA and RFCA, and to identify risk factors for SCL during PFA.\nMETHODS: In this prospective pilot RCT (ChiCTR2400088774), 62 patients with PAF were randomized 1:1 to undergo PFA or RFCA. Cerebral MRI (3.0 T) was performed preoperatively and 24-48h postoperatively. SCL was defined as a new acute brain lesion on MRI without neurological deficits. Baseline and surgical data of the patients were collected.\nRESULTS: SCL was detected post-procedure in 6.45% (2/31) in the RFCA group, 12.90% (4/31) in the PFA group. No statistically significant difference in the incidence of postoperative SCL was detected between the two groups (p = 0.67). Left atrium dimension (LAD), left atrial operation time (LAOT), left ventricular end-diastolic dimension (LVEDD), and total operation time (TOT) were significantly higher in SCL group than those in no-SCL group (p < 0.05) through univariate analyses.\nCONCLUSIONS: SCL incidence was 12.90% in the PFA group versus 6.45% in the RFCA group. While no statistically significant difference was detected between two groups, the numerically higher rate in the PFA group warrants larger studies to evaluate cerebral safety associated with PFA.",
+      "has_abstract": true
+    },
+    {
+      "pmid": "41782401",
+      "title": "Immune-related enteropathy.",
+      "abstract": "PURPOSE OF REVIEW: Immune-related enteropathies (IREs) represent a heterogeneous group of disorders characterised by immune-mediated small bowel injury. While coeliac disease is the most common cause, widespread use of small bowel endoscopy has expanded the recognition of rarer causes. This review aims to summarise recent advances in diagnosis, classification and management of IRE.\nRECENT FINDINGS: Significant overlap exists between coeliac disease, autoimmune enteropathy, collagenous sprue, drug-induced enteropathies, common variable immunodeficiency (CVID) associated enteropathy and other IRE. A recent meta-analysis supports a no-biopsy approach in selected adults with significantly elevated IgA tissue transglutaminase levels and suspected coeliac disease. Refractory coeliac disease type II is now recognised as a low-grade intraepithelial T-cell lymphoma with a high risk of progression to enteropathy-associated T-cell lymphoma (EATL). Drug-induced enteropathies, particularly olmesartan-associated enteropathy, are increasingly detected and may mimic autoimmune enteropathy histologically. Novel therapeutic approaches, including cladribine, JAK inhibitors and biologics, have shown promise in refractory disease, although evidence is limited to small studies.\nSUMMARY: IREs present substantial diagnostic and therapeutic challenges due to overlapping characteristics and variable disease course. A structured approach integrating clinical, serological and histopathological data is essential for accurate diagnosis. Early recognition and tailored management are crucial to prevent long-term complications.",
+      "authors": [
+        "Kimberley Butler",
+        "Hugo A Penny",
+        "Foong Way David Tai"
+      ],
+      "first_author": "Kimberley Butler",
+      "journal": "Current opinion in gastroenterology",
+      "year": 2026,
+      "doi": "10.1097/MOG.0000000000001162",
+      "matched_terms": [
+        "celiac disease diagnosis"
+      ],
+      "retrieval_text": "Immune-related enteropathy. PURPOSE OF REVIEW: Immune-related enteropathies (IREs) represent a heterogeneous group of disorders characterised by immune-mediated small bowel injury. While coeliac disease is the most common cause, widespread use of small bowel endoscopy has expanded the recognition of rarer causes. This review aims to summarise recent advances in diagnosis, classification and management of IRE.\nRECENT FINDINGS: Significant overlap exists between coeliac disease, autoimmune enteropathy, collagenous sprue, drug-induced enteropathies, common variable immunodeficiency (CVID) associated enteropathy and other IRE. A recent meta-analysis supports a no-biopsy approach in selected adults with significantly elevated IgA tissue transglutaminase levels and suspected coeliac disease. Refractory coeliac disease type II is now recognised as a low-grade intraepithelial T-cell lymphoma with a high risk of progression to enteropathy-associated T-cell lymphoma (EATL). Drug-induced enteropathies, particularly olmesartan-associated enteropathy, are increasingly detected and may mimic autoimmune enteropathy histologically. Novel therapeutic approaches, including cladribine, JAK inhibitors and biologics, have shown promise in refractory disease, although evidence is limited to small studies.\nSUMMARY: IREs present substantial diagnostic and therapeutic challenges due to overlapping characteristics and variable disease course. A structured approach integrating clinical, serological and histopathological data is essential for accurate diagnosis. Early recognition and tailored management are crucial to prevent long-term complications.",
+      "has_abstract": true
+    },
+    {
+      "pmid": "41782402",
+      "title": "Are we missing early pancreatic dysfunction? Expanding faecal elastase testing beyond pancreatic disease.",
+      "abstract": "PURPOSE OF REVIEW: Pancreatic exocrine insufficiency (PEI) has long been associated with intrinsic pancreatic disease, yet emerging evidence shows it is under-recognized in patients with nonspecific gastrointestinal symptoms. This review summarizes prevalence data, evaluates the performance and utility of faecal elastase-1 (FE-1), highlights the co-existence of PEI with other luminal conditions, and explores the presence of early pancreatic dysfunction among a subset of patients with irritable bowel syndrome (IBS)-type symptoms. Updates from the 2025 European guidelines are discussed.\nRECENT FINDINGS: Population studies estimate PEI prevalence at 11-21% in unselected gastroenterology cohorts. PEI is reported across coeliac disease, inflammatory bowel disease and functional gastrointestinal disorders, where overlapping symptoms can delay diagnosis. A 2025 meta-analysis of FE-1 performance demonstrated high sensitivity for moderate-severe PEI. Cohort data indicates repeat sampling can clarify borderline results. PEI may be an early marker of pancreatic dysfunction in a subset of patients with IBS-type symptoms. Identifying this group may offer opportunities for lifestyle modification with potential long-term benefit.\nSUMMARY: Collectively, these findings expand the relevance of PEI beyond classical pancreatic disease. Broader, proactive FE-1 testing may allow earlier recognition, which might allow intervention at a potentially modifiable stage of pancreatic dysfunction, accepting the limitations of the test.",
+      "authors": [
+        "Connor E M Cotton",
+        "Andrew D Hopper",
+        "David S Sanders"
+      ],
+      "first_author": "Connor E M Cotton",
+      "journal": "Current opinion in gastroenterology",
+      "year": 2026,
+      "doi": "10.1097/MOG.0000000000001163",
+      "matched_terms": [
+        "celiac disease diagnosis"
+      ],
+      "retrieval_text": "Are we missing early pancreatic dysfunction? Expanding faecal elastase testing beyond pancreatic disease. PURPOSE OF REVIEW: Pancreatic exocrine insufficiency (PEI) has long been associated with intrinsic pancreatic disease, yet emerging evidence shows it is under-recognized in patients with nonspecific gastrointestinal symptoms. This review summarizes prevalence data, evaluates the performance and utility of faecal elastase-1 (FE-1), highlights the co-existence of PEI with other luminal conditions, and explores the presence of early pancreatic dysfunction among a subset of patients with irritable bowel syndrome (IBS)-type symptoms. Updates from the 2025 European guidelines are discussed.\nRECENT FINDINGS: Population studies estimate PEI prevalence at 11-21% in unselected gastroenterology cohorts. PEI is reported across coeliac disease, inflammatory bowel disease and functional gastrointestinal disorders, where overlapping symptoms can delay diagnosis. A 2025 meta-analysis of FE-1 performance demonstrated high sensitivity for moderate-severe PEI. Cohort data indicates repeat sampling can clarify borderline results. PEI may be an early marker of pancreatic dysfunction in a subset of patients with IBS-type symptoms. Identifying this group may offer opportunities for lifestyle modification with potential long-term benefit.\nSUMMARY: Collectively, these findings expand the relevance of PEI beyond classical pancreatic disease. Broader, proactive FE-1 testing may allow earlier recognition, which might allow intervention at a potentially modifiable stage of pancreatic dysfunction, accepting the limitations of the test.",
+      "has_abstract": true
+    },
+    {
+      "pmid": "41805230",
+      "title": "Intravenous immunotherapy with Der p 1-containing nanoparticles alleviates the allergic responses in a murine allergic rhinitis model.",
+      "abstract": "Subcutaneous immunotherapy has several limitations, including the long dose escalation period, frequent injections and risk of adverse reactions. Crude extracts used for immunotherapy can contain unrecognized immunostimulatory components or induce neosensitization. Therefore, in this study, we aimed to develop a new efficient method to induce allergen-specific immune tolerance using Dermatophagoides pteronyssinus (Der p) 1-containing nanoparticles. We developed two different types of allergen-containing poly(lactic-co-glycolic) [PLGA] nanoparticle vaccines: Der p 1-encapsulated and Der p 1-conjugated vaccines. House dust mite (HDM)-sensitized mice were administered positive control (PC), PLGA (vehicle control), encapsulated vaccine (EV), and conjugated vaccine (CV) via intravenous injections one week after sensitization. Subcutaneous immunotherapy group received three subcutaneous HDM extract injections at two-day intervals. After challenge, we compared the rhinitis symptoms, immunoglobulin (Ig) levels, and histopathology of the nasal mucosa and analyzed splenocyte cultures for cytokine production and regulatory T cell activation. EV and CV groups exhibited improved nasal symptoms and lower ear swelling and inflammation in the nasopharyngeal lavage and nasal tissues than PC group. Serum HDM-specific IgG1 levels were higher in EV and CV groups than in PC group. No changes were observed in the total and HDM-specific IgE levels in EV group. EV group exhibited lower interleukin-4, -5, -13, and -17 levels and higher interleukin-10 and interferon-γ levels than PC group. The two vaccinated groups exhibited significantly higher regulatory T cell activation than PC group. Overall, intravenously administered Der p 1-containing nanoparticles alleviated the allergic responses and induced tolerance in a murine allergic rhinitis model.",
+      "authors": [
+        "Yu-Mi Park",
+        "Hana Kim",
+        "Ji An Kim",
+        "Hyun Jong Lee",
+        "Yoon Hong Chun"
+      ],
+      "first_author": "Yu-Mi Park",
+      "journal": "Human vaccines & immunotherapeutics",
+      "year": 2026,
+      "doi": "10.1080/21645515.2026.2612810",
+      "matched_terms": [
+        "allergic rhinitis treatment"
+      ],
+      "retrieval_text": "Intravenous immunotherapy with Der p 1-containing nanoparticles alleviates the allergic responses in a murine allergic rhinitis model. Subcutaneous immunotherapy has several limitations, including the long dose escalation period, frequent injections and risk of adverse reactions. Crude extracts used for immunotherapy can contain unrecognized immunostimulatory components or induce neosensitization. Therefore, in this study, we aimed to develop a new efficient method to induce allergen-specific immune tolerance using Dermatophagoides pteronyssinus (Der p) 1-containing nanoparticles. We developed two different types of allergen-containing poly(lactic-co-glycolic) [PLGA] nanoparticle vaccines: Der p 1-encapsulated and Der p 1-conjugated vaccines. House dust mite (HDM)-sensitized mice were administered positive control (PC), PLGA (vehicle control), encapsulated vaccine (EV), and conjugated vaccine (CV) via intravenous injections one week after sensitization. Subcutaneous immunotherapy group received three subcutaneous HDM extract injections at two-day intervals. After challenge, we compared the rhinitis symptoms, immunoglobulin (Ig) levels, and histopathology of the nasal mucosa and analyzed splenocyte cultures for cytokine production and regulatory T cell activation. EV and CV groups exhibited improved nasal symptoms and lower ear swelling and inflammation in the nasopharyngeal lavage and nasal tissues than PC group. Serum HDM-specific IgG1 levels were higher in EV and CV groups than in PC group. No changes were observed in the total and HDM-specific IgE levels in EV group. EV group exhibited lower interleukin-4, -5, -13, and -17 levels and higher interleukin-10 and interferon-γ levels than PC group. The two vaccinated groups exhibited significantly higher regulatory T cell activation than PC group. Overall, intravenously administered Der p 1-containing nanoparticles alleviated the allergic responses and induced tolerance in a murine allergic rhinitis model.",
+      "has_abstract": true
+    },
+    {
+      "pmid": "41808736",
+      "title": "Disseminated Mycobacterium haemophilum causing granulomatous mastitis.",
+      "abstract": "We present the case of a 58-year-old female with celiac disease, obesity, and recently diagnosed type 2 diabetes mellitus who developed a rash on her left thigh which spread and progressed to her arms, face, and abdomen. A biopsy of the left forearm grew Mycobacterium haemophilum. Weeks after the diagnosis of the M. haemophilum skin infection, the patient underwent a screening mammogram which showed new masses in both breasts. A biopsy of a left breast mass revealed cystic granulomatous inflammation with scattered neutrophils and lymphocytes within fibroadipose tissue. PCR and sequencing from breast tissue and AFB culture confirmed M. haemophilum. The patient was also later diagnosed with sinonasal involvement. No underlying immunodeficiency has been identified. This case highlights dissemination of M. haemophilum to multiple sites including skin, breast, and sinonasal tissues in a diabetic patient who was not otherwise immunocompromised. To our knowledge, it is the first reported case of granulomatous mastitis caused by M. haemophilum.",
+      "authors": [
+        "Jacob Rattin",
+        "Cyndee Miranda",
+        "Susan Harrington",
+        "Lauren A Duckworth",
+        "Raza Hoda",
+        "Patrick J McIntire"
+      ],
+      "first_author": "Jacob Rattin",
+      "journal": "Journal of clinical tuberculosis and other mycobacterial diseases",
+      "year": 2026,
+      "doi": "10.1016/j.jctube.2026.100594",
+      "matched_terms": [
+        "celiac disease diagnosis"
+      ],
+      "retrieval_text": "Disseminated Mycobacterium haemophilum causing granulomatous mastitis. We present the case of a 58-year-old female with celiac disease, obesity, and recently diagnosed type 2 diabetes mellitus who developed a rash on her left thigh which spread and progressed to her arms, face, and abdomen. A biopsy of the left forearm grew Mycobacterium haemophilum. Weeks after the diagnosis of the M. haemophilum skin infection, the patient underwent a screening mammogram which showed new masses in both breasts. A biopsy of a left breast mass revealed cystic granulomatous inflammation with scattered neutrophils and lymphocytes within fibroadipose tissue. PCR and sequencing from breast tissue and AFB culture confirmed M. haemophilum. The patient was also later diagnosed with sinonasal involvement. No underlying immunodeficiency has been identified. This case highlights dissemination of M. haemophilum to multiple sites including skin, breast, and sinonasal tissues in a diabetic patient who was not otherwise immunocompromised. To our knowledge, it is the first reported case of granulomatous mastitis caused by M. haemophilum.",
+      "has_abstract": true
+    },
+    {
+      "pmid": "41810829",
+      "title": "Associations between patient risk factors, disease severity, and inflammatory markers in community-acquired pneumonia.",
+      "abstract": "Community-acquired pneumonia (CAP) remains a major cause of morbidity and mortality, particularly in older adults and patients with chronic co-morbidities. Cytokine patterns and simple hematological indices may improve risk stratification beyond conventional clinical scores. In this prospective single-center study, 41 adults with CAP treated at Kaunas Hospital of Lithuanian University of Health Sciences between November 2024 and March 2025 were enrolled. Clinical data, pneumonia severity index (PSI), complete blood count-derived indices (neutrophil-lymphocyte ratio [NLR], platelet-lymphocyte ratio [PLR], systemic immune-inflammation index [SII]), and serum concentrations of interleukin (IL)-6, IL-8, interferon (IFN)-γ, and G-CSF were obtained on admission (Visit 1) and after 7 days of treatment (Visit 2). Patients were stratified by age (≤65 vs >65 years), co-morbidities, and PSI class. Non-parametric tests and Spearman correlations were applied. The results indicate that patients with co-morbidities and those > 65 years had significantly higher IL-6 levels than younger and non-comorbid patients. IL-6, IFNγ, and G-CSF concentrations were highest at admission and declined by day 7, particularly in PSI Class II patients. Higher PSI classes were associated with increased IL-8, IL-6, and IFNγ. NLR and SII were significantly higher in older patients and in PSI III-IV compared with PSI I-II. IL-6 and G-CSF showed strong positive correlations with NLR and SII, especially in elderly and comorbid patients, whereas PLR displayed weaker and less consistent associations. From these data, it is concluded that in CAP, serum IL-6, IFNγ, and G-CSF reflect age, co-morbidity burden, and disease severity, while NLR and SII closely mirror cytokine-driven systemic inflammation. These readily available indices may serve as cost-effective prognostic markers and, combined with cytokine profiling, could enhance early risk stratification and guide individualized management in CAP.",
+      "authors": [
+        "Ruta Nutautiene",
+        "Irmantas Aleksa",
+        "Ieva Janulaityte",
+        "Asta Maciuliene",
+        "Kristina Bieksiene",
+        "Diana Zaliaduonyte",
+        "Astra Vitkauskiene"
+      ],
+      "first_author": "Ruta Nutautiene",
+      "journal": "Journal of immunotoxicology",
+      "year": 2026,
+      "doi": "10.1080/1547691X.2026.2640339",
+      "matched_terms": [
+        "community acquired pneumonia"
+      ],
+      "retrieval_text": "Associations between patient risk factors, disease severity, and inflammatory markers in community-acquired pneumonia. Community-acquired pneumonia (CAP) remains a major cause of morbidity and mortality, particularly in older adults and patients with chronic co-morbidities. Cytokine patterns and simple hematological indices may improve risk stratification beyond conventional clinical scores. In this prospective single-center study, 41 adults with CAP treated at Kaunas Hospital of Lithuanian University of Health Sciences between November 2024 and March 2025 were enrolled. Clinical data, pneumonia severity index (PSI), complete blood count-derived indices (neutrophil-lymphocyte ratio [NLR], platelet-lymphocyte ratio [PLR], systemic immune-inflammation index [SII]), and serum concentrations of interleukin (IL)-6, IL-8, interferon (IFN)-γ, and G-CSF were obtained on admission (Visit 1) and after 7 days of treatment (Visit 2). Patients were stratified by age (≤65 vs >65 years), co-morbidities, and PSI class. Non-parametric tests and Spearman correlations were applied. The results indicate that patients with co-morbidities and those > 65 years had significantly higher IL-6 levels than younger and non-comorbid patients. IL-6, IFNγ, and G-CSF concentrations were highest at admission and declined by day 7, particularly in PSI Class II patients. Higher PSI classes were associated with increased IL-8, IL-6, and IFNγ. NLR and SII were significantly higher in older patients and in PSI III-IV compared with PSI I-II. IL-6 and G-CSF showed strong positive correlations with NLR and SII, especially in elderly and comorbid patients, whereas PLR displayed weaker and less consistent associations. From these data, it is concluded that in CAP, serum IL-6, IFNγ, and G-CSF reflect age, co-morbidity burden, and disease severity, while NLR and SII closely mirror cytokine-driven systemic inflammation. These readily available indices may serve as cost-effective prognostic markers and, combined with cytokine profiling, could enhance early risk stratification and guide individualized management in CAP.",
+      "has_abstract": true
+    },
+    {
+      "pmid": "41817101",
+      "title": "Understanding barriers and facilitators of adherence to lifestyle changes in prediabetes: a qualitative study.",
+      "abstract": "BACKGROUND: Health interventions for individuals with prediabetes are essential to prevent or delay progression to type 2 diabetes. Adherence to lifestyle modification is complex and influenced by social determinants that act as barriers or facilitators. Gender, social class, social support, and the patient-professional relationship may shape individuals' capacity to adopt and maintain behavioural changes. This study aimed to explore how these factors influence adherence to lifestyle modification among people with prediabetes.\nMETHODS: Ethnomethodological study with a critical social perspective. Data were collected through fifteen semi-structured interviews, one focus group, and a support network mapping exercise. Analysis combined thematic content analysis and critical discourse analysis. Rigour was ensured through data saturation, investigator triangulation, and reflexivity. The study followed the Consolidated Criteria for Reporting Qualitative Research (COREQ).\nRESULTS: Women across social classes reported significant barriers, including work overload, caregiving responsibilities, and weaker support networks, whereas men often benefited from stronger family support. Participants from lower socioeconomic backgrounds faced additional challenges, such as financial limitations affecting healthy food choices and lack of time for exercise. Trust-based and supportive relationships with healthcare professionals emerged as important facilitators of sustained lifestyle change.\nCONCLUSION: Gender and social class play a key role in prediabetes management. These findings highlight the importance of personalised, equity-focused interventions that address social determinants to improve prevention strategies.\nTRIAL REGISTRATION: The research protocol was registered in a clinical trial registry prior to data collection (registration number: NCT06488677 on July 5, 2024).",
+      "authors": [
+        "Ana Sofia Carvalho-Azevedo",
+        "Raquel Sebastián-Hernández",
+        "Manuela Abbate",
+        "Sergio Fresneda",
+        "María Arias-Fernández",
+        "Aina M Yañez",
+        "Miquel Bennasar-Veny",
+        "Cristina Moreno-Mulet"
+      ],
+      "first_author": "Ana Sofia Carvalho-Azevedo",
+      "journal": "International journal of qualitative studies on health and well-being",
+      "year": 2026,
+      "doi": "10.1080/17482631.2026.2643664",
+      "matched_terms": [
+        "type 2 diabetes mellitus"
+      ],
+      "retrieval_text": "Understanding barriers and facilitators of adherence to lifestyle changes in prediabetes: a qualitative study. BACKGROUND: Health interventions for individuals with prediabetes are essential to prevent or delay progression to type 2 diabetes. Adherence to lifestyle modification is complex and influenced by social determinants that act as barriers or facilitators. Gender, social class, social support, and the patient-professional relationship may shape individuals' capacity to adopt and maintain behavioural changes. This study aimed to explore how these factors influence adherence to lifestyle modification among people with prediabetes.\nMETHODS: Ethnomethodological study with a critical social perspective. Data were collected through fifteen semi-structured interviews, one focus group, and a support network mapping exercise. Analysis combined thematic content analysis and critical discourse analysis. Rigour was ensured through data saturation, investigator triangulation, and reflexivity. The study followed the Consolidated Criteria for Reporting Qualitative Research (COREQ).\nRESULTS: Women across social classes reported significant barriers, including work overload, caregiving responsibilities, and weaker support networks, whereas men often benefited from stronger family support. Participants from lower socioeconomic backgrounds faced additional challenges, such as financial limitations affecting healthy food choices and lack of time for exercise. Trust-based and supportive relationships with healthcare professionals emerged as important facilitators of sustained lifestyle change.\nCONCLUSION: Gender and social class play a key role in prediabetes management. These findings highlight the importance of personalised, equity-focused interventions that address social determinants to improve prevention strategies.\nTRIAL REGISTRATION: The research protocol was registered in a clinical trial registry prior to data collection (registration number: NCT06488677 on July 5, 2024).",
+      "has_abstract": true
+    },
+    {
+      "pmid": "41845563",
+      "title": "Parasutterella excrementihominis is associated with attenuated metabolic improvements during obesity therapy in humans.",
+      "abstract": "Alterations in the composition and function of the gut microbiome are important in obesity and type 2 diabetes development. Using our cross-sectional FoCus cohort, we recently found Parasutterella species were increased in human obesity and type 2 diabetes and linked to abnormalities in triglyceride metabolism and L-cysteine homeostasis, the latter being important for beta-cell function. To gain further insights, we now quantified gut Parasutterella excrementihominis by qPCR in n = 215 human subjects during an interdisciplinary non-surgical obesity therapy program consisting of an initial weight-reduction phase (weeks 1-12) followed by a weight-maintenance phase (weeks 13-26). P. excrementihominis abundance was significantly reduced during the weight reduction phase. While baseline abundance levels did not predict the success of weight-reduction, they were inversely associated with C-reactive-protein improvements. Interestingly, the decrease in P. excrementihominis abundance during the weight reduction phase was positively correlated with improvements in insulin sensitivity throughout the overall obesity intervention. Regarding the weight maintenance phase, a re-increase of P. excrementihominis abundance was significantly associated with weight regain. In summary, our data suggest that P. excrementihominis attenuates metabolic and inflammatory improvements in obese human subjects under therapy and highlight a potential role of this bacterial species in metabolic adaptation during weight loss interventions.",
+      "authors": [
+        "Shuo Liu",
+        "Kristina Schlicht",
+        "Alexia Beckmann",
+        "Katharina Hartmann",
+        "Weixiao Wang",
+        "Lucy Kruse",
+        "Perdita Wietzke-Braun",
+        "Tim Hollstein",
+        "Ulla Becker",
+        "Ursula Ziegenbruch",
+        "Frauke Baumgartner",
+        "Wiebke Diederich",
+        "Amelie Laudes",
+        "Janne Muchaier",
+        "Mareike Stobbe",
+        "Lea Homeister",
+        "Sophia Remy",
+        "Nele Dornstauder",
+        "Maja Vogel",
+        "Carl Schindler",
+        "Kathrin Türk",
+        "Corinna Geisler",
+        "Nathalie Rohmann",
+        "Matthias Laudes"
+      ],
+      "first_author": "Shuo Liu",
+      "journal": "Gut microbes",
+      "year": 2026,
+      "doi": "10.1080/19490976.2026.2644687",
+      "matched_terms": [
+        "type 2 diabetes mellitus"
+      ],
+      "retrieval_text": "Parasutterella excrementihominis is associated with attenuated metabolic improvements during obesity therapy in humans. Alterations in the composition and function of the gut microbiome are important in obesity and type 2 diabetes development. Using our cross-sectional FoCus cohort, we recently found Parasutterella species were increased in human obesity and type 2 diabetes and linked to abnormalities in triglyceride metabolism and L-cysteine homeostasis, the latter being important for beta-cell function. To gain further insights, we now quantified gut Parasutterella excrementihominis by qPCR in n = 215 human subjects during an interdisciplinary non-surgical obesity therapy program consisting of an initial weight-reduction phase (weeks 1-12) followed by a weight-maintenance phase (weeks 13-26). P. excrementihominis abundance was significantly reduced during the weight reduction phase. While baseline abundance levels did not predict the success of weight-reduction, they were inversely associated with C-reactive-protein improvements. Interestingly, the decrease in P. excrementihominis abundance during the weight reduction phase was positively correlated with improvements in insulin sensitivity throughout the overall obesity intervention. Regarding the weight maintenance phase, a re-increase of P. excrementihominis abundance was significantly associated with weight regain. In summary, our data suggest that P. excrementihominis attenuates metabolic and inflammatory improvements in obese human subjects under therapy and highlight a potential role of this bacterial species in metabolic adaptation during weight loss interventions.",
+      "has_abstract": true
+    },
+    {
+      "pmid": "41845564",
+      "title": "Gut microbiome in type 2 diabetes: insights from metagenomics, multi-omics, and diet-microbe interactions.",
+      "abstract": "Type 2 diabetes (T2D) is a heterogeneous metabolic disorder in which environmental exposures interact with host biology to drive insulin resistance and progressive β-cell dysfunction. This review synthesizes recent advances showing how the gut microbiome mediates these processes across multiple levels of resolution. First, large-scale shotgun metagenomic studies consistently identify a reproducible T2D-associated signature characterized by depletion of short-chain fatty acid-producing taxa and enrichment of opportunistic, pro-inflammatory microorganisms, while highlighting the importance of controlling for major confounders such as adiposity and glucose-lowering medications. Second, functional profiling and metabolomics link microbial community shifts to coordinated pathway changes-including reduced short-chain fatty acid and secondary bile acid production and increased endotoxin- and branched-chain amino acid-related metabolism-that influence gut barrier integrity, inflammatory tone, insulin sensitivity, and pancreatic β-cell function. Third, we discuss how integrative multi-omics (metagenomics, metatranscriptomics, proteomics, and metabolomics) can connect microbial genetic potential to in vivo activity and circulating metabolites, while introducing key challenges such as temporal variability, anatomical heterogeneity, and \"dark matter\" in gene and metabolite annotation. Fourth, strain-resolved analyses reveal that many disease-associated functions are carried by specific lineages within species, refining microbial targets and helping explain inconsistent species-level associations. Fifth, we summarize how diet shapes microbial ecology and function-supporting microbiome-informed precision nutrition-and highlight emerging evidence beyond bacteria, including viral and fungal community components. Finally, we outline translational opportunities and evidence gaps, emphasizing the need for diverse longitudinal cohorts, mechanistic validation, and well-controlled interventional trials to evaluate microbiome-directed strategies for T2D prevention and treatment.",
+      "authors": [
+        "Yu Zhang",
+        "Dong D Wang"
+      ],
+      "first_author": "Yu Zhang",
+      "journal": "Gut microbes",
+      "year": 2026,
+      "doi": "10.1080/19490976.2026.2644682",
+      "matched_terms": [
+        "type 2 diabetes mellitus"
+      ],
+      "retrieval_text": "Gut microbiome in type 2 diabetes: insights from metagenomics, multi-omics, and diet-microbe interactions. Type 2 diabetes (T2D) is a heterogeneous metabolic disorder in which environmental exposures interact with host biology to drive insulin resistance and progressive β-cell dysfunction. This review synthesizes recent advances showing how the gut microbiome mediates these processes across multiple levels of resolution. First, large-scale shotgun metagenomic studies consistently identify a reproducible T2D-associated signature characterized by depletion of short-chain fatty acid-producing taxa and enrichment of opportunistic, pro-inflammatory microorganisms, while highlighting the importance of controlling for major confounders such as adiposity and glucose-lowering medications. Second, functional profiling and metabolomics link microbial community shifts to coordinated pathway changes-including reduced short-chain fatty acid and secondary bile acid production and increased endotoxin- and branched-chain amino acid-related metabolism-that influence gut barrier integrity, inflammatory tone, insulin sensitivity, and pancreatic β-cell function. Third, we discuss how integrative multi-omics (metagenomics, metatranscriptomics, proteomics, and metabolomics) can connect microbial genetic potential to in vivo activity and circulating metabolites, while introducing key challenges such as temporal variability, anatomical heterogeneity, and \"dark matter\" in gene and metabolite annotation. Fourth, strain-resolved analyses reveal that many disease-associated functions are carried by specific lineages within species, refining microbial targets and helping explain inconsistent species-level associations. Fifth, we summarize how diet shapes microbial ecology and function-supporting microbiome-informed precision nutrition-and highlight emerging evidence beyond bacteria, including viral and fungal community components. Finally, we outline translational opportunities and evidence gaps, emphasizing the need for diverse longitudinal cohorts, mechanistic validation, and well-controlled interventional trials to evaluate microbiome-directed strategies for T2D prevention and treatment.",
+      "has_abstract": true
+    },
+    {
+      "pmid": "41848224",
+      "title": "Breaking the cycle: patient activation role in improving diabetes self-care adherence for alleviating diabetes distress.",
+      "abstract": "Effective diabetes care must address not just the clinical metrics but also this psychological interplay, empowering patients to drive the proactive engagement needed for long-term health. This study aims to explore the mediating effect of the patient activation role on diabetes self-care adherence and diabetes distress. A cross-sectional study was conducted with a convenience sample of 428 adults with type 2 diabetes recruited from diabetes clinics. Participants completed validated surveys through the Patient Activation Measure, Diabetes Distress Scale, and Summary of Diabetes Self-Care Activities. The data were analyzed using correlation and structural equation modeling to test the proposed mediation model. Significant negative correlations were found between patient activation and diabetes distress (r = 0.310, p< 0.001), and positive correlations were found between patient activation and self-care adherence (r = 0.588, p < 0.001). As hypothesized, patient activation significantly mediated the relationship between higher self-care adherence and lower diabetes distress, accounting for 45% of the total effect (indirect effect: β = -0.268). These findings demonstrate that patient activation is a key mechanism through which self-care adherence reduces diabetes distress. This suggests that interventions specifically designed to enhance patient activation can break the cycle of distress by empowering individuals to engage more effectively in self-care behaviors, ultimately improving both psychological and clinical outcomes in diabetes management. Integrating routine assessments of patient activation and distress into clinical practice is recommended.",
+      "authors": [
+        "Mohamed Gamal Elsehrawy",
+        "Faisal Khalaf Alanazi",
+        "Hassanat Ramadan Abdel-Aziz",
+        "Mona Mohamed Abdelaziz Barakat",
+        "Nermen Abdelftah Mohamed",
+        "Mahitab Mohamed Abdelrahman"
+      ],
+      "first_author": "Mohamed Gamal Elsehrawy",
+      "journal": "The Libyan journal of medicine",
+      "year": 2026,
+      "doi": "10.1080/19932820.2026.2644567",
+      "matched_terms": [
+        "type 2 diabetes mellitus"
+      ],
+      "retrieval_text": "Breaking the cycle: patient activation role in improving diabetes self-care adherence for alleviating diabetes distress. Effective diabetes care must address not just the clinical metrics but also this psychological interplay, empowering patients to drive the proactive engagement needed for long-term health. This study aims to explore the mediating effect of the patient activation role on diabetes self-care adherence and diabetes distress. A cross-sectional study was conducted with a convenience sample of 428 adults with type 2 diabetes recruited from diabetes clinics. Participants completed validated surveys through the Patient Activation Measure, Diabetes Distress Scale, and Summary of Diabetes Self-Care Activities. The data were analyzed using correlation and structural equation modeling to test the proposed mediation model. Significant negative correlations were found between patient activation and diabetes distress (r = 0.310, p< 0.001), and positive correlations were found between patient activation and self-care adherence (r = 0.588, p < 0.001). As hypothesized, patient activation significantly mediated the relationship between higher self-care adherence and lower diabetes distress, accounting for 45% of the total effect (indirect effect: β = -0.268). These findings demonstrate that patient activation is a key mechanism through which self-care adherence reduces diabetes distress. This suggests that interventions specifically designed to enhance patient activation can break the cycle of distress by empowering individuals to engage more effectively in self-care behaviors, ultimately improving both psychological and clinical outcomes in diabetes management. Integrating routine assessments of patient activation and distress into clinical practice is recommended.",
+      "has_abstract": true
+    },
+    {
+      "pmid": "41854068",
+      "title": "Correspondence to 'Blood eosinopenia (≤30/µL) as an early predictor of respiratory failure in community-acquired pneumonia: A prospective multicentre study'.",
+      "abstract": "",
+      "authors": [
+        "Bihua Yao",
+        "Jiayan Chen",
+        "Huan Bao"
+      ],
+      "first_author": "Bihua Yao",
+      "journal": "Pulmonology",
+      "year": 2026,
+      "doi": "10.1080/25310429.2026.2644819",
+      "matched_terms": [
+        "community acquired pneumonia"
+      ],
+      "retrieval_text": "Correspondence to 'Blood eosinopenia (≤30/µL) as an early predictor of respiratory failure in community-acquired pneumonia: A prospective multicentre study'.",
+      "has_abstract": false
+    },
+    {
+      "pmid": "41862284",
+      "title": "Continuous spinal anesthesia for TURBT in a morbidly obese patient with EF of 20%: a case report.",
+      "abstract": "BACKGROUND: Patients with severely reduced left ventricular function pose major anesthetic challenges. General anesthesia may cause cardiac depression and pulmonary decompensation, while single-shot spinal anesthesia can trigger sudden hypotension. Continuous spinal anesthesia (CSA), however, allows gradual dosing and improved hemodynamic stability in such high-risk patients.\nCASE PRESENTATION: We report a 133-kg man with atrial fibrillation, left bundle branch block, global hypokinesia, ejection fraction (EF) of 20%, and prior pulmonary tuberculosis with lung congestion, who underwent transurethral resection of a bladder tumor (TURBT) under CSA. Using the epidural loss-of-resistance technique at L4-L5, a catheter was advanced to 12 cm (6 cm intrathecal). Incremental doses of 1 mg isobaric bupivacaine were administered every 15 minutes to a total of 5 mg. Noninvasive blood pressure was monitored every minute. Baseline BP was 154/98 mmHg and remained stable at 135/90 mmHg intraoperatively, with a heart rate of 65-75 bpm. Adequate anesthesia was achieved without vasopressor use, and recovery was uneventful (Table 1).\nCONCLUSION: Incremental CSA with isobaric bupivacaine was safely and effectively used in a morbidly obese patient with low EF undergoing TURBT. The technique maintained hemodynamic stability throughout, suggesting CSA as a viable anesthetic option for endoscopic urologic procedures in patients with compromised cardiac function.",
+      "authors": [
+        "Mustapha Nahle",
+        "Mohamad Akhrass",
+        "Zakaria Tawbe",
+        "Mohamad Ghandour"
+      ],
+      "first_author": "Mustapha Nahle",
+      "journal": "Future science OA",
+      "year": 2026,
+      "doi": "10.1080/20565623.2026.2645372",
+      "matched_terms": [
+        "atrial fibrillation"
+      ],
+      "retrieval_text": "Continuous spinal anesthesia for TURBT in a morbidly obese patient with EF of 20%: a case report. BACKGROUND: Patients with severely reduced left ventricular function pose major anesthetic challenges. General anesthesia may cause cardiac depression and pulmonary decompensation, while single-shot spinal anesthesia can trigger sudden hypotension. Continuous spinal anesthesia (CSA), however, allows gradual dosing and improved hemodynamic stability in such high-risk patients.\nCASE PRESENTATION: We report a 133-kg man with atrial fibrillation, left bundle branch block, global hypokinesia, ejection fraction (EF) of 20%, and prior pulmonary tuberculosis with lung congestion, who underwent transurethral resection of a bladder tumor (TURBT) under CSA. Using the epidural loss-of-resistance technique at L4-L5, a catheter was advanced to 12 cm (6 cm intrathecal). Incremental doses of 1 mg isobaric bupivacaine were administered every 15 minutes to a total of 5 mg. Noninvasive blood pressure was monitored every minute. Baseline BP was 154/98 mmHg and remained stable at 135/90 mmHg intraoperatively, with a heart rate of 65-75 bpm. Adequate anesthesia was achieved without vasopressor use, and recovery was uneventful (Table 1).\nCONCLUSION: Incremental CSA with isobaric bupivacaine was safely and effectively used in a morbidly obese patient with low EF undergoing TURBT. The technique maintained hemodynamic stability throughout, suggesting CSA as a viable anesthetic option for endoscopic urologic procedures in patients with compromised cardiac function.",
+      "has_abstract": true
+    },
+    {
+      "pmid": "41883305",
+      "title": "Retraction Statement: 'Efficacy of ferrous bis-glycinate versus ferrous glycine sulfate in the treatment of iron deficiency anemia with pregnancy: a randomized double-blind clinical trial'.",
+      "abstract": "",
+      "authors": [],
+      "first_author": null,
+      "journal": "The journal of maternal-fetal & neonatal medicine : the official journal of the European Association of Perinatal Medicine, the Federation of Asia and Oceania Perinatal Societies, the International Society of Perinatal Obstetricians",
+      "year": 2026,
+      "doi": "10.1080/14767058.2026.2649296",
+      "matched_terms": [
+        "iron deficiency anemia"
+      ],
+      "retrieval_text": "Retraction Statement: 'Efficacy of ferrous bis-glycinate versus ferrous glycine sulfate in the treatment of iron deficiency anemia with pregnancy: a randomized double-blind clinical trial'.",
+      "has_abstract": false
+    },
+    {
+      "pmid": "41906803",
+      "title": "Comment on 'Evolution of hospitalizations of adults for community-acquired pneumonia in Portugal and the impact of pediatric pneumococcal vaccination'.",
+      "abstract": "",
+      "authors": [
+        "Mei Zhaojun",
+        "Li Li"
+      ],
+      "first_author": "Mei Zhaojun",
+      "journal": "Pulmonology",
+      "year": 2026,
+      "doi": "10.1080/25310429.2026.2652163",
+      "matched_terms": [
+        "community acquired pneumonia"
+      ],
+      "retrieval_text": "Comment on 'Evolution of hospitalizations of adults for community-acquired pneumonia in Portugal and the impact of pediatric pneumococcal vaccination'.",
+      "has_abstract": false
+    },
+    {
+      "pmid": "41912474",
+      "title": "Effect of IV ferric carboxymaltose treatment on platelet counts and serum transferrin levels in CKD patients not on dialysis with iron deficiency: potential implications for thrombogenicity.",
+      "abstract": "Anemia and iron deficiency (ID) are common complications in chronic kidney disease (CKD). Beyond their haematological impact, ID has been linked to heightened thrombotic risk, partly through increases in platelet counts and circulating transferrin. We investigated whether correction of ID with intravenous ferric carboxymaltose (FCM) could modify these parameters in CKD patients with mild anemia. This prospective single-centre study included 41 patients with non-dialysis CKD (mean age 74.9 ± 9.5 years, 66% male), mild anemia, and ID. All received IV FCM (mean dose 616.2 ± 163.8 mg) and were analyzed at baseline and after 4 weeks. Hemoglobin (Hb) levels increased non-significantly (10.9 ± 0.4 vs. 11.1 ± 0.4 g/dL, p = NS). In contrast, platelet counts (240 ± 86 × 109/L vs 222 ± 63 × 109/L, p < 0.001) and serum transferrin levels (265 [235-314] vs. 217 [191-237] mg/dL, p < 0.001) declined significantly. Baseline platelet counts and serum transferrin levels were associated with serum ferritin (r = -0.332, p = 0.04 and r = -0.629, p = 0.001, respectively) and TSAT (r = -0.40, p = 0.01 and r = -0.671, p = 0.001, respectively), but not with Hb levels. ID correction with IV FCM was associated with significant reductions in platelet counts and serum transferrin levels. These findings suggest a link between iron repletion and modulation of thrombogenic pathways in a population at high risk of atherothrombotic events, but warrant confirmation in prospective controlled studies.",
+      "authors": [
+        "Aleix Cases",
+        "María Jesús Puchades",
+        "Juan Casas-Todoli",
+        "Julio Nuñez",
+        "Carlos J Peña",
+        "Jose Luis Gorriz"
+      ],
+      "first_author": "Aleix Cases",
+      "journal": "Renal failure",
+      "year": 2026,
+      "doi": "10.1080/0886022X.2026.2644786",
+      "matched_terms": [
+        "iron deficiency anemia"
+      ],
+      "retrieval_text": "Effect of IV ferric carboxymaltose treatment on platelet counts and serum transferrin levels in CKD patients not on dialysis with iron deficiency: potential implications for thrombogenicity. Anemia and iron deficiency (ID) are common complications in chronic kidney disease (CKD). Beyond their haematological impact, ID has been linked to heightened thrombotic risk, partly through increases in platelet counts and circulating transferrin. We investigated whether correction of ID with intravenous ferric carboxymaltose (FCM) could modify these parameters in CKD patients with mild anemia. This prospective single-centre study included 41 patients with non-dialysis CKD (mean age 74.9 ± 9.5 years, 66% male), mild anemia, and ID. All received IV FCM (mean dose 616.2 ± 163.8 mg) and were analyzed at baseline and after 4 weeks. Hemoglobin (Hb) levels increased non-significantly (10.9 ± 0.4 vs. 11.1 ± 0.4 g/dL, p = NS). In contrast, platelet counts (240 ± 86 × 109/L vs 222 ± 63 × 109/L, p < 0.001) and serum transferrin levels (265 [235-314] vs. 217 [191-237] mg/dL, p < 0.001) declined significantly. Baseline platelet counts and serum transferrin levels were associated with serum ferritin (r = -0.332, p = 0.04 and r = -0.629, p = 0.001, respectively) and TSAT (r = -0.40, p = 0.01 and r = -0.671, p = 0.001, respectively), but not with Hb levels. ID correction with IV FCM was associated with significant reductions in platelet counts and serum transferrin levels. These findings suggest a link between iron repletion and modulation of thrombogenic pathways in a population at high risk of atherothrombotic events, but warrant confirmation in prospective controlled studies.",
+      "has_abstract": true
+    },
+    {
+      "pmid": "41914737",
+      "title": "N6-methyladenosine modification of NEU1 mediated by METTL3 exacerbates angiotensin II-induced atrial fibrillation.",
+      "abstract": "Neuraminidase 1 (NEU1) regulation of atrial fibrillation (AF) progression via fibrosis remains unknown. Mice receiving AAV9-mediated NEU1 knockdown were infused with Ang II and subjected to programmed electrical stimulation to induce AF. Left atrial dilation and fibrosis were evaluated by echocardiography, histology, and fibrosis markers. Primary mouse atrial fibroblasts treated with Ang II were assessed for proliferation and migration by EdU staining and Transwell. The N6-methyladenosine (m6A) modification of NEU1 by methyltransferase-like 3 (METTL3) was confirmed through m6A quantification, RNA immunoprecipitation, MeRIP-qPCR and actinomycin D experiments. NEU1 knockdown attenuated atrial dilation, fibrosis, and AF susceptibility. Mechanistically, METTL3 stabilized NEU1 via m6A modification, promoting Ang II‑induced atrial fibroblast activation. Thus, NEU1, stabilized by METTL3 via m6A, exacerbates Ang II‑induced AF susceptibility.",
+      "authors": [
+        "Zhilan Zhang",
+        "Yanbing Luo",
+        "Qiuguo Zou",
+        "Zelai Mo"
+      ],
+      "first_author": "Zhilan Zhang",
+      "journal": "Cell adhesion & migration",
+      "year": 2026,
+      "doi": "10.1080/19336918.2026.2650272",
+      "matched_terms": [
+        "atrial fibrillation"
+      ],
+      "retrieval_text": "N6-methyladenosine modification of NEU1 mediated by METTL3 exacerbates angiotensin II-induced atrial fibrillation. Neuraminidase 1 (NEU1) regulation of atrial fibrillation (AF) progression via fibrosis remains unknown. Mice receiving AAV9-mediated NEU1 knockdown were infused with Ang II and subjected to programmed electrical stimulation to induce AF. Left atrial dilation and fibrosis were evaluated by echocardiography, histology, and fibrosis markers. Primary mouse atrial fibroblasts treated with Ang II were assessed for proliferation and migration by EdU staining and Transwell. The N6-methyladenosine (m6A) modification of NEU1 by methyltransferase-like 3 (METTL3) was confirmed through m6A quantification, RNA immunoprecipitation, MeRIP-qPCR and actinomycin D experiments. NEU1 knockdown attenuated atrial dilation, fibrosis, and AF susceptibility. Mechanistically, METTL3 stabilized NEU1 via m6A modification, promoting Ang II‑induced atrial fibroblast activation. Thus, NEU1, stabilized by METTL3 via m6A, exacerbates Ang II‑induced AF susceptibility.",
+      "has_abstract": true
+    },
+    {
+      "pmid": "41916414",
+      "title": "Screening for iron deficiency in young women: the predictive validity of a five-item screening instrument (IRON-5).",
+      "abstract": "BACKGROUND: Iron deficiency is the most common micronutrient deficiency worldwide, negatively affecting quality of life and health. Young women are at particularly high risk due to increased iron demands during growth, menstrual blood losses, and dietary habits. There are no official guidelines recommending screening for iron deficiency in healthy young women. This study aimed to develop a screening instrument (IRON-5) to predict iron deficiency in this group, with relevance for use in primary care and school health services.\nMETHODS: In 2023, a cross-sectional study was conducted to assess the prevalence of iron deficiency and associated factors in high school girls. A questionnaire assessing dietary habits, menstrual bleeding patterns, iron supplement use, and hormonal contraceptive use was administered. Iron deficiency was defined as serum ferritin <15 µg/L. A post-hoc analysis identified the strongest predictors of iron deficiency and incorporated them into a risk-scoring model.\nRESULTS: The final instrument included five predictors: a non-omnivorous diet, heavy menstruation causing discomfort, avoidance of activities due to menstruation, no iron supplementation, and non-use of hormonal contraceptives. A scoring system (0-5) was developed. Using a threshold score of ≥ 3, the model achieved a sensitivity of 74% and specificity of 57% for detecting iron deficiency.\nCONCLUSION: The IRON-5 is a concise and user-friendly screening instrument designed to identify young women at risk of iron deficiency. It demonstrated good sensitivity and may serve as a cost-effective method to prioritize individuals for blood testing. IRON-5 could support identification and prevention strategies in school-based and primary care settings.",
+      "authors": [
+        "Fredrik Vinge",
+        "Anna Stubbendorff",
+        "Beata Borgström Bolmsjö",
+        "Ulf Jakobsson",
+        "Veronica Milos Nymberg",
+        "Moa Wolff"
+      ],
+      "first_author": "Fredrik Vinge",
+      "journal": "Scandinavian journal of primary health care",
+      "year": 2026,
+      "doi": "10.1080/02813432.2026.2649329",
+      "matched_terms": [
+        "iron deficiency anemia"
+      ],
+      "retrieval_text": "Screening for iron deficiency in young women: the predictive validity of a five-item screening instrument (IRON-5). BACKGROUND: Iron deficiency is the most common micronutrient deficiency worldwide, negatively affecting quality of life and health. Young women are at particularly high risk due to increased iron demands during growth, menstrual blood losses, and dietary habits. There are no official guidelines recommending screening for iron deficiency in healthy young women. This study aimed to develop a screening instrument (IRON-5) to predict iron deficiency in this group, with relevance for use in primary care and school health services.\nMETHODS: In 2023, a cross-sectional study was conducted to assess the prevalence of iron deficiency and associated factors in high school girls. A questionnaire assessing dietary habits, menstrual bleeding patterns, iron supplement use, and hormonal contraceptive use was administered. Iron deficiency was defined as serum ferritin <15 µg/L. A post-hoc analysis identified the strongest predictors of iron deficiency and incorporated them into a risk-scoring model.\nRESULTS: The final instrument included five predictors: a non-omnivorous diet, heavy menstruation causing discomfort, avoidance of activities due to menstruation, no iron supplementation, and non-use of hormonal contraceptives. A scoring system (0-5) was developed. Using a threshold score of ≥ 3, the model achieved a sensitivity of 74% and specificity of 57% for detecting iron deficiency.\nCONCLUSION: The IRON-5 is a concise and user-friendly screening instrument designed to identify young women at risk of iron deficiency. It demonstrated good sensitivity and may serve as a cost-effective method to prioritize individuals for blood testing. IRON-5 could support identification and prevention strategies in school-based and primary care settings.",
+      "has_abstract": true
+    },
+    {
+      "pmid": "41922931",
+      "title": "The association between serum trace elements and iron deficiency anemia in children and adolescents: a systematic review and meta-analysis.",
+      "abstract": "OBJECTIVES: Iron deficiency anemia (IDA) remains the most prevalent form of anemia in children and adolescents globally. In addition to iron (Fe), other trace elements, such as zinc (Zn), copper (Cu), and magnesium (Mg), may influence hematopoiesis, yet the extent of their dysregulation in IDA remains unclear.\nMETHODS: We conducted a systematic review and meta-analysis of observational studies assessing the serum levels of Fe, Zn, Cu, and Mg in pediatric IDA populations. The literature was searched in PubMed, Scopus, Embase, and Web of Science up to January 2025. The data were standardized to consistent units (μmol/L), and pooled weighted mean differences (WMD) with 95% confidence intervals (CI) were calculated. Subgroup, sensitivity, and publication bias analyses were performed. The study protocol was registered online (PROSPERO number: CRD42024578704).\nRESULTS: Eight articles encompassing twelve datasets and 1105 participants were included. Compared to controls, IDA patients had significantly lower levels of Fe (WMD: -13.07 μmol/L, 95% CI: -16.09 to -10.05), Zn (WMD: -4.33 μmol/L, 95% CI: -5.30 to -3.35), and Mg (WMD: -18.17 μmol/L, 95% CI: -21.00 to -15.33) but higher levels of Cu (WMD: 4.33 μmol/L, 95% CI: 2.21-6.46). High heterogeneity (I² > 95%) was noted for Fe, Zn, and Cu. Subgroup analyses confirmed consistent trends across age, gender, and geography.\nCONCLUSION: Pediatric IDA is associated with broad alterations in trace elements, highlighting potential roles for Fe, Zn, Cu, and Mg in the pathophysiology of anemia. These findings may inform comprehensive nutritional strategies in managing IDA.",
+      "authors": [
+        "Maryam Mobasheri-Shiri",
+        "Sepehr Ramezanipour",
+        "Zahra Azizi",
+        "Faezeh Mobasheri-Shiri",
+        "Zeinab Karimi-Moghadam",
+        "Sina Kardeh",
+        "Mitra Abbasifard",
+        "Reza Tabrizi"
+      ],
+      "first_author": "Maryam Mobasheri-Shiri",
+      "journal": "Hematology (Amsterdam, Netherlands)",
+      "year": 2026,
+      "doi": "10.1080/16078454.2026.2650058",
+      "matched_terms": [
+        "iron deficiency anemia"
+      ],
+      "retrieval_text": "The association between serum trace elements and iron deficiency anemia in children and adolescents: a systematic review and meta-analysis. OBJECTIVES: Iron deficiency anemia (IDA) remains the most prevalent form of anemia in children and adolescents globally. In addition to iron (Fe), other trace elements, such as zinc (Zn), copper (Cu), and magnesium (Mg), may influence hematopoiesis, yet the extent of their dysregulation in IDA remains unclear.\nMETHODS: We conducted a systematic review and meta-analysis of observational studies assessing the serum levels of Fe, Zn, Cu, and Mg in pediatric IDA populations. The literature was searched in PubMed, Scopus, Embase, and Web of Science up to January 2025. The data were standardized to consistent units (μmol/L), and pooled weighted mean differences (WMD) with 95% confidence intervals (CI) were calculated. Subgroup, sensitivity, and publication bias analyses were performed. The study protocol was registered online (PROSPERO number: CRD42024578704).\nRESULTS: Eight articles encompassing twelve datasets and 1105 participants were included. Compared to controls, IDA patients had significantly lower levels of Fe (WMD: -13.07 μmol/L, 95% CI: -16.09 to -10.05), Zn (WMD: -4.33 μmol/L, 95% CI: -5.30 to -3.35), and Mg (WMD: -18.17 μmol/L, 95% CI: -21.00 to -15.33) but higher levels of Cu (WMD: 4.33 μmol/L, 95% CI: 2.21-6.46). High heterogeneity (I² > 95%) was noted for Fe, Zn, and Cu. Subgroup analyses confirmed consistent trends across age, gender, and geography.\nCONCLUSION: Pediatric IDA is associated with broad alterations in trace elements, highlighting potential roles for Fe, Zn, Cu, and Mg in the pathophysiology of anemia. These findings may inform comprehensive nutritional strategies in managing IDA.",
+      "has_abstract": true
+    },
+    {
+      "pmid": "41932747",
+      "title": "Drug Anaphylaxis.",
+      "abstract": "Anaphylaxis is a systemic clinical syndrome that rapidly evolves after an exposure to an inciting agent activates effector cells such as mast cells and basophils. Anaphylaxis can be triggered by a wide variety of agents, including drugs. Over the past decade, our understanding of drug-induced anaphylaxis (DIA) has become dramatically more nuanced, with a growing appreciation of multiple endotypes resulting in the phenotype of anaphylaxis. This review will discuss epidemiology, clinical features, mechanisms, clinical evaluation, and management of DIA.",
+      "authors": [
+        "Timothy G Chow",
+        "Anna Cheng",
+        "Cynthia Haddad",
+        "Santiago Alvarez Arango",
+        "David A Khan"
+      ],
+      "first_author": "Timothy G Chow",
+      "journal": "Immunology and allergy clinics of North America",
+      "year": 2026,
+      "doi": "10.1016/j.iac.2026.01.004",
+      "matched_terms": [
+        "pediatric asthma management"
+      ],
+      "retrieval_text": "Drug Anaphylaxis. Anaphylaxis is a systemic clinical syndrome that rapidly evolves after an exposure to an inciting agent activates effector cells such as mast cells and basophils. Anaphylaxis can be triggered by a wide variety of agents, including drugs. Over the past decade, our understanding of drug-induced anaphylaxis (DIA) has become dramatically more nuanced, with a growing appreciation of multiple endotypes resulting in the phenotype of anaphylaxis. This review will discuss epidemiology, clinical features, mechanisms, clinical evaluation, and management of DIA.",
+      "has_abstract": true
+    },
+    {
+      "pmid": "41934309",
+      "title": "Collaborative management model combined with inhaled corticosteroids in CPAP treatment of acute exacerbations of pediatric bronchial asthma: A retrospective cohort study.",
+      "abstract": "BACKGROUND: Continuous positive airway pressure (CPAP) for treating acute pediatric bronchial asthma exacerbations rises yearly. Inhaled corticosteroids (ICS) are key for controlling asthma-related inflammation, but research on ICS combined with the collaborative management model (CMM) remains incomplete.\nOBJECTIVES: This study aims to explore the effect of CMM combined with ICS in CPAP treatment for children with acute bronchial asthma exacerbations.\nMETHODS: 107 children with acute bronchial asthma exacerbations receiving CPAP in our hospital's Respiratory Department (Jan 2023-Jan 2025) were screened; 104 were included after exclusions. Based on the records of medical record treatment, they were divided into ICS group (51 cases) and CMM+ICS group (combined group, 53 cases).\nPRIMARY OUTCOMES: pulmonary function [forced expiratory volume in 1 second (FEV1), peak expiratory flow (PEF)], arterial blood gas [Arterial partial pressure of oxygen (PaO2), arterial partial pressure of carbon dioxide (PaCO2), oxygen saturation (SaO2)] and CPAP-related complication incidence.\nSECONDARY OUTCOMES: vital signs [respiratory rate (RR), heart rate (HR), blood pressure (BP)], hospital stay length, duration of a single management session, incremental cost-effectiveness ratio (ICER), pediatric asthma quality of life questionnaire (PAQLQ) scores and parental self-rating anxiety scale (SAS) anxiety levels.\nRESULTS: Results showed that the combined group had significantly higher FEV1, PEF, PaO2 and SaO2 than the ICS group (all p<0.05), whereas PaCO2 (p<0.001) and CPAP complication incidence (p=0.024) were lower than the ICS group. Additionally, the combined group had significantly lower RR, HR, SBP and DBP (all p<0.05), significantly shorter hospital stay and duration of a single management session (both p<0.001) and a significantly favorable ICER (-225.13 yuan/day) than the ICS group. Moreover, it had significantly higher PAQLQ scores (p<0.001) and lower parental SAS scores (p<0.001) compared with the ICS group.\nCONCLUSION: CMM combined with ICS in CPAP improves pediatric acute asthma exacerbations, has high clinical value, worthy of respiratory promotion.",
+      "authors": [
+        "Yuxiao Hu",
+        "Yajuan Chu",
+        "Qianli Guo",
+        "Wenshan Lv",
+        "Linlin Liu"
+      ],
+      "first_author": "Yuxiao Hu",
+      "journal": "Pakistan journal of pharmaceutical sciences",
+      "year": 2026,
+      "doi": "10.36721/PJPS.2026.39.6.163.1",
+      "matched_terms": [
+        "pediatric asthma management"
+      ],
+      "retrieval_text": "Collaborative management model combined with inhaled corticosteroids in CPAP treatment of acute exacerbations of pediatric bronchial asthma: A retrospective cohort study. BACKGROUND: Continuous positive airway pressure (CPAP) for treating acute pediatric bronchial asthma exacerbations rises yearly. Inhaled corticosteroids (ICS) are key for controlling asthma-related inflammation, but research on ICS combined with the collaborative management model (CMM) remains incomplete.\nOBJECTIVES: This study aims to explore the effect of CMM combined with ICS in CPAP treatment for children with acute bronchial asthma exacerbations.\nMETHODS: 107 children with acute bronchial asthma exacerbations receiving CPAP in our hospital's Respiratory Department (Jan 2023-Jan 2025) were screened; 104 were included after exclusions. Based on the records of medical record treatment, they were divided into ICS group (51 cases) and CMM+ICS group (combined group, 53 cases).\nPRIMARY OUTCOMES: pulmonary function [forced expiratory volume in 1 second (FEV1), peak expiratory flow (PEF)], arterial blood gas [Arterial partial pressure of oxygen (PaO2), arterial partial pressure of carbon dioxide (PaCO2), oxygen saturation (SaO2)] and CPAP-related complication incidence.\nSECONDARY OUTCOMES: vital signs [respiratory rate (RR), heart rate (HR), blood pressure (BP)], hospital stay length, duration of a single management session, incremental cost-effectiveness ratio (ICER), pediatric asthma quality of life questionnaire (PAQLQ) scores and parental self-rating anxiety scale (SAS) anxiety levels.\nRESULTS: Results showed that the combined group had significantly higher FEV1, PEF, PaO2 and SaO2 than the ICS group (all p<0.05), whereas PaCO2 (p<0.001) and CPAP complication incidence (p=0.024) were lower than the ICS group. Additionally, the combined group had significantly lower RR, HR, SBP and DBP (all p<0.05), significantly shorter hospital stay and duration of a single management session (both p<0.001) and a significantly favorable ICER (-225.13 yuan/day) than the ICS group. Moreover, it had significantly higher PAQLQ scores (p<0.001) and lower parental SAS scores (p<0.001) compared with the ICS group.\nCONCLUSION: CMM combined with ICS in CPAP improves pediatric acute asthma exacerbations, has high clinical value, worthy of respiratory promotion.",
+      "has_abstract": true
+    },
+    {
+      "pmid": "41944044",
+      "title": "Plasma proteomic signatures linking preserved ratio impaired spirometry to cardiometabolic diseases and multimorbidity: A longitudinal cohort study.",
+      "abstract": "BACKGROUND: Preserved ratio impaired spirometry (PRISm), defined by reduced FEV1 with preserved FEV1/FVC ratio, has been linked to cardiometabolic diseases (CMDs), but underlying mechanisms remain unclear. This study aims to identify plasma proteomic signatures linking PRISm to type 2 diabetes (T2D), ischaemic heart disease (IHD), stroke, first cardiometabolic disease (FCMD), and cardiometabolic multimorbidity (CMM).\nMETHODS: We conducted plasma proteomic profiling of 2 911 proteins in 32 689 UK Biobank participants with a median follow-up of 14.37 years. Machine learning algorithms were employed to identify protein signatures associated with PRISm. Causal mediation analyses were performed to quantify the mediating effects of identified proteins on the associations between PRISm and cardiometabolic outcomes. Combined protein-covariate models were developed to assess predictive performance.\nRESULTS: We identified a 29-protein signature associated with PRISm. Outcome-specific analyses revealed 29 proteins for T2D, 26 for IHD, 13 for stroke, 29 for FCMD, and 27 for CMM, with 14 proteins showing consistent associations across all outcomes. Combined protein-covariate models significantly improved prediction over covariates alone (AUCs: T2D, 0.83; IHD, 0.72; stroke, 0.75; FCMD, 0.76; CMM, 0.79). Mediation analyses demonstrated that IGSF3 mediated 19.5% of the PRISm-T2D association, 12.8% for FCMD, and 11.3% for CMM, while GDF15 mediated 12.1% for IHD and 13.1% for stroke. These proteins converged on inflammatory signalling, extracellular matrix remodelling, and metabolic pathways.\nCONCLUSIONS: The identified protein signatures offer promising biomarkers for risk prediction, enabling early identification of high-risk individuals with PRISm and informing targeted preventive strategies for cardiometabolic complications.",
+      "authors": [
+        "Li He",
+        "Ce Liu",
+        "Hao Zhao",
+        "Zhaoru Yang",
+        "Zelin Lei",
+        "Wentao Lei",
+        "Bin Luo"
+      ],
+      "first_author": "Li He",
+      "journal": "Pulmonology",
+      "year": 2026,
+      "doi": "10.1080/25310429.2026.2650733",
+      "matched_terms": [
+        "type 2 diabetes mellitus"
+      ],
+      "retrieval_text": "Plasma proteomic signatures linking preserved ratio impaired spirometry to cardiometabolic diseases and multimorbidity: A longitudinal cohort study. BACKGROUND: Preserved ratio impaired spirometry (PRISm), defined by reduced FEV1 with preserved FEV1/FVC ratio, has been linked to cardiometabolic diseases (CMDs), but underlying mechanisms remain unclear. This study aims to identify plasma proteomic signatures linking PRISm to type 2 diabetes (T2D), ischaemic heart disease (IHD), stroke, first cardiometabolic disease (FCMD), and cardiometabolic multimorbidity (CMM).\nMETHODS: We conducted plasma proteomic profiling of 2 911 proteins in 32 689 UK Biobank participants with a median follow-up of 14.37 years. Machine learning algorithms were employed to identify protein signatures associated with PRISm. Causal mediation analyses were performed to quantify the mediating effects of identified proteins on the associations between PRISm and cardiometabolic outcomes. Combined protein-covariate models were developed to assess predictive performance.\nRESULTS: We identified a 29-protein signature associated with PRISm. Outcome-specific analyses revealed 29 proteins for T2D, 26 for IHD, 13 for stroke, 29 for FCMD, and 27 for CMM, with 14 proteins showing consistent associations across all outcomes. Combined protein-covariate models significantly improved prediction over covariates alone (AUCs: T2D, 0.83; IHD, 0.72; stroke, 0.75; FCMD, 0.76; CMM, 0.79). Mediation analyses demonstrated that IGSF3 mediated 19.5% of the PRISm-T2D association, 12.8% for FCMD, and 11.3% for CMM, while GDF15 mediated 12.1% for IHD and 13.1% for stroke. These proteins converged on inflammatory signalling, extracellular matrix remodelling, and metabolic pathways.\nCONCLUSIONS: The identified protein signatures offer promising biomarkers for risk prediction, enabling early identification of high-risk individuals with PRISm and informing targeted preventive strategies for cardiometabolic complications.",
+      "has_abstract": true
+    },
+    {
+      "pmid": "41945665",
+      "title": "M6A-dependent regulation of microRNAs from CKD stage 5 patients: insights from epigenetic modification analysis.",
+      "abstract": "Chronic kidney disease (CKD) stage 5 is frequently accompanied by systemic inflammation, and peripheral blood mononuclear cells (PBMCs) play an important role. To define the epitranscriptomic features of PBMC small RNAs in CKD stage 5, we profiled N6-methyladenosine (m6A) using small RNA modification microarrays. A total of 158 miRNAs, 149 pre-miRNAs, and 197 tsRNAs showed differential m6A modification. Enrichment analysis implicated PI3K-Akt, p53 signalling, and leukocyte transendothelial migration. Integrating target prediction with GEO transcriptomic datasets identified IRF1 and RUNX2 as key targets. MeRIP confirmed reduced m6A in miR-205-3p and miR-93-5p, accompanied by upregulation of RUNX2 and downregulation of IRF1 by qPCR. These results define an altered m6A-modification profile of PBMC small RNAs in CKD stage 5 and highlight miRNA-target gene axes with potential biomarker utility.",
+      "authors": [
+        "Zhiqian Yang",
+        "Fanna Liu",
+        "Mingjun Ye",
+        "Qiang Yan",
+        "Zhipeng Zeng",
+        "Jingsheng Ma",
+        "Haitao Li",
+        "Hualin Ma",
+        "Xinzhou Zhang",
+        "Xiaofeng Zhu",
+        "Yong Dai",
+        "Donge Tang"
+      ],
+      "first_author": "Zhiqian Yang",
+      "journal": "Epigenetics",
+      "year": 2026,
+      "doi": "10.1080/15592294.2026.2653962",
+      "matched_terms": [
+        "chronic kidney disease"
+      ],
+      "retrieval_text": "M6A-dependent regulation of microRNAs from CKD stage 5 patients: insights from epigenetic modification analysis. Chronic kidney disease (CKD) stage 5 is frequently accompanied by systemic inflammation, and peripheral blood mononuclear cells (PBMCs) play an important role. To define the epitranscriptomic features of PBMC small RNAs in CKD stage 5, we profiled N6-methyladenosine (m6A) using small RNA modification microarrays. A total of 158 miRNAs, 149 pre-miRNAs, and 197 tsRNAs showed differential m6A modification. Enrichment analysis implicated PI3K-Akt, p53 signalling, and leukocyte transendothelial migration. Integrating target prediction with GEO transcriptomic datasets identified IRF1 and RUNX2 as key targets. MeRIP confirmed reduced m6A in miR-205-3p and miR-93-5p, accompanied by upregulation of RUNX2 and downregulation of IRF1 by qPCR. These results define an altered m6A-modification profile of PBMC small RNAs in CKD stage 5 and highlight miRNA-target gene axes with potential biomarker utility.",
+      "has_abstract": true
+    },
+    {
+      "pmid": "41955092",
+      "title": "Plain language summary looking at the impact of drug management strategies on the incidence and cost of clinical events in patients with non-valvular atrial fibrillation receiving direct oral anticoagulants in the USA.",
+      "abstract": "",
+      "authors": [
+        "Rupesh Subash",
+        "Serina Deeba",
+        "Chloe Salter",
+        "Carissa Dickerson",
+        "Toyin Ogunyannwo",
+        "Ewa Stawowczyk"
+      ],
+      "first_author": "Rupesh Subash",
+      "journal": "Journal of medical economics",
+      "year": 2026,
+      "doi": "10.1080/13696998.2026.2647668",
+      "matched_terms": [
+        "atrial fibrillation"
+      ],
+      "retrieval_text": "Plain language summary looking at the impact of drug management strategies on the incidence and cost of clinical events in patients with non-valvular atrial fibrillation receiving direct oral anticoagulants in the USA.",
+      "has_abstract": false
+    },
+    {
+      "pmid": "41956980",
+      "title": "Retraction statement: Role of antioxidants in gestational diabetes mellitus and relation to fetal outcome: a randomized controlled trial.",
+      "abstract": "",
+      "authors": [],
+      "first_author": null,
+      "journal": "The journal of maternal-fetal & neonatal medicine : the official journal of the European Association of Perinatal Medicine, the Federation of Asia and Oceania Perinatal Societies, the International Society of Perinatal Obstetricians",
+      "year": 2026,
+      "doi": "10.1080/14767058.2026.2654275",
+      "matched_terms": [
+        "gestational diabetes"
+      ],
+      "retrieval_text": "Retraction statement: Role of antioxidants in gestational diabetes mellitus and relation to fetal outcome: a randomized controlled trial.",
+      "has_abstract": false
+    },
+    {
+      "pmid": "41956983",
+      "title": "Association between the cumulative duration of abnormal cardiotocography patterns and fetal acidemia.",
+      "abstract": "OBJECTIVE: To assess the association between the cumulative duration of abnormal cardiotocography (CTG) findings, classified using the Japan Society of Obstetrics and Gynecology (JSOG) five-tier cardiotocography (CTG) classification system, and fetal acidemia, with analyses performed separately for the first and second stages of labor.\nMETHODS: We conducted a single-center retrospective cohort study at the National Center for Child Health and Development between 1 May 2015 and 1 May 1 2022, including women with planned vaginal delivery at ≥37 0/7 weeks of gestation. Cases with an umbilical artery blood pH <7.15 were categorized as the acidemia group; those with pH ≥7.15 served as controls. For each participant, all CTG tracings were reviewed and classified using the JSOG five-tier system (LEVELS 1-5). The cumulative duration of LEVELS 3-5 abnormalities and fetal tachycardia was calculated separately for the first and second stages of labor. Associations with acidemia were evaluated using multivariable logistic regression, adjusting for maternal body mass index, hypertensive disorders of pregnancy, gestational diabetes mellitus, fetal growth restriction, and chorioamnionitis.\nRESULTS: A total of 648 deliveries were analyzed (141 acidemia, 507 non-acidemia). During the first stage of labor, LEVELS 3 and 4 abnormalities showed a duration-related association with acidemia, whereas fetal tachycardia was significantly associated when lasting ≥30 min. During the second stage of labor, LEVEL 3 abnormalities showed no significant associations; however, LEVELS 4 and 5 abnormalities and fetal tachycardia lasting >60 min remained significantly associated with acidemia, demonstrating progressively higher odds with longer durations.\nCONCLUSION: Incorporating the cumulative duration of CTG abnormalities into the JSOG five-tier classification may improve the assessment of fetal acidemia risk. Our time-based analysis demonstrated that LEVEL-specific CTG abnormalities and fetal tachycardia showed duration-related associations with acidemia, particularly during the first stage of labor. LEVEL 3 abnormalities and fetal tachycardia during the first stage of labor were more associated, whereas LEVELS 4 and 5 abnormalities during the second stage were more associated with acidemia. These findings may facilitate more informed intrapartum decision-making by identifying fetuses at risk earlier in labor, potentially reducing unnecessary emergency cesarean deliveries and preventing severe acidemia.",
+      "authors": [
+        "Kazuhiro Kajiwara",
+        "Kohei Ogawa",
+        "Ohara Reiko",
+        "Nagayoshi Umehara",
+        "Akutsu Hidenori",
+        "Aikou Okamoto",
+        "Seiji Wada"
+      ],
+      "first_author": "Kazuhiro Kajiwara",
+      "journal": "The journal of maternal-fetal & neonatal medicine : the official journal of the European Association of Perinatal Medicine, the Federation of Asia and Oceania Perinatal Societies, the International Society of Perinatal Obstetricians",
+      "year": 2026,
+      "doi": "10.1080/14767058.2026.2651460",
+      "matched_terms": [
+        "gestational diabetes"
+      ],
+      "retrieval_text": "Association between the cumulative duration of abnormal cardiotocography patterns and fetal acidemia. OBJECTIVE: To assess the association between the cumulative duration of abnormal cardiotocography (CTG) findings, classified using the Japan Society of Obstetrics and Gynecology (JSOG) five-tier cardiotocography (CTG) classification system, and fetal acidemia, with analyses performed separately for the first and second stages of labor.\nMETHODS: We conducted a single-center retrospective cohort study at the National Center for Child Health and Development between 1 May 2015 and 1 May 1 2022, including women with planned vaginal delivery at ≥37 0/7 weeks of gestation. Cases with an umbilical artery blood pH <7.15 were categorized as the acidemia group; those with pH ≥7.15 served as controls. For each participant, all CTG tracings were reviewed and classified using the JSOG five-tier system (LEVELS 1-5). The cumulative duration of LEVELS 3-5 abnormalities and fetal tachycardia was calculated separately for the first and second stages of labor. Associations with acidemia were evaluated using multivariable logistic regression, adjusting for maternal body mass index, hypertensive disorders of pregnancy, gestational diabetes mellitus, fetal growth restriction, and chorioamnionitis.\nRESULTS: A total of 648 deliveries were analyzed (141 acidemia, 507 non-acidemia). During the first stage of labor, LEVELS 3 and 4 abnormalities showed a duration-related association with acidemia, whereas fetal tachycardia was significantly associated when lasting ≥30 min. During the second stage of labor, LEVEL 3 abnormalities showed no significant associations; however, LEVELS 4 and 5 abnormalities and fetal tachycardia lasting >60 min remained significantly associated with acidemia, demonstrating progressively higher odds with longer durations.\nCONCLUSION: Incorporating the cumulative duration of CTG abnormalities into the JSOG five-tier classification may improve the assessment of fetal acidemia risk. Our time-based analysis demonstrated that LEVEL-specific CTG abnormalities and fetal tachycardia showed duration-related associations with acidemia, particularly during the first stage of labor. LEVEL 3 abnormalities and fetal tachycardia during the first stage of labor were more associated, whereas LEVELS 4 and 5 abnormalities during the second stage were more associated with acidemia. These findings may facilitate more informed intrapartum decision-making by identifying fetuses at risk earlier in labor, potentially reducing unnecessary emergency cesarean deliveries and preventing severe acidemia.",
+      "has_abstract": true
+    },
+    {
+      "pmid": "41964158",
+      "title": "Embedded AI-Assisted Otoscopic Image Screening for Pediatric Otitis Media.",
+      "abstract": "OBJECTIVE: To evaluate an embedded artificial intelligence (AI) system for otoscopic image-based screening and prediagnostic triage of pediatric otitis media, with an emphasis on point-of-care deployment on a microcontroller.\nMETHODS: We retrospectively analyzed 19 522 tympanic membrane images labeled by otolaryngologists as acute otitis media, otitis media with effusion, or normal. A lightweight convolutional neural network derived from AlexNet was trained using a patient-level split. Two posttraining INT8 variants (per-channel and per-tensor quantization) were deployed on an STM32H7S78-DK board using STM32Cube.AI. We evaluated accuracy on a held-out test set (n=600) and measured activation memory, total random access memory (RAM) usage, and average inference latency on the target device.\nRESULTS: The full-precision model achieved 97.67% test accuracy. Per-channel INT8 preserved accuracy (97.67%). Per-tensor INT8 showed a small decrease (97.50%) but reduced activation memory by 16%, total RAM by 8%, and latency by 13%.\nCONCLUSION: On-device otoscopic image analysis is feasible on an STM32H7-class microcontroller and may support screening and triage workflows (eg, repeat examination, tympanometry, monitoring, or referral). The tool is not intended to provide a final diagnosis or to direct treatment decisions; clinical diagnosis and management remain clinician-led.",
+      "authors": [
+        "Changwei Lv",
+        "Desheng Jia",
+        "Zebin Wu",
+        "Bo Gao",
+        "Linzhong Xia",
+        "Xuansheng Wang"
+      ],
+      "first_author": "Changwei Lv",
+      "journal": "Ear, nose, & throat journal",
+      "year": 2026,
+      "doi": "10.1177/01455613261441511",
+      "matched_terms": [
+        "acute otitis media"
+      ],
+      "retrieval_text": "Embedded AI-Assisted Otoscopic Image Screening for Pediatric Otitis Media. OBJECTIVE: To evaluate an embedded artificial intelligence (AI) system for otoscopic image-based screening and prediagnostic triage of pediatric otitis media, with an emphasis on point-of-care deployment on a microcontroller.\nMETHODS: We retrospectively analyzed 19 522 tympanic membrane images labeled by otolaryngologists as acute otitis media, otitis media with effusion, or normal. A lightweight convolutional neural network derived from AlexNet was trained using a patient-level split. Two posttraining INT8 variants (per-channel and per-tensor quantization) were deployed on an STM32H7S78-DK board using STM32Cube.AI. We evaluated accuracy on a held-out test set (n=600) and measured activation memory, total random access memory (RAM) usage, and average inference latency on the target device.\nRESULTS: The full-precision model achieved 97.67% test accuracy. Per-channel INT8 preserved accuracy (97.67%). Per-tensor INT8 showed a small decrease (97.50%) but reduced activation memory by 16%, total RAM by 8%, and latency by 13%.\nCONCLUSION: On-device otoscopic image analysis is feasible on an STM32H7-class microcontroller and may support screening and triage workflows (eg, repeat examination, tympanometry, monitoring, or referral). The tool is not intended to provide a final diagnosis or to direct treatment decisions; clinical diagnosis and management remain clinician-led.",
+      "has_abstract": true
+    },
+    {
+      "pmid": "41967279",
+      "title": "Long-term otologic and auditory sequelae in children with recurrent acute otitis media.",
+      "abstract": "",
+      "authors": [
+        "Pietro Bosi",
+        "Sara Torretta",
+        "Francesco Folino",
+        "Lorenzo Maria Gaini",
+        "Diego Zanetti",
+        "Lorenzo Pignataro",
+        "Tal Marom",
+        "Paola Marchisio",
+        "Mirko Aldè"
+      ],
+      "first_author": "Pietro Bosi",
+      "journal": "International journal of pediatric otorhinolaryngology",
+      "year": 2026,
+      "doi": "10.1016/j.ijporl.2026.112823",
+      "matched_terms": [
+        "acute otitis media"
+      ],
+      "retrieval_text": "Long-term otologic and auditory sequelae in children with recurrent acute otitis media.",
+      "has_abstract": false
+    },
+    {
+      "pmid": "41983510",
+      "title": "Alteration of gut microbiota contributes to peritoneal fibrosis through increased production of trimethylamine N-oxide.",
+      "abstract": "Peritoneal fibrosis is a common complication in peritoneal dialysis (PD) patients, which results in ultrafiltration failure (UFF) and PD withdrawal. PD patients demonstrate altered structural and functional profiles of the gut microbiota. Herein, we investigated the role of the gut microbiota and trimethylamine N-oxide (TMAO), a bacterial metabolite, in the pathogenesis of PD-associated peritoneal fibrosis. PD mice displayed mesenchymal transition features and fibrosis in the peritoneum, which were accompanied by an altered gut microbiota profile and elevated serum TMAO levels, and these peritoneal histologic abnormalities were ameliorated by gut microbiota depletion. Fecal microbiota transplantation (FMT) from PD patients induced mesenchymal and fibrotic alterations within the peritoneum of wild-type mice, and the effect was more pronounced in mice receiving FMT from PD patients with UFF. Intraperitoneal supplementation with TMAO enhanced PD-induced peritoneal fibrosis in wild-type mice. On the contrary, PD- or FMT-induced mesenchymal features and fibrosis within the peritoneal membrane were lessened in flavin-containing monooxygenase 3 gene knockout mice, which were incapable of synthesizing TMAO. TMAO treatment enhanced high glucose-mediated phenotypic transition and fibrogenesis in cultured peritoneal mesothelial cells and fibroblasts, partly by increasing TGF-β1 synthesis and secretion and subsequent phosphorylation of Smad2/3 and activation of the Wnt/β-catenin pathway. Collectively, we found that altered gut microbiota plays an important role in the development of PD-associated peritoneal fibrosis through dysregulated production of the bacterial metabolite TMAO.",
+      "authors": [
+        "Weizhen Xie",
+        "Jiangzi Yuan",
+        "Chenhong Feng",
+        "Huinan Shi",
+        "Chenhong Zhang",
+        "Taofang Xi",
+        "Jiaying Huang",
+        "Wei Fang",
+        "Zhaohui Ni",
+        "Leyi Gu",
+        "Na Jiang"
+      ],
+      "first_author": "Weizhen Xie",
+      "journal": "Gut microbes",
+      "year": 2026,
+      "doi": "10.1080/19490976.2026.2657048",
+      "matched_terms": [
+        "chronic kidney disease"
+      ],
+      "retrieval_text": "Alteration of gut microbiota contributes to peritoneal fibrosis through increased production of trimethylamine N-oxide. Peritoneal fibrosis is a common complication in peritoneal dialysis (PD) patients, which results in ultrafiltration failure (UFF) and PD withdrawal. PD patients demonstrate altered structural and functional profiles of the gut microbiota. Herein, we investigated the role of the gut microbiota and trimethylamine N-oxide (TMAO), a bacterial metabolite, in the pathogenesis of PD-associated peritoneal fibrosis. PD mice displayed mesenchymal transition features and fibrosis in the peritoneum, which were accompanied by an altered gut microbiota profile and elevated serum TMAO levels, and these peritoneal histologic abnormalities were ameliorated by gut microbiota depletion. Fecal microbiota transplantation (FMT) from PD patients induced mesenchymal and fibrotic alterations within the peritoneum of wild-type mice, and the effect was more pronounced in mice receiving FMT from PD patients with UFF. Intraperitoneal supplementation with TMAO enhanced PD-induced peritoneal fibrosis in wild-type mice. On the contrary, PD- or FMT-induced mesenchymal features and fibrosis within the peritoneal membrane were lessened in flavin-containing monooxygenase 3 gene knockout mice, which were incapable of synthesizing TMAO. TMAO treatment enhanced high glucose-mediated phenotypic transition and fibrogenesis in cultured peritoneal mesothelial cells and fibroblasts, partly by increasing TGF-β1 synthesis and secretion and subsequent phosphorylation of Smad2/3 and activation of the Wnt/β-catenin pathway. Collectively, we found that altered gut microbiota plays an important role in the development of PD-associated peritoneal fibrosis through dysregulated production of the bacterial metabolite TMAO.",
+      "has_abstract": true
+    },
+    {
+      "pmid": "41090395",
+      "title": "Diagnostic accuracy of otitis media with and without a fictitious AI support among physicians in primary care and medical students.",
+      "abstract": "BACKGROUND: Otitis media (OM) in children is a common infection in primary care, contributing to a significant global health and economic burden. In high-income countries, diagnostic inaccuracy leads to over-diagnosis of acute OM (AOM) and over-prescribing of antibiotics, which may contribute to antibiotic resistance.\nAIM: To investigate the diagnostic accuracy and the influence of artificial intelligence (AI) in diagnosing OM among primary care physicians and medical students.\nMETHOD: A diagnostic accuracy study in which primary care physicians and medical students diagnosed AOM, OM with effusion (OME), and normal eardrums using 21 high-quality digital images, both without and with a fictitious AI support. We estimated the technological impact of the fictitious AI support.\nRESULTS: Overall diagnostic accuracy was 64% without, and 75% with AI support. The most experienced physicians reached 69% without, and 80% with AI; the least experienced 61% without, and 73% with AI; medical students reached 64% without, and 74% with AI. Accuracy for AOM was 77% without and 86% with AI, and for OME 46% without and 66% with AI. Mean diagnostic confidence increased significantly with AI support. The technological impact was 1.4. Automation bias was 1.2 overall, 0.9 for the most experienced and 1.2 for the least experienced physicians.\nCONCLUSION: We report modest diagnostic accuracy for OM among primary care physicians and medical students. The fictitious AI support system improved both accuracy and diagnostic confidence and reduced over-diagnosis. The most experienced physicians achieved the highest accuracy, the less experienced were more often misled by the fictitious AI.",
+      "authors": [
+        "Malin Hedman",
+        "Vezira Kosuta",
+        "Manfred Lindmark",
+        "Josefin Sandström",
+        "Brenda Trinh",
+        "Pär-Daniel Sundvall",
+        "Karin Rystedt",
+        "Mimmi Werner",
+        "Fredrik Öhberg",
+        "Thorbjörn Lundberg"
+      ],
+      "first_author": "Malin Hedman",
+      "journal": "Scandinavian journal of primary health care",
+      "year": 2025,
+      "doi": "10.1080/02813432.2025.2571936",
+      "matched_terms": [
+        "acute otitis media"
+      ],
+      "retrieval_text": "Diagnostic accuracy of otitis media with and without a fictitious AI support among physicians in primary care and medical students. BACKGROUND: Otitis media (OM) in children is a common infection in primary care, contributing to a significant global health and economic burden. In high-income countries, diagnostic inaccuracy leads to over-diagnosis of acute OM (AOM) and over-prescribing of antibiotics, which may contribute to antibiotic resistance.\nAIM: To investigate the diagnostic accuracy and the influence of artificial intelligence (AI) in diagnosing OM among primary care physicians and medical students.\nMETHOD: A diagnostic accuracy study in which primary care physicians and medical students diagnosed AOM, OM with effusion (OME), and normal eardrums using 21 high-quality digital images, both without and with a fictitious AI support. We estimated the technological impact of the fictitious AI support.\nRESULTS: Overall diagnostic accuracy was 64% without, and 75% with AI support. The most experienced physicians reached 69% without, and 80% with AI; the least experienced 61% without, and 73% with AI; medical students reached 64% without, and 74% with AI. Accuracy for AOM was 77% without and 86% with AI, and for OME 46% without and 66% with AI. Mean diagnostic confidence increased significantly with AI support. The technological impact was 1.4. Automation bias was 1.2 overall, 0.9 for the most experienced and 1.2 for the least experienced physicians.\nCONCLUSION: We report modest diagnostic accuracy for OM among primary care physicians and medical students. The fictitious AI support system improved both accuracy and diagnostic confidence and reduced over-diagnosis. The most experienced physicians achieved the highest accuracy, the less experienced were more often misled by the fictitious AI.",
+      "has_abstract": true
+    },
+    {
+      "pmid": "41342403",
+      "title": "Optical Coherence Tomography as an Emerging Technique for Identifying Pediatric Middle Ear Effusion.",
+      "abstract": "OBJECTIVE: Acute otitis media (AOM) and otitis media with effusion (OME) rely on accurate characterization of middle ear effusion (MEE). Optical coherence tomography (OCT) is a potential modality for noninvasive analysis of MEE, thereby assisting with otitis media diagnosis. This study aims to compare the diagnostic performance of OCT with otoscopy and tympanometry in pediatric patients.\nMETHODS: A prospective convenience sample of 164 pediatric patients aged 6 months to 12 years was recruited from two tertiary care pediatric otolaryngology clinics. During their visit, each child underwent otoscopy, tympanometry, and OCT evaluation. Scans were reviewed by both a fellowship-trained pediatric otolaryngologist and an individual with limited medical background. Pairwise comparisons between tests were performed to assess percent agreement, sensitivity, and specificity of OCT in the identification of MEE.\nRESULTS: A total of 164 pediatric patients (328 ears) were enrolled, with 32% of ears classified as having a middle ear effusion by otoscopy, 24% by tympanometry, and 18% by OCT. Across all age groups, otoscopy and tympanometry agreed 81.2% of the time, otoscopy and OCT 77.7% of the time, and tympanometry and OCT 80.5% of the time. Cohen's Kappa showed moderate agreement between clinical and non-clinical OCT raters (κ = 0.41). Analysis revealed a sensitivity of 74% and specificity of 93% for OCT, comparable to existing methods.\nCONCLUSION: Optical coherence tomography demonstrates promise as a valuable tool for MEE assessment in pediatric patients, with performance comparable to pneumatic otoscopy and tympanometry. These findings emphasize its potential for enhancing diagnostic accuracy and disease progression monitoring in clinical practice.",
+      "authors": [
+        "Roger Neuberger",
+        "Jeffrey Carter",
+        "Adriana Dives",
+        "Ana Sofia C Ibarrola",
+        "Maritsa Ixba",
+        "Elton Lambert",
+        "Yi-Chun Liu",
+        "Anna H Messner"
+      ],
+      "first_author": "Roger Neuberger",
+      "journal": "The Laryngoscope",
+      "year": 2025,
+      "doi": "10.1002/lary.70296",
+      "matched_terms": [
+        "acute otitis media"
+      ],
+      "retrieval_text": "Optical Coherence Tomography as an Emerging Technique for Identifying Pediatric Middle Ear Effusion. OBJECTIVE: Acute otitis media (AOM) and otitis media with effusion (OME) rely on accurate characterization of middle ear effusion (MEE). Optical coherence tomography (OCT) is a potential modality for noninvasive analysis of MEE, thereby assisting with otitis media diagnosis. This study aims to compare the diagnostic performance of OCT with otoscopy and tympanometry in pediatric patients.\nMETHODS: A prospective convenience sample of 164 pediatric patients aged 6 months to 12 years was recruited from two tertiary care pediatric otolaryngology clinics. During their visit, each child underwent otoscopy, tympanometry, and OCT evaluation. Scans were reviewed by both a fellowship-trained pediatric otolaryngologist and an individual with limited medical background. Pairwise comparisons between tests were performed to assess percent agreement, sensitivity, and specificity of OCT in the identification of MEE.\nRESULTS: A total of 164 pediatric patients (328 ears) were enrolled, with 32% of ears classified as having a middle ear effusion by otoscopy, 24% by tympanometry, and 18% by OCT. Across all age groups, otoscopy and tympanometry agreed 81.2% of the time, otoscopy and OCT 77.7% of the time, and tympanometry and OCT 80.5% of the time. Cohen's Kappa showed moderate agreement between clinical and non-clinical OCT raters (κ = 0.41). Analysis revealed a sensitivity of 74% and specificity of 93% for OCT, comparable to existing methods.\nCONCLUSION: Optical coherence tomography demonstrates promise as a valuable tool for MEE assessment in pediatric patients, with performance comparable to pneumatic otoscopy and tympanometry. These findings emphasize its potential for enhancing diagnostic accuracy and disease progression monitoring in clinical practice.",
+      "has_abstract": true
+    },
+    {
+      "pmid": "41454671",
+      "title": "Neutrophil/albumin ratio positively associates with type 2 diabetes mellitus risk in women with prior gestational diabetes mellitus: moderation by body mass index.",
+      "abstract": "OBJECTIVE: To investigate the associations of the neutrophil/albumin ratio (NAR) with type 2 diabetes mellitus (T2DM) in women with a history of gestational diabetes mellitus (GDM).\nMETHODS: We conducted a cross-sectional study involving 782 participants from the National Health and Nutrition Examination Survey. Logistic regression analyses were performed to explore the relationship between NAR and T2DM, adjusting for various confounding factors across different models. Interaction analyses examined the modifying effects of socio-demographic characteristics on the relationship between NAR and T2DM. Mediation analyses were utilized to investigate whether key laboratory indicators and insulin resistance indices mediated the association between NAR and T2DM.\nRESULTS: Higher NAR levels were positively associated with T2DM risk. (OR[95%CI]:1.649[1.181,2.309], p = 0.003). Mediation analyses revealed that the effect of NAR on T2DM was entirely mediated through the regulation of red cell distribution width (RDW Coefficient[95%CI]: 0.009[0.001,0.024], p = 0.020) and high-density lipoprotein cholesterol (HDL-C Coefficient[95%CI]: 0.038[0.017,0.067], p < 0.001). Besides, significant interactions and differences were observed in the relationship between NAR and T2DM risk based on body mass index (BMI) (NAR*BMI: interaction coefficient: -0.651, interaction p = 0.027). In individuals with 25 kg/m2 ≤ BMI < 30 kg/m2, NAR increased the risk of T2DM by regulating the insulin resistance index (HOMA-R) (β[95%CI]: 2.220[0.653,3.787], p = 0.007).\nCONCLUSION: This study revealed that among women with GDM history, NAR may influence the risk of T2DM through the modulation of RDW and HDL-C. Furthermore, NAR and BMI had a significant interaction affecting T2DM risk, particularly prominent in women with 25 kg/m2 ≤ BMI < 30 kg/m2. Within this subgroup, NAR elevated the risk of T2DM via HOMA-R.",
+      "authors": [
+        "Yuan-Fen Chen",
+        "Ling-Hua Wang"
+      ],
+      "first_author": "Yuan-Fen Chen",
+      "journal": "Gynecological endocrinology : the official journal of the International Society of Gynecological Endocrinology",
+      "year": 2025,
+      "doi": "10.1080/09513590.2025.2607806",
+      "matched_terms": [
+        "gestational diabetes"
+      ],
+      "retrieval_text": "Neutrophil/albumin ratio positively associates with type 2 diabetes mellitus risk in women with prior gestational diabetes mellitus: moderation by body mass index. OBJECTIVE: To investigate the associations of the neutrophil/albumin ratio (NAR) with type 2 diabetes mellitus (T2DM) in women with a history of gestational diabetes mellitus (GDM).\nMETHODS: We conducted a cross-sectional study involving 782 participants from the National Health and Nutrition Examination Survey. Logistic regression analyses were performed to explore the relationship between NAR and T2DM, adjusting for various confounding factors across different models. Interaction analyses examined the modifying effects of socio-demographic characteristics on the relationship between NAR and T2DM. Mediation analyses were utilized to investigate whether key laboratory indicators and insulin resistance indices mediated the association between NAR and T2DM.\nRESULTS: Higher NAR levels were positively associated with T2DM risk. (OR[95%CI]:1.649[1.181,2.309], p = 0.003). Mediation analyses revealed that the effect of NAR on T2DM was entirely mediated through the regulation of red cell distribution width (RDW Coefficient[95%CI]: 0.009[0.001,0.024], p = 0.020) and high-density lipoprotein cholesterol (HDL-C Coefficient[95%CI]: 0.038[0.017,0.067], p < 0.001). Besides, significant interactions and differences were observed in the relationship between NAR and T2DM risk based on body mass index (BMI) (NAR*BMI: interaction coefficient: -0.651, interaction p = 0.027). In individuals with 25 kg/m2 ≤ BMI < 30 kg/m2, NAR increased the risk of T2DM by regulating the insulin resistance index (HOMA-R) (β[95%CI]: 2.220[0.653,3.787], p = 0.007).\nCONCLUSION: This study revealed that among women with GDM history, NAR may influence the risk of T2DM through the modulation of RDW and HDL-C. Furthermore, NAR and BMI had a significant interaction affecting T2DM risk, particularly prominent in women with 25 kg/m2 ≤ BMI < 30 kg/m2. Within this subgroup, NAR elevated the risk of T2DM via HOMA-R.",
+      "has_abstract": true
+    },
+    {
+      "pmid": "41455307",
+      "title": "Engineering fluorescent iNOS-Inhibitory covalent organic frameworks: Fewer doses than fluticasone propionate for house dust mite-induced allergic rhinitis treatment.",
+      "abstract": "Allergic rhinitis (AR) is a chronic inflammatory disease primarily mediated by TH2-type immune responses, which is clinically managed with glucocorticoid therapy. However, this approach is limited by its variable efficacy and notable side effects. Herein, we developed two covalent organic framework (COF) nanoflakes-Aming-COF and Aming-BCOF-with inducible nitric oxide synthase (iNOS) inhibitory functions. We achieved targeted delivery and in vivo tracing by polymerizing the iNOS inhibitor aminoguanidine with a tetraphenylethylene fluorescent group through covalent bonds. In a mouse AR model induced by house dust mites, intranasal administration of Aming-COF demonstrated therapeutic efficacy: inhibiting excessive iNOS expression in the nasal mucosa to alleviate oxidative stress damage; repairing tight junction proteins such as ZO-1 and occludin to enhance epithelial barrier function; and regulating GATA-3/T-bet expression to rebalance TH1/TH2 immunity, thereby reducing TH2-type cytokines such as IL-4 and IL-5 while increasing TH1-type IFN-γ levels. Transcriptome analysis revealed its mechanism of action: inhibition of the IL5Rα-JAK-STAT signaling pathway. Aming-COF showed greater efficacy than fluticasone propionate with fewer doses (3 vs. 5) and no significant hepatotoxicity or nephrotoxicity, indicating good biosafety. This study provides a novel nanomaterial strategy for AR precision therapy and opens new directions for the application of COFs in immune regulation.",
+      "authors": [
+        "Shu-Jia Sang",
+        "Jia-Lu Zhuang",
+        "Xi-Xi Chen",
+        "Wen-Long Huang",
+        "Zhong-Lian Wang",
+        "Ji Lu",
+        "Mao-Yu Jiang",
+        "Yu-Chen Liu",
+        "Qin Wang",
+        "Guiyang Zhang",
+        "Ye-Hai Liu"
+      ],
+      "first_author": "Shu-Jia Sang",
+      "journal": "Biomaterials",
+      "year": 2025,
+      "doi": "10.1016/j.biomaterials.2025.123946",
+      "matched_terms": [
+        "allergic rhinitis treatment"
+      ],
+      "retrieval_text": "Engineering fluorescent iNOS-Inhibitory covalent organic frameworks: Fewer doses than fluticasone propionate for house dust mite-induced allergic rhinitis treatment. Allergic rhinitis (AR) is a chronic inflammatory disease primarily mediated by TH2-type immune responses, which is clinically managed with glucocorticoid therapy. However, this approach is limited by its variable efficacy and notable side effects. Herein, we developed two covalent organic framework (COF) nanoflakes-Aming-COF and Aming-BCOF-with inducible nitric oxide synthase (iNOS) inhibitory functions. We achieved targeted delivery and in vivo tracing by polymerizing the iNOS inhibitor aminoguanidine with a tetraphenylethylene fluorescent group through covalent bonds. In a mouse AR model induced by house dust mites, intranasal administration of Aming-COF demonstrated therapeutic efficacy: inhibiting excessive iNOS expression in the nasal mucosa to alleviate oxidative stress damage; repairing tight junction proteins such as ZO-1 and occludin to enhance epithelial barrier function; and regulating GATA-3/T-bet expression to rebalance TH1/TH2 immunity, thereby reducing TH2-type cytokines such as IL-4 and IL-5 while increasing TH1-type IFN-γ levels. Transcriptome analysis revealed its mechanism of action: inhibition of the IL5Rα-JAK-STAT signaling pathway. Aming-COF showed greater efficacy than fluticasone propionate with fewer doses (3 vs. 5) and no significant hepatotoxicity or nephrotoxicity, indicating good biosafety. This study provides a novel nanomaterial strategy for AR precision therapy and opens new directions for the application of COFs in immune regulation.",
+      "has_abstract": true
+    },
+    {
+      "pmid": "41665666",
+      "title": "Feasibility and performance of minimal-volume capillary blood screening for type 1 diabetes and coeliac disease autoantibodies across all age groups: the UNISCREEN population study.",
+      "abstract": "AIMS/HYPOTHESIS: The UNISCREEN study investigated the feasibility of minimally invasive capillary blood sampling combined with novel antibody tests for population-wide screening of type 1 diabetes and coeliac disease autoantibodies across all age groups, with secondary objectives to evaluate the prevalence and age-related distribution of these autoantibodies in a general Northern Italian population.\nMETHODS: Between April and October 2023, we screened 1532 residents (50.1% of eligible population) of Cantalupo, Milan, aged 1-100 years. Capillary blood samples were collected by fingerprick from all participants. A subset of 20 autoantibody-positive individuals provided confirmatory venous samples. Islet autoantibody screening employed a novel solid-phase capture luciferase immunoprecipitation system (LIPS) 3-screen assay requiring only 1 μl of serum for simultaneous detection of GADA, IA-2A and ZnT8A, plus a separate IAA assay. Positive samples underwent confirmatory testing with individual LIPS assays using truncated GADA to improve specificity. Coeliac disease screening used a tissue transglutaminase IgA (TGA-IgA) LIPS assay. Capillary-venous sample concordance and assay format comparisons validated the methodology.\nRESULTS: Among 1454 individuals without known diabetes, islet autoantibody prevalence was 2.3% (95% CI 1.6, 3.2), with 70.6% having single autoantibodies and 29.4% having multiple autoantibodies. Among 73 individuals with type 2 diabetes, 9.6% (95% CI 3.9, 18.8) were islet autoantibody-positive. TGA-IgA prevalence was 3.5% (95% CI 2.7, 4.6) overall, with 3.2% (95% CI 2.3, 4.2) newly identified positivity among those without known coeliac disease. Capillary-venous sample concordance was high (85-95% across autoantibodies), increasing with antibody level from 66.7% to 100% across terciles. Venous LIPS to bridge-ELISA concordance ranged from 50% for GADA to 90% for other autoantibodies, with low-affinity GADA partially accounting for discrepancies. Islet autoantibody-positive individuals >15 years (measured by 3-screen solid-phase capture LIPS) had significantly higher median antibody levels than those ≤15 years (53.5 vs 19.3 arbitrary units, p=0.006). Coeliac disease autoantibody prevalence declined markedly with age from 9.1% (≤15 years) to 0.6% (>75 years) (p<0.001), contrasting with the more stable age distribution of islet autoantibodies.\nCONCLUSIONS/INTERPRETATION: Population-wide autoimmunity screening across all age groups is feasible using minimally invasive capillary sampling and advanced immunoassay technology. The substantial prevalence of autoimmunity in clinically unaffected individuals (2.3% for islet autoantibodies, 3.2% for coeliac disease autoantibodies) suggests significant opportunities for earlier detection and intervention. Age-related differences in antibody levels and the detection of multiple autoantibodies in adults without diabetes warrant longitudinal follow-up to understand natural history and progression risk in older populations.",
+      "authors": [
+        "Ilaria Marzinotto",
+        "Elena Bazzigaluppi",
+        "Cristina Brigatti",
+        "Sabina Martinenghi",
+        "Andrea Laurenzi",
+        "Giuseppe Ancona",
+        "Sara Angiulli",
+        "Elisa Borgonovo",
+        "Antonella Spanò",
+        "Giulia Pata",
+        "Martina Mallus",
+        "Francesca Ulivi",
+        "Peter Achenbach",
+        "William Hagopian",
+        "Kathleen Gillespie",
+        "Vito Lampasona",
+        "Emanuele Bosi"
+      ],
+      "first_author": "Ilaria Marzinotto",
+      "journal": "Diabetologia",
+      "year": 2025,
+      "doi": "10.1007/s00125-026-06680-y",
+      "matched_terms": [
+        "celiac disease diagnosis"
+      ],
+      "retrieval_text": "Feasibility and performance of minimal-volume capillary blood screening for type 1 diabetes and coeliac disease autoantibodies across all age groups: the UNISCREEN population study. AIMS/HYPOTHESIS: The UNISCREEN study investigated the feasibility of minimally invasive capillary blood sampling combined with novel antibody tests for population-wide screening of type 1 diabetes and coeliac disease autoantibodies across all age groups, with secondary objectives to evaluate the prevalence and age-related distribution of these autoantibodies in a general Northern Italian population.\nMETHODS: Between April and October 2023, we screened 1532 residents (50.1% of eligible population) of Cantalupo, Milan, aged 1-100 years. Capillary blood samples were collected by fingerprick from all participants. A subset of 20 autoantibody-positive individuals provided confirmatory venous samples. Islet autoantibody screening employed a novel solid-phase capture luciferase immunoprecipitation system (LIPS) 3-screen assay requiring only 1 μl of serum for simultaneous detection of GADA, IA-2A and ZnT8A, plus a separate IAA assay. Positive samples underwent confirmatory testing with individual LIPS assays using truncated GADA to improve specificity. Coeliac disease screening used a tissue transglutaminase IgA (TGA-IgA) LIPS assay. Capillary-venous sample concordance and assay format comparisons validated the methodology.\nRESULTS: Among 1454 individuals without known diabetes, islet autoantibody prevalence was 2.3% (95% CI 1.6, 3.2), with 70.6% having single autoantibodies and 29.4% having multiple autoantibodies. Among 73 individuals with type 2 diabetes, 9.6% (95% CI 3.9, 18.8) were islet autoantibody-positive. TGA-IgA prevalence was 3.5% (95% CI 2.7, 4.6) overall, with 3.2% (95% CI 2.3, 4.2) newly identified positivity among those without known coeliac disease. Capillary-venous sample concordance was high (85-95% across autoantibodies), increasing with antibody level from 66.7% to 100% across terciles. Venous LIPS to bridge-ELISA concordance ranged from 50% for GADA to 90% for other autoantibodies, with low-affinity GADA partially accounting for discrepancies. Islet autoantibody-positive individuals >15 years (measured by 3-screen solid-phase capture LIPS) had significantly higher median antibody levels than those ≤15 years (53.5 vs 19.3 arbitrary units, p=0.006). Coeliac disease autoantibody prevalence declined markedly with age from 9.1% (≤15 years) to 0.6% (>75 years) (p<0.001), contrasting with the more stable age distribution of islet autoantibodies.\nCONCLUSIONS/INTERPRETATION: Population-wide autoimmunity screening across all age groups is feasible using minimally invasive capillary sampling and advanced immunoassay technology. The substantial prevalence of autoimmunity in clinically unaffected individuals (2.3% for islet autoantibodies, 3.2% for coeliac disease autoantibodies) suggests significant opportunities for earlier detection and intervention. Age-related differences in antibody levels and the detection of multiple autoantibodies in adults without diabetes warrant longitudinal follow-up to understand natural history and progression risk in older populations.",
+      "has_abstract": true
+    },
+    {
+      "pmid": "41777814",
+      "title": "Clinical characteristics, treatment patterns, and healthcare utilization among children, adolescents, and young adults with obesity in the United States.",
+      "abstract": "BACKGROUND: Obesity in children, adolescents, and young adults is associated with the early development of several obesity-related complications (ORCs)1. This study aimed to assess the real-world clinical characteristics, treatment patterns, and healthcare costs, and resource utilization among children, adolescents, and young adults with obesity in the United States between 2019 and 2024.\nMETHODS: A retrospective, observational analysis was conducted using Optum's de-identified Market Clarity data (Optum® Market Clarity) between January 2019 and December 2024. Eligible individuals included 6 to 25-year-olds with an obesity diagnosis or BMI ≥30 kg/m2, or BMI ≥95th percentile for age and gender (6-17-year-olds), who had ≥12 months of continuous medical and pharmacy enrolment. Most individuals included in this study had either Commercial or Medicaid insurance. The population was further stratified by age: children (6-11 years), adolescents (12-17 years), and young adults (18-25 years). All analyses conducted were descriptive in nature.\nRESULTS: The mean ages for children, adolescents, and young adults were 9, 15, and 22 years, respectively. Across all years, a higher proportion of young adults were female compared to adolescents and children. Asthma was reported as one of the most prevalent ORCs across age groups (2024 data: children: 18.2%; adolescents: 14.2%; young adults: 12.9%). Overall, 303 (2.9%) adolescents (mean BMI 38.0 kg/m2) and 1926 (8.5%) young adults (mean BMI 38.4 kg/m2) had a prescription for an obesity management medication (OMM) in 2024, predominantly glucagon-like peptide-1 receptor agonists (not approved for use in children). Compared to OMM non-users, adolescents and young adults prescribed OMMs had a higher prevalence of ORCs and incurred greater healthcare costs.\nCONCLUSION: The study findings reveal limited use of OMMs among children, adolescents, and young adults in the US, underscoring the need for a prevention-focused, chronic treatment model tailored to this population.",
+      "authors": [
+        "Theresa Hunter Gibble",
+        "Ahong Huang",
+        "Callie Higgins",
+        "Mythili Ananth",
+        "Clare Lee",
+        "Justin R Ryder",
+        "Jiayin Xue"
+      ],
+      "first_author": "Theresa Hunter Gibble",
+      "journal": "Obesity pillars",
+      "year": 2025,
+      "doi": "10.1016/j.obpill.2026.100252",
+      "matched_terms": [
+        "pediatric asthma management"
+      ],
+      "retrieval_text": "Clinical characteristics, treatment patterns, and healthcare utilization among children, adolescents, and young adults with obesity in the United States. BACKGROUND: Obesity in children, adolescents, and young adults is associated with the early development of several obesity-related complications (ORCs)1. This study aimed to assess the real-world clinical characteristics, treatment patterns, and healthcare costs, and resource utilization among children, adolescents, and young adults with obesity in the United States between 2019 and 2024.\nMETHODS: A retrospective, observational analysis was conducted using Optum's de-identified Market Clarity data (Optum® Market Clarity) between January 2019 and December 2024. Eligible individuals included 6 to 25-year-olds with an obesity diagnosis or BMI ≥30 kg/m2, or BMI ≥95th percentile for age and gender (6-17-year-olds), who had ≥12 months of continuous medical and pharmacy enrolment. Most individuals included in this study had either Commercial or Medicaid insurance. The population was further stratified by age: children (6-11 years), adolescents (12-17 years), and young adults (18-25 years). All analyses conducted were descriptive in nature.\nRESULTS: The mean ages for children, adolescents, and young adults were 9, 15, and 22 years, respectively. Across all years, a higher proportion of young adults were female compared to adolescents and children. Asthma was reported as one of the most prevalent ORCs across age groups (2024 data: children: 18.2%; adolescents: 14.2%; young adults: 12.9%). Overall, 303 (2.9%) adolescents (mean BMI 38.0 kg/m2) and 1926 (8.5%) young adults (mean BMI 38.4 kg/m2) had a prescription for an obesity management medication (OMM) in 2024, predominantly glucagon-like peptide-1 receptor agonists (not approved for use in children). Compared to OMM non-users, adolescents and young adults prescribed OMMs had a higher prevalence of ORCs and incurred greater healthcare costs.\nCONCLUSION: The study findings reveal limited use of OMMs among children, adolescents, and young adults in the US, underscoring the need for a prevention-focused, chronic treatment model tailored to this population.",
+      "has_abstract": true
+    },
+    {
+      "pmid": "41780131",
+      "title": "Maternal pre- and postnatal depression and anxiety: Impacts on childhood asthma and its phenotypes.",
+      "abstract": "BACKGROUND: Maternal psychological distress during pregnancy is known to elevate the risk of offspring asthma, but the impact of the timing of the distress remains poorly understood.\nOBJECTIVES: To assess the individual and combined effects of maternal prenatal and postnatal depressive and anxiety disorders, both separately and longitudinally, on offspring asthma and its phenotypes.\nMETHODS: Healthcare register data on 310,701 children born 2001-2006 and their 232,240 mothers were collected. Maternal depressive disorder was defined by diagnoses F30, F31, F32-F34 and F38 and anxiety disorder as F40-F42, F44-F45 and F48. Timing of disorder was defined as prenatal (from one year before until labor) and postnatal periods (from birth until three years postpartum). Child outcomes were overall asthma diagnosis J45-J46 at 7-12 years, further separated into allergic J45.0 and non-allergic J45.1 asthma phenotypes.\nRESULTS: Altogether, 19,000 (6.1%) children had asthma, 6517 (2.8%) mothers had depression, and 4189 (1.8%) had anxiety disorder. Child overall asthma was associated with maternal prenatal depression (adjusted odds ratio 1.28; 95% confidence interval 1.08-1.53) and anxiety disorders (1.30; 1.07-1.57), and with postnatal anxiety disorders (1.33; 1.15-1.54). Both maternal postnatal depression (1.36; 1.06-1.74) and anxiety disorders (1.45; 1.06-2.00) were associated with non-atopic asthma, and postnatal anxiety was associated with atopic asthma (1.34; 1.07-1.67). The comorbidity or longitudinality of maternal depressive and anxiety disorders didn't affect the associations.\nCONCLUSION: Maternal depressive and anxiety disorders were associated with offspring asthma, varying by phenotype and timing. The postnatal effect was significant, suggesting independent associations and possibly distinct pathways in child respiratory morbidity.",
+      "authors": [
+        "Eetu Kanerva",
+        "Minna Lukkarinen",
+        "Marika Leppänen",
+        "Bernd Pape",
+        "Päivi Rautava",
+        "Max Karukivi"
+      ],
+      "first_author": "Eetu Kanerva",
+      "journal": "Journal of psychosomatic research",
+      "year": 2025,
+      "doi": "10.1016/j.jpsychores.2026.112610",
+      "matched_terms": [
+        "pediatric asthma management"
+      ],
+      "retrieval_text": "Maternal pre- and postnatal depression and anxiety: Impacts on childhood asthma and its phenotypes. BACKGROUND: Maternal psychological distress during pregnancy is known to elevate the risk of offspring asthma, but the impact of the timing of the distress remains poorly understood.\nOBJECTIVES: To assess the individual and combined effects of maternal prenatal and postnatal depressive and anxiety disorders, both separately and longitudinally, on offspring asthma and its phenotypes.\nMETHODS: Healthcare register data on 310,701 children born 2001-2006 and their 232,240 mothers were collected. Maternal depressive disorder was defined by diagnoses F30, F31, F32-F34 and F38 and anxiety disorder as F40-F42, F44-F45 and F48. Timing of disorder was defined as prenatal (from one year before until labor) and postnatal periods (from birth until three years postpartum). Child outcomes were overall asthma diagnosis J45-J46 at 7-12 years, further separated into allergic J45.0 and non-allergic J45.1 asthma phenotypes.\nRESULTS: Altogether, 19,000 (6.1%) children had asthma, 6517 (2.8%) mothers had depression, and 4189 (1.8%) had anxiety disorder. Child overall asthma was associated with maternal prenatal depression (adjusted odds ratio 1.28; 95% confidence interval 1.08-1.53) and anxiety disorders (1.30; 1.07-1.57), and with postnatal anxiety disorders (1.33; 1.15-1.54). Both maternal postnatal depression (1.36; 1.06-1.74) and anxiety disorders (1.45; 1.06-2.00) were associated with non-atopic asthma, and postnatal anxiety was associated with atopic asthma (1.34; 1.07-1.67). The comorbidity or longitudinality of maternal depressive and anxiety disorders didn't affect the associations.\nCONCLUSION: Maternal depressive and anxiety disorders were associated with offspring asthma, varying by phenotype and timing. The postnatal effect was significant, suggesting independent associations and possibly distinct pathways in child respiratory morbidity.",
+      "has_abstract": true
+    },
+    {
+      "pmid": "41791738",
+      "title": "Kidney disease and heart failure: recent advances and current challenges: conclusions from a Kidney Disease: Improving Global Outcomes (KDIGO) Controversies Conference.",
+      "abstract": "Heart failure (HF) and chronic kidney disease (CKD) frequently coexist, which elevates the risks of hospitalization, disease progression, and death. Despite advances in treating each condition independently, many challenges remain in diagnosing and managing them in combination. In March 2024, Kidney Disease: Improving Global Outcomes (KDIGO) held the Controversies Conference on Kidney Disease and Heart Failure: Recent Advances and Current Challenges. Discussions highlighted the complex, bidirectional relationship between HF and CKD, including shared risk factors and overlapping pathophysiology as well as nuances in interpreting biomarkers such as natriuretic peptides and serum creatinine. Sodium-glucose cotransporter-2 inhibitors, renin-angiotensin-aldosterone system inhibitors, and emerging agents such as finerenone and glucagon-like peptide-1 receptor agonists can have benefits in both populations of patients with HF and CKD, though evidence in advanced CKD remains limited. Importantly, small declines in kidney function after initiating guideline-directed HF therapies generally do not require discontinuation, as these declines are often hemodynamic in nature and not associated with poor outcomes. The group highlighted the need for CKD-specific HF diagnostic thresholds and refined acute kidney injury definitions in HF. It is important for future cardiovascular and kidney trials to include relevant end points, such as kidney function trajectories, symptom burden, and quality of life. To improve care for individuals with HF and CKD, a more integrated approach to management, rooted in individualization, clinical context, and shared therapeutic goals, is needed.",
+      "authors": [
+        "Carolyn S P Lam",
+        "Biykem Bozkurt",
+        "David Z I Cherney",
+        "Justin A Ezekowitz",
+        "Meg J Jardine",
+        "Sadiya S Khan",
+        "Magdalena Madero",
+        "Mark J Sarnak",
+        "Jozine M Ter Maaten",
+        "Michael Cheung",
+        "Jennifer M King",
+        "Morgan E Grams",
+        "Michel Jadoul",
+        "Nisha Bansal",
+        "Conference Participants"
+      ],
+      "first_author": "Carolyn S P Lam",
+      "journal": "Kidney international",
+      "year": 2025,
+      "doi": "10.1016/j.kint.2025.10.011",
+      "matched_terms": [
+        "chronic kidney disease"
+      ],
+      "retrieval_text": "Kidney disease and heart failure: recent advances and current challenges: conclusions from a Kidney Disease: Improving Global Outcomes (KDIGO) Controversies Conference. Heart failure (HF) and chronic kidney disease (CKD) frequently coexist, which elevates the risks of hospitalization, disease progression, and death. Despite advances in treating each condition independently, many challenges remain in diagnosing and managing them in combination. In March 2024, Kidney Disease: Improving Global Outcomes (KDIGO) held the Controversies Conference on Kidney Disease and Heart Failure: Recent Advances and Current Challenges. Discussions highlighted the complex, bidirectional relationship between HF and CKD, including shared risk factors and overlapping pathophysiology as well as nuances in interpreting biomarkers such as natriuretic peptides and serum creatinine. Sodium-glucose cotransporter-2 inhibitors, renin-angiotensin-aldosterone system inhibitors, and emerging agents such as finerenone and glucagon-like peptide-1 receptor agonists can have benefits in both populations of patients with HF and CKD, though evidence in advanced CKD remains limited. Importantly, small declines in kidney function after initiating guideline-directed HF therapies generally do not require discontinuation, as these declines are often hemodynamic in nature and not associated with poor outcomes. The group highlighted the need for CKD-specific HF diagnostic thresholds and refined acute kidney injury definitions in HF. It is important for future cardiovascular and kidney trials to include relevant end points, such as kidney function trajectories, symptom burden, and quality of life. To improve care for individuals with HF and CKD, a more integrated approach to management, rooted in individualization, clinical context, and shared therapeutic goals, is needed.",
+      "has_abstract": true
+    },
+    {
+      "pmid": "41795319",
+      "title": "A novel injectable selenium-containing hydrogel with antioxidant, antibacterial, and anti-inflammatory properties for topical treatment of allergic rhinitis.",
+      "abstract": "BACKGROUND: Allergic rhinitis (AR) is a prevalent inflammatory condition with complex pathophysiology and limited treatment options. Given the current lack of drugs with significant therapeutic effects, it is necessary to develop a hydrogel that can effectively control the nasal inflammation in AR.\nMETHODS: An injectable and self-healing disulfide bond hydrogel was prepared by cross-linking L-selenocysteine (L-CySe) with carboxymethyl cellulose (CMC). The microstructure, porosity, swelling property, degradability, rheology and mechanical properties of the L-CySe/CMC (SeC) hydrogel were characterized. The antioxidant and antimicrobial activities were evaluated in vitro. The air-liquid interface (ALI) of human nasal epithelial cells stimulated by IL-4. The murine AR model was created by using ovalbumin (OVA). The histopathology of mice and ALI model was analyzed by hematoxylin and eosin (H&E) staining, PAS and Sirius red staining for eosinophils. The levels of OVA-specific IgE (OVA-sIgE) and type 2 cytokines were detected by using ELISA. The biosafety of SeC hydrogel was confirmed by hemolysis, Cell Counting 8 Kit (CCK-8 kit), Live/Dead staining and histopathological examination.\nRESULTS: SeC hydrogel features a uniform porous structure (porosity of 60.26%), an appropriate swelling/degradation curve, excellent mechanical strength (compressive modulus of 24.74 kPa), and rapid self-healing ability. In both models, it demonstrated a powerful free radical scavenging capacity (>66%), broad-spectrum antibacterial activity (>97% inhibition), and significant anti-inflammatory effects. Hydrogels have good blood compatibility (hemolysis rate <5%) and no cell and organ toxicity. In ALI stimulated by IL-4, it reduced epithelial thickness and inhibits goblet cell proliferation. In AR mice, it alleviated nasal symptoms, reduced epithelial thickening, eosinophil infiltration, goblet cell proliferation, and decreased the levels of OVA-sIgE and type 2 cytokines (IL-4, IL-5, IL-13).\nCONCLUSION: SeC hydrogel provides an effective and promising treatment strategy for the effective treatment of allergic rhinitis by taking advantage of its synergistic antioxidant, antibacterial and anti-inflammatory properties.",
+      "authors": [
+        "Yang Shi",
+        "Xinyuan Zhang",
+        "Tengfei Tian",
+        "Szuyao Hsu",
+        "Qin Sun",
+        "Liyang Wang",
+        "Yong Li",
+        "Juncai Chu",
+        "Shige Wang",
+        "Ke-Qing Zhao"
+      ],
+      "first_author": "Yang Shi",
+      "journal": "Colloids and surfaces. B, Biointerfaces",
+      "year": 2025,
+      "doi": "10.1016/j.colsurfb.2026.115590",
+      "matched_terms": [
+        "allergic rhinitis treatment"
+      ],
+      "retrieval_text": "A novel injectable selenium-containing hydrogel with antioxidant, antibacterial, and anti-inflammatory properties for topical treatment of allergic rhinitis. BACKGROUND: Allergic rhinitis (AR) is a prevalent inflammatory condition with complex pathophysiology and limited treatment options. Given the current lack of drugs with significant therapeutic effects, it is necessary to develop a hydrogel that can effectively control the nasal inflammation in AR.\nMETHODS: An injectable and self-healing disulfide bond hydrogel was prepared by cross-linking L-selenocysteine (L-CySe) with carboxymethyl cellulose (CMC). The microstructure, porosity, swelling property, degradability, rheology and mechanical properties of the L-CySe/CMC (SeC) hydrogel were characterized. The antioxidant and antimicrobial activities were evaluated in vitro. The air-liquid interface (ALI) of human nasal epithelial cells stimulated by IL-4. The murine AR model was created by using ovalbumin (OVA). The histopathology of mice and ALI model was analyzed by hematoxylin and eosin (H&E) staining, PAS and Sirius red staining for eosinophils. The levels of OVA-specific IgE (OVA-sIgE) and type 2 cytokines were detected by using ELISA. The biosafety of SeC hydrogel was confirmed by hemolysis, Cell Counting 8 Kit (CCK-8 kit), Live/Dead staining and histopathological examination.\nRESULTS: SeC hydrogel features a uniform porous structure (porosity of 60.26%), an appropriate swelling/degradation curve, excellent mechanical strength (compressive modulus of 24.74 kPa), and rapid self-healing ability. In both models, it demonstrated a powerful free radical scavenging capacity (>66%), broad-spectrum antibacterial activity (>97% inhibition), and significant anti-inflammatory effects. Hydrogels have good blood compatibility (hemolysis rate <5%) and no cell and organ toxicity. In ALI stimulated by IL-4, it reduced epithelial thickness and inhibits goblet cell proliferation. In AR mice, it alleviated nasal symptoms, reduced epithelial thickening, eosinophil infiltration, goblet cell proliferation, and decreased the levels of OVA-sIgE and type 2 cytokines (IL-4, IL-5, IL-13).\nCONCLUSION: SeC hydrogel provides an effective and promising treatment strategy for the effective treatment of allergic rhinitis by taking advantage of its synergistic antioxidant, antibacterial and anti-inflammatory properties.",
+      "has_abstract": true
+    },
+    {
+      "pmid": "41819426",
+      "title": "Dual-action nasal spray with mussel protein and xylitol restores epithelial barrier and attenuates type 2 inflammation in allergic rhinitis.",
+      "abstract": "Allergic rhinitis (AR) is a prevalent chronic inflammatory disorder of the upper airways, driven by Th2-mediated immune dysregulation and compromised epithelial barrier function. Current therapies, such as intranasal corticosteroids, often exhibit limited efficacy and adverse effects upon prolonged use. Herein, we developed a novel dual-action nasal spray, termed Mefp, by combining mussel adhesive protein (MAP) and xylitol to simultaneously target epithelial barrier repair and inflammatory pathways. The Mefp formulation exhibited strong mucoadhesive properties, with nasal retention lasting up to 24 h, facilitated by catechol-mediated adhesion of 3,4-dihydroxyphenylalanine (DOPA) residues in MAP. In vitro experiments using LPS-stimulated human nasal epithelial cells (HNEpCs) demonstrated that Mefp significantly restored tight junction proteins (ZO-1 and occludin), suppressed NF-κB activation, reduced oxidative stress, and attenuated the release of pro-inflammatory (TNF-α, IL-6) and Th2 cytokines (IL-4, IL-5, IL-13). In an ovalbumin-induced murine AR model, Mefp treatment markedly alleviated allergic symptoms, reduced eosinophil infiltration, decreased OVA-specific IgE levels, and enhanced antioxidant enzyme activities. Histological and immunofluorescence analyses confirmed the restoration of mucosal integrity and tight junction assembly. Notably, Mefp demonstrated comparable or superior efficacy to mometasone furoate (MF) in alleviating allergic symptoms and suppressing key inflammatory mediators, while showing a better safety profile regarding epithelial integrity in vitro. These findings indicate that Mefp effectively addresses both epithelial barrier dysfunction and type 2 inflammation, offering a promising and safe therapeutic strategy for AR.",
+      "authors": [
+        "Bin Zhang",
+        "Wei Wang",
+        "Ping Fang",
+        "Yaowen Wang",
+        "Jing Xia",
+        "Ming Xu"
+      ],
+      "first_author": "Bin Zhang",
+      "journal": "Journal of controlled release : official journal of the Controlled Release Society",
+      "year": 2025,
+      "doi": "10.1016/j.jconrel.2026.114809",
+      "matched_terms": [
+        "allergic rhinitis treatment"
+      ],
+      "retrieval_text": "Dual-action nasal spray with mussel protein and xylitol restores epithelial barrier and attenuates type 2 inflammation in allergic rhinitis. Allergic rhinitis (AR) is a prevalent chronic inflammatory disorder of the upper airways, driven by Th2-mediated immune dysregulation and compromised epithelial barrier function. Current therapies, such as intranasal corticosteroids, often exhibit limited efficacy and adverse effects upon prolonged use. Herein, we developed a novel dual-action nasal spray, termed Mefp, by combining mussel adhesive protein (MAP) and xylitol to simultaneously target epithelial barrier repair and inflammatory pathways. The Mefp formulation exhibited strong mucoadhesive properties, with nasal retention lasting up to 24 h, facilitated by catechol-mediated adhesion of 3,4-dihydroxyphenylalanine (DOPA) residues in MAP. In vitro experiments using LPS-stimulated human nasal epithelial cells (HNEpCs) demonstrated that Mefp significantly restored tight junction proteins (ZO-1 and occludin), suppressed NF-κB activation, reduced oxidative stress, and attenuated the release of pro-inflammatory (TNF-α, IL-6) and Th2 cytokines (IL-4, IL-5, IL-13). In an ovalbumin-induced murine AR model, Mefp treatment markedly alleviated allergic symptoms, reduced eosinophil infiltration, decreased OVA-specific IgE levels, and enhanced antioxidant enzyme activities. Histological and immunofluorescence analyses confirmed the restoration of mucosal integrity and tight junction assembly. Notably, Mefp demonstrated comparable or superior efficacy to mometasone furoate (MF) in alleviating allergic symptoms and suppressing key inflammatory mediators, while showing a better safety profile regarding epithelial integrity in vitro. These findings indicate that Mefp effectively addresses both epithelial barrier dysfunction and type 2 inflammation, offering a promising and safe therapeutic strategy for AR.",
+      "has_abstract": true
+    },
+    {
+      "pmid": "41848478",
+      "title": "The management of chronic kidney disease-associated cardiovascular complications should go beyond the management of traditional cardiovascular risk factors.",
+      "abstract": "",
+      "authors": [
+        "Ziad A Massy"
+      ],
+      "first_author": "Ziad A Massy",
+      "journal": "Kidney international",
+      "year": 2025,
+      "doi": "10.1016/j.kint.2025.09.036",
+      "matched_terms": [
+        "chronic kidney disease"
+      ],
+      "retrieval_text": "The management of chronic kidney disease-associated cardiovascular complications should go beyond the management of traditional cardiovascular risk factors.",
+      "has_abstract": false
+    },
+    {
+      "pmid": "41848479",
+      "title": "Atherosclerosis in chronic kidney disease-early prevention is better than late treatment.",
+      "abstract": "",
+      "authors": [
+        "Charles J Ferro",
+        "Jonathan N Townend"
+      ],
+      "first_author": "Charles J Ferro",
+      "journal": "Kidney international",
+      "year": 2025,
+      "doi": "10.1016/j.kint.2025.09.037",
+      "matched_terms": [
+        "chronic kidney disease"
+      ],
+      "retrieval_text": "Atherosclerosis in chronic kidney disease-early prevention is better than late treatment.",
+      "has_abstract": false
+    },
+    {
+      "pmid": "41907855",
+      "title": "Bronchial thermoplasty for severe asthma: Systematic review and meta-analysis of benefits and harms.",
+      "abstract": "BACKGROUND: The efficacy and safety of bronchial thermoplasty (BT) for severe asthma remains unclear.\nOBJECTIVE: We systematically synthesized the efficacy and safety of BT in patients with severe asthma.\nMETHODS: As part of the upcoming American Academy of Allergy, Asthma & Immunology/American College of Allergy, Asthma & Immunology Joint Task Force on Practice Parameters severe asthma guidelines, we searched the Medline, Embase, and Central databases to July 29, 2025, for randomized trials comparing BT to control for asthma. Paired reviewers independently screened records and extracted data. Random-effects meta-analyses addressed asthma control (Asthma Control Questionnaire 6 [scale, 0-6; lower better]), asthma-related quality of life (Asthma Quality of Life Questionnaire [range, 1-7; higher better]), severe asthma exacerbations, and harms, stratified by procedural, postprocedural, and overall. The GRADE approach informed certainty-of-evidence ratings (PROSPERO: CRD42023408565).\nRESULTS: Six trials randomized 573 adults. Procedurally, BT likely increases severe exacerbations (incidence rate ratio [IRR] 2.95; 95% CI, 1.20-7.25; risk difference [RD] 0.08 more events per patient-year; moderate certainty) and serious respiratory adverse events (IRR 5.98; 95% CI, 1.07-33.29; RD 0.18 more events per patient-year; moderate certainty). Postprocedurally, BT may reduce severe exacerbations (IRR 0.67; 95% CI, 0.50-0.89; RD 0.67 fewer events per patient-year; low certainty). Overall, BT may improve asthma control (mean difference -0.37; 95% CI, -0.67 to -0.07; RD for 0.5-point decrease: 15.9% more; low certainty), asthma-related quality of life (mean difference 0.55; 95% CI, 0.28-0.82; RD for 0.5-point increase: 19.1% more; low certainty), and severe exacerbations (IRR 0.81; 95% CI, 0.68-0.97; RD 0.11 fewer events per patient-year; low certainty).\nCONCLUSION: Among adults with severe asthma, BT may improve asthma control and asthma-related quality of life and may reduce overall severe exacerbations, but it likely increases procedural severe exacerbations and serious respiratory harms.",
+      "authors": [
+        "Daniel G Rayner",
+        "Alexandro W L Chu",
+        "Gerard Cox",
+        "Leonardo Ologundudu",
+        "Melanie M Wong",
+        "Nazmul Islam",
+        "Peter Bonta",
+        "Pallav L Shah",
+        "Dirk-Jan Slebos",
+        "Jouke Annema",
+        "Xiajing Chu",
+        "Bradley Chipps",
+        "John Oppenheimer",
+        "Elliot Israel",
+        "Katherine Rivera-Spoljaric",
+        "Tamara T Perry",
+        "Sharmilee M Nyenhuis",
+        "Flavia Hoyte",
+        "Kaharu Sumino",
+        "Paul M O'Byrne",
+        "Lindsay E Shade",
+        "Gordon H Guyatt",
+        "Valerie G Press",
+        "Susana Rangel",
+        "Ellen McCabe",
+        "Angel Melendez",
+        "Dia Sue-Wah-Sing",
+        "Hilarry Orr",
+        "Donna D Gardner",
+        "Tonya Winders",
+        "Kathyrn Przywara",
+        "Matthew A Rank",
+        "Giselle Mosnaim",
+        "Leonard B Bacharier",
+        "Derek K Chu"
+      ],
+      "first_author": "Daniel G Rayner",
+      "journal": "The journal of allergy and clinical immunology. Global",
+      "year": 2025,
+      "doi": "10.1016/j.jacig.2026.100678",
+      "matched_terms": [
+        "pediatric asthma management"
+      ],
+      "retrieval_text": "Bronchial thermoplasty for severe asthma: Systematic review and meta-analysis of benefits and harms. BACKGROUND: The efficacy and safety of bronchial thermoplasty (BT) for severe asthma remains unclear.\nOBJECTIVE: We systematically synthesized the efficacy and safety of BT in patients with severe asthma.\nMETHODS: As part of the upcoming American Academy of Allergy, Asthma & Immunology/American College of Allergy, Asthma & Immunology Joint Task Force on Practice Parameters severe asthma guidelines, we searched the Medline, Embase, and Central databases to July 29, 2025, for randomized trials comparing BT to control for asthma. Paired reviewers independently screened records and extracted data. Random-effects meta-analyses addressed asthma control (Asthma Control Questionnaire 6 [scale, 0-6; lower better]), asthma-related quality of life (Asthma Quality of Life Questionnaire [range, 1-7; higher better]), severe asthma exacerbations, and harms, stratified by procedural, postprocedural, and overall. The GRADE approach informed certainty-of-evidence ratings (PROSPERO: CRD42023408565).\nRESULTS: Six trials randomized 573 adults. Procedurally, BT likely increases severe exacerbations (incidence rate ratio [IRR] 2.95; 95% CI, 1.20-7.25; risk difference [RD] 0.08 more events per patient-year; moderate certainty) and serious respiratory adverse events (IRR 5.98; 95% CI, 1.07-33.29; RD 0.18 more events per patient-year; moderate certainty). Postprocedurally, BT may reduce severe exacerbations (IRR 0.67; 95% CI, 0.50-0.89; RD 0.67 fewer events per patient-year; low certainty). Overall, BT may improve asthma control (mean difference -0.37; 95% CI, -0.67 to -0.07; RD for 0.5-point decrease: 15.9% more; low certainty), asthma-related quality of life (mean difference 0.55; 95% CI, 0.28-0.82; RD for 0.5-point increase: 19.1% more; low certainty), and severe exacerbations (IRR 0.81; 95% CI, 0.68-0.97; RD 0.11 fewer events per patient-year; low certainty).\nCONCLUSION: Among adults with severe asthma, BT may improve asthma control and asthma-related quality of life and may reduce overall severe exacerbations, but it likely increases procedural severe exacerbations and serious respiratory harms.",
+      "has_abstract": true
+    },
+    {
+      "pmid": "41958858",
+      "title": "Stellate ganglion block causing reproducible improvement of allergic rhinitis and asthma: a case report.",
+      "abstract": "INTRODUCTION: Stellate ganglion block (SGB) is hypothesized to influence immunologic and physiologic processes through autonomic modulation. Though similar effects of SGB on atopic disease have been intermittently observed over the past century, methodological concerns limit the internal and external validity of these prior efforts.\nOBJECTIVES: To describe a case of simultaneous and reproducible improvement in allergic rhinitis and asthma after SGB, and to contextualize this observation within the existing literature.\nMETHODS: A 35-year-old woman with Complex Regional Pain Syndrome (CRPS) following a radial head fracture underwent SGB as a part of routine CRPS management. Her incidentally-observed changes in allergic rhintis and asthma were assessed longitudinally using validated clinical outcome measures in a retrospective fashion.\nRESULTS: The patient demonstrated improvement of her allergic rhinitis and asthma after SGB, exceeding MCID thresholds for meaningful clinical improvement of each condition. These benefits persisted for 9 months before a partial recurrence of her atopic airway disease. A second SGB was able to reproduce these improvements, again exceeding MCID thresholds for both allergic rhinitis and asthma.\nCONCLUSIONS: SGB's effects on atopic disease warrant reappraisal of SGB as a potential adjunct for atopic airway disease, particularly in light of recent experimental evidence suggesting that SGB may exert an immunomodulatory effect. This case therefore highlights a meaningful gap in the literature and underscores the need for systematic investigation of SGB as a potential adjunctive treatment for atopic airway disease.",
+      "authors": [
+        "Azeem Ahmad",
+        "Efrain Perez-Bravo"
+      ],
+      "first_author": "Azeem Ahmad",
+      "journal": "Pain reports",
+      "year": 2025,
+      "doi": "10.1097/PR9.0000000000001431",
+      "matched_terms": [
+        "allergic rhinitis treatment"
+      ],
+      "retrieval_text": "Stellate ganglion block causing reproducible improvement of allergic rhinitis and asthma: a case report. INTRODUCTION: Stellate ganglion block (SGB) is hypothesized to influence immunologic and physiologic processes through autonomic modulation. Though similar effects of SGB on atopic disease have been intermittently observed over the past century, methodological concerns limit the internal and external validity of these prior efforts.\nOBJECTIVES: To describe a case of simultaneous and reproducible improvement in allergic rhinitis and asthma after SGB, and to contextualize this observation within the existing literature.\nMETHODS: A 35-year-old woman with Complex Regional Pain Syndrome (CRPS) following a radial head fracture underwent SGB as a part of routine CRPS management. Her incidentally-observed changes in allergic rhintis and asthma were assessed longitudinally using validated clinical outcome measures in a retrospective fashion.\nRESULTS: The patient demonstrated improvement of her allergic rhinitis and asthma after SGB, exceeding MCID thresholds for meaningful clinical improvement of each condition. These benefits persisted for 9 months before a partial recurrence of her atopic airway disease. A second SGB was able to reproduce these improvements, again exceeding MCID thresholds for both allergic rhinitis and asthma.\nCONCLUSIONS: SGB's effects on atopic disease warrant reappraisal of SGB as a potential adjunct for atopic airway disease, particularly in light of recent experimental evidence suggesting that SGB may exert an immunomodulatory effect. This case therefore highlights a meaningful gap in the literature and underscores the need for systematic investigation of SGB as a potential adjunctive treatment for atopic airway disease.",
+      "has_abstract": true
+    },
+    {
+      "pmid": "41980359",
+      "title": "Biomaterials for bacterial recruitment function: A review.",
+      "abstract": "Infectious diseases present a formidable challenge in clinical treatment, with their incidence rates escalating annually. Current therapeutic approaches predominantly rely on antibiotics; however, the emergence of antibiotic resistance has substantially compromised treatment efficacy. While novel anti-infection strategies continue to emerge, most conventional antibacterial modalities remain passive in nature, exhibiting inherent limitations in antimicrobial performance. Bacterial recruitment materials have garnered significant attention due to their unique capability to actively attract pathogens, thereby enhancing antibacterial efficacy. This review systematically examines bacterial recruitment technologies, outlines biomaterials exhibiting bacterial recruitment properties, and discusses their biomedical applications, underlying mechanisms, and preparation methodologies. Furthermore, it addresses current challenges associated with bacterial recruiting biomaterials and proposes future research directions to advance this field. Notably, these materials are not only applicable to the prevention and control of healthcare-associated infections but also provide novel strategies for the treatment of community-acquired infections such as skin and soft tissue infections, acute otitis media and urinary tract infections. Additionally, they can achieve tissue repair (e.g., osseointegration, chronic wound healing) by recruiting beneficial bacteria, reflecting their broad functional potential beyond anti-infection toward tissue regeneration.",
+      "authors": [
+        "Jianlong Fu",
+        "Weicheng Chen",
+        "Yu Zhang",
+        "Xin Li",
+        "Kai Lu",
+        "Aiping Wang",
+        "Song Chen",
+        "Peng Zhang"
+      ],
+      "first_author": "Jianlong Fu",
+      "journal": "Colloids and surfaces. B, Biointerfaces",
+      "year": 2025,
+      "doi": "10.1016/j.colsurfb.2026.115707",
+      "matched_terms": [
+        "acute otitis media"
+      ],
+      "retrieval_text": "Biomaterials for bacterial recruitment function: A review. Infectious diseases present a formidable challenge in clinical treatment, with their incidence rates escalating annually. Current therapeutic approaches predominantly rely on antibiotics; however, the emergence of antibiotic resistance has substantially compromised treatment efficacy. While novel anti-infection strategies continue to emerge, most conventional antibacterial modalities remain passive in nature, exhibiting inherent limitations in antimicrobial performance. Bacterial recruitment materials have garnered significant attention due to their unique capability to actively attract pathogens, thereby enhancing antibacterial efficacy. This review systematically examines bacterial recruitment technologies, outlines biomaterials exhibiting bacterial recruitment properties, and discusses their biomedical applications, underlying mechanisms, and preparation methodologies. Furthermore, it addresses current challenges associated with bacterial recruiting biomaterials and proposes future research directions to advance this field. Notably, these materials are not only applicable to the prevention and control of healthcare-associated infections but also provide novel strategies for the treatment of community-acquired infections such as skin and soft tissue infections, acute otitis media and urinary tract infections. Additionally, they can achieve tissue repair (e.g., osseointegration, chronic wound healing) by recruiting beneficial bacteria, reflecting their broad functional potential beyond anti-infection toward tissue regeneration.",
+      "has_abstract": true
+    }
+  ],
+  "errors": []
+}

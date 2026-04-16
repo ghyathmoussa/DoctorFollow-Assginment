@@ -1,0 +1,1214 @@
+{
+  "queries": [
+    {
+      "query_id": "q1",
+      "text": "What are the latest guidelines for managing type 2 diabetes?",
+      "expected_terms": [
+        "type 2 diabetes mellitus"
+      ],
+      "methods": {
+        "bm25": {
+          "metrics": {
+            "precision_at_5": 0.4,
+            "ndcg_at_5": 0.38356636737133565
+          },
+          "results": [
+            {
+              "rank": 1,
+              "score": 7.949167348232575,
+              "pmid": "41782402",
+              "title": "Are we missing early pancreatic dysfunction? Expanding faecal elastase testing beyond pancreatic disease.",
+              "year": 2026,
+              "journal": "Current opinion in gastroenterology",
+              "matched_terms": [
+                "celiac disease diagnosis"
+              ],
+              "has_abstract": true,
+              "relevance": 0
+            },
+            {
+              "rank": 2,
+              "score": 7.0318846041855725,
+              "pmid": "41845563",
+              "title": "Parasutterella excrementihominis is associated with attenuated metabolic improvements during obesity therapy in humans.",
+              "year": 2026,
+              "journal": "Gut microbes",
+              "matched_terms": [
+                "type 2 diabetes mellitus"
+              ],
+              "has_abstract": true,
+              "relevance": 1
+            },
+            {
+              "rank": 3,
+              "score": 6.750078408865841,
+              "pmid": "41845564",
+              "title": "Gut microbiome in type 2 diabetes: insights from metagenomics, multi-omics, and diet-microbe interactions.",
+              "year": 2026,
+              "journal": "Gut microbes",
+              "matched_terms": [
+                "type 2 diabetes mellitus"
+              ],
+              "has_abstract": true,
+              "relevance": 1
+            },
+            {
+              "rank": 4,
+              "score": 6.742796058052132,
+              "pmid": "41916414",
+              "title": "Screening for iron deficiency in young women: the predictive validity of a five-item screening instrument (IRON-5).",
+              "year": 2026,
+              "journal": "Scandinavian journal of primary health care",
+              "matched_terms": [
+                "iron deficiency anemia"
+              ],
+              "has_abstract": true,
+              "relevance": 0
+            },
+            {
+              "rank": 5,
+              "score": 6.724807940256364,
+              "pmid": "41665666",
+              "title": "Feasibility and performance of minimal-volume capillary blood screening for type 1 diabetes and coeliac disease autoantibodies across all age groups: the UNISCREEN population study.",
+              "year": 2025,
+              "journal": "Diabetologia",
+              "matched_terms": [
+                "celiac disease diagnosis"
+              ],
+              "has_abstract": true,
+              "relevance": 0
+            }
+          ]
+        },
+        "semantic": {
+          "metrics": {
+            "precision_at_5": 0.4,
+            "ndcg_at_5": 0.27727342735504823
+          },
+          "results": [
+            {
+              "rank": 1,
+              "score": 0.8518166542053223,
+              "pmid": "41791738",
+              "title": "Kidney disease and heart failure: recent advances and current challenges: conclusions from a Kidney Disease: Improving Global Outcomes (KDIGO) Controversies Conference.",
+              "year": 2025,
+              "journal": "Kidney international",
+              "matched_terms": [
+                "chronic kidney disease"
+              ],
+              "has_abstract": true,
+              "relevance": 0
+            },
+            {
+              "rank": 2,
+              "score": 0.8504530787467957,
+              "pmid": "41454671",
+              "title": "Neutrophil/albumin ratio positively associates with type 2 diabetes mellitus risk in women with prior gestational diabetes mellitus: moderation by body mass index.",
+              "year": 2025,
+              "journal": "Gynecological endocrinology : the official journal of the International Society of Gynecological Endocrinology",
+              "matched_terms": [
+                "gestational diabetes"
+              ],
+              "has_abstract": true,
+              "relevance": 0
+            },
+            {
+              "rank": 3,
+              "score": 0.8490087985992432,
+              "pmid": "41665666",
+              "title": "Feasibility and performance of minimal-volume capillary blood screening for type 1 diabetes and coeliac disease autoantibodies across all age groups: the UNISCREEN population study.",
+              "year": 2025,
+              "journal": "Diabetologia",
+              "matched_terms": [
+                "celiac disease diagnosis"
+              ],
+              "has_abstract": true,
+              "relevance": 0
+            },
+            {
+              "rank": 4,
+              "score": 0.8482800722122192,
+              "pmid": "41848224",
+              "title": "Breaking the cycle: patient activation role in improving diabetes self-care adherence for alleviating diabetes distress.",
+              "year": 2026,
+              "journal": "The Libyan journal of medicine",
+              "matched_terms": [
+                "type 2 diabetes mellitus"
+              ],
+              "has_abstract": true,
+              "relevance": 1
+            },
+            {
+              "rank": 5,
+              "score": 0.846718430519104,
+              "pmid": "41845564",
+              "title": "Gut microbiome in type 2 diabetes: insights from metagenomics, multi-omics, and diet-microbe interactions.",
+              "year": 2026,
+              "journal": "Gut microbes",
+              "matched_terms": [
+                "type 2 diabetes mellitus"
+              ],
+              "has_abstract": true,
+              "relevance": 1
+            }
+          ]
+        },
+        "hybrid_rrf": {
+          "metrics": {
+            "precision_at_5": 0.4,
+            "ndcg_at_5": 0.30078518014914984
+          },
+          "results": [
+            {
+              "rank": 1,
+              "rrf_score": 0.03131881575727918,
+              "pmid": "41791738",
+              "title": "Kidney disease and heart failure: recent advances and current challenges: conclusions from a Kidney Disease: Improving Global Outcomes (KDIGO) Controversies Conference.",
+              "year": 2025,
+              "journal": "Kidney international",
+              "matched_terms": [
+                "chronic kidney disease"
+              ],
+              "has_abstract": true,
+              "bm25_rank": 7,
+              "semantic_rank": 1,
+              "relevance": 0
+            },
+            {
+              "rank": 2,
+              "rrf_score": 0.03125763125763126,
+              "pmid": "41665666",
+              "title": "Feasibility and performance of minimal-volume capillary blood screening for type 1 diabetes and coeliac disease autoantibodies across all age groups: the UNISCREEN population study.",
+              "year": 2025,
+              "journal": "Diabetologia",
+              "matched_terms": [
+                "celiac disease diagnosis"
+              ],
+              "has_abstract": true,
+              "bm25_rank": 5,
+              "semantic_rank": 3,
+              "relevance": 0
+            },
+            {
+              "rank": 3,
+              "rrf_score": 0.03125763125763126,
+              "pmid": "41845564",
+              "title": "Gut microbiome in type 2 diabetes: insights from metagenomics, multi-omics, and diet-microbe interactions.",
+              "year": 2026,
+              "journal": "Gut microbes",
+              "matched_terms": [
+                "type 2 diabetes mellitus"
+              ],
+              "has_abstract": true,
+              "bm25_rank": 3,
+              "semantic_rank": 5,
+              "relevance": 1
+            },
+            {
+              "rank": 4,
+              "rrf_score": 0.030834914611005692,
+              "pmid": "41454671",
+              "title": "Neutrophil/albumin ratio positively associates with type 2 diabetes mellitus risk in women with prior gestational diabetes mellitus: moderation by body mass index.",
+              "year": 2025,
+              "journal": "Gynecological endocrinology : the official journal of the International Society of Gynecological Endocrinology",
+              "matched_terms": [
+                "gestational diabetes"
+              ],
+              "has_abstract": true,
+              "bm25_rank": 8,
+              "semantic_rank": 2,
+              "relevance": 0
+            },
+            {
+              "rank": 5,
+              "rrf_score": 0.030776515151515152,
+              "pmid": "41848224",
+              "title": "Breaking the cycle: patient activation role in improving diabetes self-care adherence for alleviating diabetes distress.",
+              "year": 2026,
+              "journal": "The Libyan journal of medicine",
+              "matched_terms": [
+                "type 2 diabetes mellitus"
+              ],
+              "has_abstract": true,
+              "bm25_rank": 6,
+              "semantic_rank": 4,
+              "relevance": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "query_id": "q2",
+      "text": "Çocuklarda akut otitis media tedavisi nasıl yapılır?",
+      "expected_terms": [
+        "acute otitis media"
+      ],
+      "methods": {
+        "bm25": {
+          "metrics": {
+            "precision_at_5": 1.0,
+            "ndcg_at_5": 1.0
+          },
+          "results": [
+            {
+              "rank": 1,
+              "score": 7.784360476932381,
+              "pmid": "41964158",
+              "title": "Embedded AI-Assisted Otoscopic Image Screening for Pediatric Otitis Media.",
+              "year": 2026,
+              "journal": "Ear, nose, & throat journal",
+              "matched_terms": [
+                "acute otitis media"
+              ],
+              "has_abstract": true,
+              "relevance": 2
+            },
+            {
+              "rank": 2,
+              "score": 7.348937073431451,
+              "pmid": "41967279",
+              "title": "Long-term otologic and auditory sequelae in children with recurrent acute otitis media.",
+              "year": 2026,
+              "journal": "International journal of pediatric otorhinolaryngology",
+              "matched_terms": [
+                "acute otitis media"
+              ],
+              "has_abstract": false,
+              "relevance": 2
+            },
+            {
+              "rank": 3,
+              "score": 6.61861720507676,
+              "pmid": "41342403",
+              "title": "Optical Coherence Tomography as an Emerging Technique for Identifying Pediatric Middle Ear Effusion.",
+              "year": 2025,
+              "journal": "The Laryngoscope",
+              "matched_terms": [
+                "acute otitis media"
+              ],
+              "has_abstract": true,
+              "relevance": 2
+            },
+            {
+              "rank": 4,
+              "score": 5.554098753340146,
+              "pmid": "41090395",
+              "title": "Diagnostic accuracy of otitis media with and without a fictitious AI support among physicians in primary care and medical students.",
+              "year": 2025,
+              "journal": "Scandinavian journal of primary health care",
+              "matched_terms": [
+                "acute otitis media"
+              ],
+              "has_abstract": true,
+              "relevance": 2
+            },
+            {
+              "rank": 5,
+              "score": 4.474861576660731,
+              "pmid": "41980359",
+              "title": "Biomaterials for bacterial recruitment function: A review.",
+              "year": 2025,
+              "journal": "Colloids and surfaces. B, Biointerfaces",
+              "matched_terms": [
+                "acute otitis media"
+              ],
+              "has_abstract": true,
+              "relevance": 2
+            }
+          ]
+        },
+        "semantic": {
+          "metrics": {
+            "precision_at_5": 0.8,
+            "ndcg_at_5": 0.8687949224876581
+          },
+          "results": [
+            {
+              "rank": 1,
+              "score": 0.8450621366500854,
+              "pmid": "41967279",
+              "title": "Long-term otologic and auditory sequelae in children with recurrent acute otitis media.",
+              "year": 2026,
+              "journal": "International journal of pediatric otorhinolaryngology",
+              "matched_terms": [
+                "acute otitis media"
+              ],
+              "has_abstract": false,
+              "relevance": 2
+            },
+            {
+              "rank": 2,
+              "score": 0.8316445350646973,
+              "pmid": "41342403",
+              "title": "Optical Coherence Tomography as an Emerging Technique for Identifying Pediatric Middle Ear Effusion.",
+              "year": 2025,
+              "journal": "The Laryngoscope",
+              "matched_terms": [
+                "acute otitis media"
+              ],
+              "has_abstract": true,
+              "relevance": 2
+            },
+            {
+              "rank": 3,
+              "score": 0.8171789646148682,
+              "pmid": "41964158",
+              "title": "Embedded AI-Assisted Otoscopic Image Screening for Pediatric Otitis Media.",
+              "year": 2026,
+              "journal": "Ear, nose, & throat journal",
+              "matched_terms": [
+                "acute otitis media"
+              ],
+              "has_abstract": true,
+              "relevance": 2
+            },
+            {
+              "rank": 4,
+              "score": 0.8138152360916138,
+              "pmid": "41090395",
+              "title": "Diagnostic accuracy of otitis media with and without a fictitious AI support among physicians in primary care and medical students.",
+              "year": 2025,
+              "journal": "Scandinavian journal of primary health care",
+              "matched_terms": [
+                "acute otitis media"
+              ],
+              "has_abstract": true,
+              "relevance": 2
+            },
+            {
+              "rank": 5,
+              "score": 0.788963258266449,
+              "pmid": "41914737",
+              "title": "N6-methyladenosine modification of NEU1 mediated by METTL3 exacerbates angiotensin II-induced atrial fibrillation.",
+              "year": 2026,
+              "journal": "Cell adhesion & migration",
+              "matched_terms": [
+                "atrial fibrillation"
+              ],
+              "has_abstract": true,
+              "relevance": 0
+            }
+          ]
+        },
+        "hybrid_rrf": {
+          "metrics": {
+            "precision_at_5": 0.8,
+            "ndcg_at_5": 0.8687949224876581
+          },
+          "results": [
+            {
+              "rank": 1,
+              "rrf_score": 0.03252247488101534,
+              "pmid": "41967279",
+              "title": "Long-term otologic and auditory sequelae in children with recurrent acute otitis media.",
+              "year": 2026,
+              "journal": "International journal of pediatric otorhinolaryngology",
+              "matched_terms": [
+                "acute otitis media"
+              ],
+              "has_abstract": false,
+              "bm25_rank": 2,
+              "semantic_rank": 1,
+              "relevance": 2
+            },
+            {
+              "rank": 2,
+              "rrf_score": 0.032266458495966696,
+              "pmid": "41964158",
+              "title": "Embedded AI-Assisted Otoscopic Image Screening for Pediatric Otitis Media.",
+              "year": 2026,
+              "journal": "Ear, nose, & throat journal",
+              "matched_terms": [
+                "acute otitis media"
+              ],
+              "has_abstract": true,
+              "bm25_rank": 1,
+              "semantic_rank": 3,
+              "relevance": 2
+            },
+            {
+              "rank": 3,
+              "rrf_score": 0.03200204813108039,
+              "pmid": "41342403",
+              "title": "Optical Coherence Tomography as an Emerging Technique for Identifying Pediatric Middle Ear Effusion.",
+              "year": 2025,
+              "journal": "The Laryngoscope",
+              "matched_terms": [
+                "acute otitis media"
+              ],
+              "has_abstract": true,
+              "bm25_rank": 3,
+              "semantic_rank": 2,
+              "relevance": 2
+            },
+            {
+              "rank": 4,
+              "rrf_score": 0.03125,
+              "pmid": "41090395",
+              "title": "Diagnostic accuracy of otitis media with and without a fictitious AI support among physicians in primary care and medical students.",
+              "year": 2025,
+              "journal": "Scandinavian journal of primary health care",
+              "matched_terms": [
+                "acute otitis media"
+              ],
+              "has_abstract": true,
+              "bm25_rank": 4,
+              "semantic_rank": 4,
+              "relevance": 2
+            },
+            {
+              "rank": 5,
+              "rrf_score": 0.02819138376017471,
+              "pmid": "41774050",
+              "title": "Incidence of silent cerebral lesions during pulsed field ablation for paroxysmal atrial fibrillation.",
+              "year": 2026,
+              "journal": "Annals of medicine",
+              "matched_terms": [
+                "atrial fibrillation"
+              ],
+              "has_abstract": true,
+              "bm25_rank": 13,
+              "semantic_rank": 9,
+              "relevance": 0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "query_id": "q3",
+      "text": "Iron supplementation dosing for anemia during pregnancy",
+      "expected_terms": [
+        "iron deficiency anemia"
+      ],
+      "methods": {
+        "bm25": {
+          "metrics": {
+            "precision_at_5": 1.0,
+            "ndcg_at_5": 1.0
+          },
+          "results": [
+            {
+              "rank": 1,
+              "score": 13.289017864513006,
+              "pmid": "41672571",
+              "title": "Application of Shengxuening tablets for the prevention of anemia in pregnancy: stratified efficacy analysis based on serum ferritin levels and thalassemia subgroups.",
+              "year": 2026,
+              "journal": "The journal of maternal-fetal & neonatal medicine : the official journal of the European Association of Perinatal Medicine, the Federation of Asia and Oceania Perinatal Societies, the International Society of Perinatal Obstetricians",
+              "matched_terms": [
+                "iron deficiency anemia"
+              ],
+              "has_abstract": true,
+              "relevance": 2
+            },
+            {
+              "rank": 2,
+              "score": 10.934069124682658,
+              "pmid": "41883305",
+              "title": "Retraction Statement: 'Efficacy of ferrous bis-glycinate versus ferrous glycine sulfate in the treatment of iron deficiency anemia with pregnancy: a randomized double-blind clinical trial'.",
+              "year": 2026,
+              "journal": "The journal of maternal-fetal & neonatal medicine : the official journal of the European Association of Perinatal Medicine, the Federation of Asia and Oceania Perinatal Societies, the International Society of Perinatal Obstetricians",
+              "matched_terms": [
+                "iron deficiency anemia"
+              ],
+              "has_abstract": false,
+              "relevance": 2
+            },
+            {
+              "rank": 3,
+              "score": 10.16741193068667,
+              "pmid": "41916414",
+              "title": "Screening for iron deficiency in young women: the predictive validity of a five-item screening instrument (IRON-5).",
+              "year": 2026,
+              "journal": "Scandinavian journal of primary health care",
+              "matched_terms": [
+                "iron deficiency anemia"
+              ],
+              "has_abstract": true,
+              "relevance": 2
+            },
+            {
+              "rank": 4,
+              "score": 8.318748907340662,
+              "pmid": "41922931",
+              "title": "The association between serum trace elements and iron deficiency anemia in children and adolescents: a systematic review and meta-analysis.",
+              "year": 2026,
+              "journal": "Hematology (Amsterdam, Netherlands)",
+              "matched_terms": [
+                "iron deficiency anemia"
+              ],
+              "has_abstract": true,
+              "relevance": 2
+            },
+            {
+              "rank": 5,
+              "score": 7.7060071588178385,
+              "pmid": "41912474",
+              "title": "Effect of IV ferric carboxymaltose treatment on platelet counts and serum transferrin levels in CKD patients not on dialysis with iron deficiency: potential implications for thrombogenicity.",
+              "year": 2026,
+              "journal": "Renal failure",
+              "matched_terms": [
+                "iron deficiency anemia"
+              ],
+              "has_abstract": true,
+              "relevance": 2
+            }
+          ]
+        },
+        "semantic": {
+          "metrics": {
+            "precision_at_5": 1.0,
+            "ndcg_at_5": 1.0
+          },
+          "results": [
+            {
+              "rank": 1,
+              "score": 0.9048601388931274,
+              "pmid": "41672571",
+              "title": "Application of Shengxuening tablets for the prevention of anemia in pregnancy: stratified efficacy analysis based on serum ferritin levels and thalassemia subgroups.",
+              "year": 2026,
+              "journal": "The journal of maternal-fetal & neonatal medicine : the official journal of the European Association of Perinatal Medicine, the Federation of Asia and Oceania Perinatal Societies, the International Society of Perinatal Obstetricians",
+              "matched_terms": [
+                "iron deficiency anemia"
+              ],
+              "has_abstract": true,
+              "relevance": 2
+            },
+            {
+              "rank": 2,
+              "score": 0.892268180847168,
+              "pmid": "41916414",
+              "title": "Screening for iron deficiency in young women: the predictive validity of a five-item screening instrument (IRON-5).",
+              "year": 2026,
+              "journal": "Scandinavian journal of primary health care",
+              "matched_terms": [
+                "iron deficiency anemia"
+              ],
+              "has_abstract": true,
+              "relevance": 2
+            },
+            {
+              "rank": 3,
+              "score": 0.8865549564361572,
+              "pmid": "41883305",
+              "title": "Retraction Statement: 'Efficacy of ferrous bis-glycinate versus ferrous glycine sulfate in the treatment of iron deficiency anemia with pregnancy: a randomized double-blind clinical trial'.",
+              "year": 2026,
+              "journal": "The journal of maternal-fetal & neonatal medicine : the official journal of the European Association of Perinatal Medicine, the Federation of Asia and Oceania Perinatal Societies, the International Society of Perinatal Obstetricians",
+              "matched_terms": [
+                "iron deficiency anemia"
+              ],
+              "has_abstract": false,
+              "relevance": 2
+            },
+            {
+              "rank": 4,
+              "score": 0.8722482919692993,
+              "pmid": "41912474",
+              "title": "Effect of IV ferric carboxymaltose treatment on platelet counts and serum transferrin levels in CKD patients not on dialysis with iron deficiency: potential implications for thrombogenicity.",
+              "year": 2026,
+              "journal": "Renal failure",
+              "matched_terms": [
+                "iron deficiency anemia"
+              ],
+              "has_abstract": true,
+              "relevance": 2
+            },
+            {
+              "rank": 5,
+              "score": 0.8713643550872803,
+              "pmid": "41922931",
+              "title": "The association between serum trace elements and iron deficiency anemia in children and adolescents: a systematic review and meta-analysis.",
+              "year": 2026,
+              "journal": "Hematology (Amsterdam, Netherlands)",
+              "matched_terms": [
+                "iron deficiency anemia"
+              ],
+              "has_abstract": true,
+              "relevance": 2
+            }
+          ]
+        },
+        "hybrid_rrf": {
+          "metrics": {
+            "precision_at_5": 1.0,
+            "ndcg_at_5": 1.0
+          },
+          "results": [
+            {
+              "rank": 1,
+              "rrf_score": 0.03278688524590164,
+              "pmid": "41672571",
+              "title": "Application of Shengxuening tablets for the prevention of anemia in pregnancy: stratified efficacy analysis based on serum ferritin levels and thalassemia subgroups.",
+              "year": 2026,
+              "journal": "The journal of maternal-fetal & neonatal medicine : the official journal of the European Association of Perinatal Medicine, the Federation of Asia and Oceania Perinatal Societies, the International Society of Perinatal Obstetricians",
+              "matched_terms": [
+                "iron deficiency anemia"
+              ],
+              "has_abstract": true,
+              "bm25_rank": 1,
+              "semantic_rank": 1,
+              "relevance": 2
+            },
+            {
+              "rank": 2,
+              "rrf_score": 0.03200204813108039,
+              "pmid": "41916414",
+              "title": "Screening for iron deficiency in young women: the predictive validity of a five-item screening instrument (IRON-5).",
+              "year": 2026,
+              "journal": "Scandinavian journal of primary health care",
+              "matched_terms": [
+                "iron deficiency anemia"
+              ],
+              "has_abstract": true,
+              "bm25_rank": 3,
+              "semantic_rank": 2,
+              "relevance": 2
+            },
+            {
+              "rank": 3,
+              "rrf_score": 0.03200204813108039,
+              "pmid": "41883305",
+              "title": "Retraction Statement: 'Efficacy of ferrous bis-glycinate versus ferrous glycine sulfate in the treatment of iron deficiency anemia with pregnancy: a randomized double-blind clinical trial'.",
+              "year": 2026,
+              "journal": "The journal of maternal-fetal & neonatal medicine : the official journal of the European Association of Perinatal Medicine, the Federation of Asia and Oceania Perinatal Societies, the International Society of Perinatal Obstetricians",
+              "matched_terms": [
+                "iron deficiency anemia"
+              ],
+              "has_abstract": false,
+              "bm25_rank": 2,
+              "semantic_rank": 3,
+              "relevance": 2
+            },
+            {
+              "rank": 4,
+              "rrf_score": 0.031009615384615385,
+              "pmid": "41922931",
+              "title": "The association between serum trace elements and iron deficiency anemia in children and adolescents: a systematic review and meta-analysis.",
+              "year": 2026,
+              "journal": "Hematology (Amsterdam, Netherlands)",
+              "matched_terms": [
+                "iron deficiency anemia"
+              ],
+              "has_abstract": true,
+              "bm25_rank": 4,
+              "semantic_rank": 5,
+              "relevance": 2
+            },
+            {
+              "rank": 5,
+              "rrf_score": 0.031009615384615385,
+              "pmid": "41912474",
+              "title": "Effect of IV ferric carboxymaltose treatment on platelet counts and serum transferrin levels in CKD patients not on dialysis with iron deficiency: potential implications for thrombogenicity.",
+              "year": 2026,
+              "journal": "Renal failure",
+              "matched_terms": [
+                "iron deficiency anemia"
+              ],
+              "has_abstract": true,
+              "bm25_rank": 5,
+              "semantic_rank": 4,
+              "relevance": 2
+            }
+          ]
+        }
+      }
+    },
+    {
+      "query_id": "q4",
+      "text": "Çölyak hastalığı tanı kriterleri nelerdir?",
+      "expected_terms": [
+        "celiac disease diagnosis"
+      ],
+      "methods": {
+        "bm25": {
+          "metrics": {
+            "precision_at_5": 0.0,
+            "ndcg_at_5": 0.0
+          },
+          "results": [
+            {
+              "rank": 1,
+              "score": 0.0,
+              "pmid": "41520281",
+              "title": "Comparative insights into the gut-heart axis: cross-species and cross-population perspectives.",
+              "year": 2026,
+              "journal": "Gut microbes",
+              "matched_terms": [
+                "atrial fibrillation"
+              ],
+              "has_abstract": true,
+              "relevance": 0
+            },
+            {
+              "rank": 2,
+              "score": 0.0,
+              "pmid": "41620634",
+              "title": "Dynamic involvement of the core gut microbiome XNP_Guild1 in the evolution of gestational diabetes mellitus.",
+              "year": 2026,
+              "journal": "Gut microbes",
+              "matched_terms": [
+                "gestational diabetes"
+              ],
+              "has_abstract": true,
+              "relevance": 0
+            },
+            {
+              "rank": 3,
+              "score": 0.0,
+              "pmid": "41672571",
+              "title": "Application of Shengxuening tablets for the prevention of anemia in pregnancy: stratified efficacy analysis based on serum ferritin levels and thalassemia subgroups.",
+              "year": 2026,
+              "journal": "The journal of maternal-fetal & neonatal medicine : the official journal of the European Association of Perinatal Medicine, the Federation of Asia and Oceania Perinatal Societies, the International Society of Perinatal Obstetricians",
+              "matched_terms": [
+                "iron deficiency anemia"
+              ],
+              "has_abstract": true,
+              "relevance": 0
+            },
+            {
+              "rank": 4,
+              "score": 0.0,
+              "pmid": "41684123",
+              "title": "Clinical, laboratory, and radiological features of community-acquired pneumonia due to Chlamydia psittaci and Legionella pneumophila confirmed using next-generation sequencing.",
+              "year": 2026,
+              "journal": "Annals of medicine",
+              "matched_terms": [
+                "community acquired pneumonia"
+              ],
+              "has_abstract": true,
+              "relevance": 0
+            },
+            {
+              "rank": 5,
+              "score": 0.0,
+              "pmid": "41693486",
+              "title": "SII serves as an independent diagnostic indicator for GDM and is regulated by placental 5-HT/NF-κB signaling.",
+              "year": 2026,
+              "journal": "Hypertension in pregnancy",
+              "matched_terms": [
+                "gestational diabetes"
+              ],
+              "has_abstract": true,
+              "relevance": 0
+            }
+          ]
+        },
+        "semantic": {
+          "metrics": {
+            "precision_at_5": 0.6,
+            "ndcg_at_5": 0.7227265726449517
+          },
+          "results": [
+            {
+              "rank": 1,
+              "score": 0.8006018400192261,
+              "pmid": "41665666",
+              "title": "Feasibility and performance of minimal-volume capillary blood screening for type 1 diabetes and coeliac disease autoantibodies across all age groups: the UNISCREEN population study.",
+              "year": 2025,
+              "journal": "Diabetologia",
+              "matched_terms": [
+                "celiac disease diagnosis"
+              ],
+              "has_abstract": true,
+              "relevance": 2
+            },
+            {
+              "rank": 2,
+              "score": 0.7984126806259155,
+              "pmid": "41782401",
+              "title": "Immune-related enteropathy.",
+              "year": 2026,
+              "journal": "Current opinion in gastroenterology",
+              "matched_terms": [
+                "celiac disease diagnosis"
+              ],
+              "has_abstract": true,
+              "relevance": 2
+            },
+            {
+              "rank": 3,
+              "score": 0.7955445051193237,
+              "pmid": "41714845",
+              "title": "The shared mechanisms and potential diagnostic markers for IgA nephropathy and celiac disease.",
+              "year": 2026,
+              "journal": "Autoimmunity",
+              "matched_terms": [
+                "celiac disease diagnosis"
+              ],
+              "has_abstract": true,
+              "relevance": 2
+            },
+            {
+              "rank": 4,
+              "score": 0.7843078970909119,
+              "pmid": "41944044",
+              "title": "Plasma proteomic signatures linking preserved ratio impaired spirometry to cardiometabolic diseases and multimorbidity: A longitudinal cohort study.",
+              "year": 2026,
+              "journal": "Pulmonology",
+              "matched_terms": [
+                "type 2 diabetes mellitus"
+              ],
+              "has_abstract": true,
+              "relevance": 0
+            },
+            {
+              "rank": 5,
+              "score": 0.7834371328353882,
+              "pmid": "41945665",
+              "title": "M6A-dependent regulation of microRNAs from CKD stage 5 patients: insights from epigenetic modification analysis.",
+              "year": 2026,
+              "journal": "Epigenetics",
+              "matched_terms": [
+                "chronic kidney disease"
+              ],
+              "has_abstract": true,
+              "relevance": 0
+            }
+          ]
+        },
+        "hybrid_rrf": {
+          "metrics": {
+            "precision_at_5": 0.4,
+            "ndcg_at_5": 0.5531464700081437
+          },
+          "results": [
+            {
+              "rank": 1,
+              "rrf_score": 0.031024531024531024,
+              "pmid": "41714845",
+              "title": "The shared mechanisms and potential diagnostic markers for IgA nephropathy and celiac disease.",
+              "year": 2026,
+              "journal": "Autoimmunity",
+              "matched_terms": [
+                "celiac disease diagnosis"
+              ],
+              "has_abstract": true,
+              "bm25_rank": 6,
+              "semantic_rank": 3,
+              "relevance": 2
+            },
+            {
+              "rank": 2,
+              "rrf_score": 0.030621785881252923,
+              "pmid": "41782401",
+              "title": "Immune-related enteropathy.",
+              "year": 2026,
+              "journal": "Current opinion in gastroenterology",
+              "matched_terms": [
+                "celiac disease diagnosis"
+              ],
+              "has_abstract": true,
+              "bm25_rank": 9,
+              "semantic_rank": 2,
+              "relevance": 2
+            },
+            {
+              "rank": 3,
+              "rrf_score": 0.03047794966520434,
+              "pmid": "41520281",
+              "title": "Comparative insights into the gut-heart axis: cross-species and cross-population perspectives.",
+              "year": 2026,
+              "journal": "Gut microbes",
+              "matched_terms": [
+                "atrial fibrillation"
+              ],
+              "has_abstract": true,
+              "bm25_rank": 1,
+              "semantic_rank": 11,
+              "relevance": 0
+            },
+            {
+              "rank": 4,
+              "rrf_score": 0.030309988518943745,
+              "pmid": "41693486",
+              "title": "SII serves as an independent diagnostic indicator for GDM and is regulated by placental 5-HT/NF-κB signaling.",
+              "year": 2026,
+              "journal": "Hypertension in pregnancy",
+              "matched_terms": [
+                "gestational diabetes"
+              ],
+              "has_abstract": true,
+              "bm25_rank": 5,
+              "semantic_rank": 7,
+              "relevance": 0
+            },
+            {
+              "rank": 5,
+              "rrf_score": 0.030017921146953404,
+              "pmid": "41620634",
+              "title": "Dynamic involvement of the core gut microbiome XNP_Guild1 in the evolution of gestational diabetes mellitus.",
+              "year": 2026,
+              "journal": "Gut microbes",
+              "matched_terms": [
+                "gestational diabetes"
+              ],
+              "has_abstract": true,
+              "bm25_rank": 2,
+              "semantic_rank": 12,
+              "relevance": 0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "query_id": "q5",
+      "text": "Antibiotic resistance patterns in community acquired pneumonia",
+      "expected_terms": [
+        "community acquired pneumonia"
+      ],
+      "methods": {
+        "bm25": {
+          "metrics": {
+            "precision_at_5": 0.4,
+            "ndcg_at_5": 0.5087403079104241
+          },
+          "results": [
+            {
+              "rank": 1,
+              "score": 8.38081652751979,
+              "pmid": "41719027",
+              "title": "External validation of risk scores and multivariate models for the diagnosis of community-acquired pneumonia in outpatients.",
+              "year": 2026,
+              "journal": "The European journal of general practice",
+              "matched_terms": [
+                "community acquired pneumonia"
+              ],
+              "has_abstract": true,
+              "relevance": 2
+            },
+            {
+              "rank": 2,
+              "score": 7.848521846803471,
+              "pmid": "41845564",
+              "title": "Gut microbiome in type 2 diabetes: insights from metagenomics, multi-omics, and diet-microbe interactions.",
+              "year": 2026,
+              "journal": "Gut microbes",
+              "matched_terms": [
+                "type 2 diabetes mellitus"
+              ],
+              "has_abstract": true,
+              "relevance": 0
+            },
+            {
+              "rank": 3,
+              "score": 6.877213574466572,
+              "pmid": "41810829",
+              "title": "Associations between patient risk factors, disease severity, and inflammatory markers in community-acquired pneumonia.",
+              "year": 2026,
+              "journal": "Journal of immunotoxicology",
+              "matched_terms": [
+                "community acquired pneumonia"
+              ],
+              "has_abstract": true,
+              "relevance": 2
+            },
+            {
+              "rank": 4,
+              "score": 6.147737053994714,
+              "pmid": "41980359",
+              "title": "Biomaterials for bacterial recruitment function: A review.",
+              "year": 2025,
+              "journal": "Colloids and surfaces. B, Biointerfaces",
+              "matched_terms": [
+                "acute otitis media"
+              ],
+              "has_abstract": true,
+              "relevance": 0
+            },
+            {
+              "rank": 5,
+              "score": 5.547621020734427,
+              "pmid": "41090395",
+              "title": "Diagnostic accuracy of otitis media with and without a fictitious AI support among physicians in primary care and medical students.",
+              "year": 2025,
+              "journal": "Scandinavian journal of primary health care",
+              "matched_terms": [
+                "acute otitis media"
+              ],
+              "has_abstract": true,
+              "relevance": 0
+            }
+          ]
+        },
+        "semantic": {
+          "metrics": {
+            "precision_at_5": 1.0,
+            "ndcg_at_5": 1.0
+          },
+          "results": [
+            {
+              "rank": 1,
+              "score": 0.8778408765792847,
+              "pmid": "41719027",
+              "title": "External validation of risk scores and multivariate models for the diagnosis of community-acquired pneumonia in outpatients.",
+              "year": 2026,
+              "journal": "The European journal of general practice",
+              "matched_terms": [
+                "community acquired pneumonia"
+              ],
+              "has_abstract": true,
+              "relevance": 2
+            },
+            {
+              "rank": 2,
+              "score": 0.8676126599311829,
+              "pmid": "41684123",
+              "title": "Clinical, laboratory, and radiological features of community-acquired pneumonia due to Chlamydia psittaci and Legionella pneumophila confirmed using next-generation sequencing.",
+              "year": 2026,
+              "journal": "Annals of medicine",
+              "matched_terms": [
+                "community acquired pneumonia"
+              ],
+              "has_abstract": true,
+              "relevance": 2
+            },
+            {
+              "rank": 3,
+              "score": 0.8623018264770508,
+              "pmid": "41854068",
+              "title": "Correspondence to 'Blood eosinopenia (≤30/µL) as an early predictor of respiratory failure in community-acquired pneumonia: A prospective multicentre study'.",
+              "year": 2026,
+              "journal": "Pulmonology",
+              "matched_terms": [
+                "community acquired pneumonia"
+              ],
+              "has_abstract": false,
+              "relevance": 2
+            },
+            {
+              "rank": 4,
+              "score": 0.8577931523323059,
+              "pmid": "41906803",
+              "title": "Comment on 'Evolution of hospitalizations of adults for community-acquired pneumonia in Portugal and the impact of pediatric pneumococcal vaccination'.",
+              "year": 2026,
+              "journal": "Pulmonology",
+              "matched_terms": [
+                "community acquired pneumonia"
+              ],
+              "has_abstract": false,
+              "relevance": 2
+            },
+            {
+              "rank": 5,
+              "score": 0.8508234024047852,
+              "pmid": "41810829",
+              "title": "Associations between patient risk factors, disease severity, and inflammatory markers in community-acquired pneumonia.",
+              "year": 2026,
+              "journal": "Journal of immunotoxicology",
+              "matched_terms": [
+                "community acquired pneumonia"
+              ],
+              "has_abstract": true,
+              "relevance": 2
+            }
+          ]
+        },
+        "hybrid_rrf": {
+          "metrics": {
+            "precision_at_5": 0.8,
+            "ndcg_at_5": 0.8539316501572934
+          },
+          "results": [
+            {
+              "rank": 1,
+              "rrf_score": 0.03278688524590164,
+              "pmid": "41719027",
+              "title": "External validation of risk scores and multivariate models for the diagnosis of community-acquired pneumonia in outpatients.",
+              "year": 2026,
+              "journal": "The European journal of general practice",
+              "matched_terms": [
+                "community acquired pneumonia"
+              ],
+              "has_abstract": true,
+              "bm25_rank": 1,
+              "semantic_rank": 1,
+              "relevance": 2
+            },
+            {
+              "rank": 2,
+              "rrf_score": 0.03128054740957967,
+              "pmid": "41684123",
+              "title": "Clinical, laboratory, and radiological features of community-acquired pneumonia due to Chlamydia psittaci and Legionella pneumophila confirmed using next-generation sequencing.",
+              "year": 2026,
+              "journal": "Annals of medicine",
+              "matched_terms": [
+                "community acquired pneumonia"
+              ],
+              "has_abstract": true,
+              "bm25_rank": 6,
+              "semantic_rank": 2,
+              "relevance": 2
+            },
+            {
+              "rank": 3,
+              "rrf_score": 0.03125763125763126,
+              "pmid": "41810829",
+              "title": "Associations between patient risk factors, disease severity, and inflammatory markers in community-acquired pneumonia.",
+              "year": 2026,
+              "journal": "Journal of immunotoxicology",
+              "matched_terms": [
+                "community acquired pneumonia"
+              ],
+              "has_abstract": true,
+              "bm25_rank": 3,
+              "semantic_rank": 5,
+              "relevance": 2
+            },
+            {
+              "rank": 4,
+              "rrf_score": 0.030621785881252923,
+              "pmid": "41845564",
+              "title": "Gut microbiome in type 2 diabetes: insights from metagenomics, multi-omics, and diet-microbe interactions.",
+              "year": 2026,
+              "journal": "Gut microbes",
+              "matched_terms": [
+                "type 2 diabetes mellitus"
+              ],
+              "has_abstract": true,
+              "bm25_rank": 2,
+              "semantic_rank": 9,
+              "relevance": 0
+            },
+            {
+              "rank": 5,
+              "rrf_score": 0.03057889822595705,
+              "pmid": "41854068",
+              "title": "Correspondence to 'Blood eosinopenia (≤30/µL) as an early predictor of respiratory failure in community-acquired pneumonia: A prospective multicentre study'.",
+              "year": 2026,
+              "journal": "Pulmonology",
+              "matched_terms": [
+                "community acquired pneumonia"
+              ],
+              "has_abstract": false,
+              "bm25_rank": 8,
+              "semantic_rank": 3,
+              "relevance": 2
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "aggregate_metrics": {
+    "bm25": {
+      "mean_precision_at_5": 0.5599999999999999,
+      "mean_ndcg_at_5": 0.578461335056352
+    },
+    "semantic": {
+      "mean_precision_at_5": 0.76,
+      "mean_ndcg_at_5": 0.7737589844975317
+    },
+    "hybrid_rrf": {
+      "mean_precision_at_5": 0.68,
+      "mean_ndcg_at_5": 0.7153316445604491
+    }
+  },
+  "metric_notes": {
+    "judgment_method": "bootstrap_heuristic",
+    "relevance_scale": "0=not relevant, 1=topically relevant, 2=highly relevant",
+    "precision_at_5": "Counts results with relevance > 0 in the top 5.",
+    "ndcg_at_5": "Uses graded relevance to reward highly relevant results appearing earlier."
+  }
+}

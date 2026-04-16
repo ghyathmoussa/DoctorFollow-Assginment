@@ -1,0 +1,8 @@
+numpy>=1.26,<3.0
+requests>=2.32,<3.0
+python-dotenv>=1.0,<2.0
+rank-bm25>=0.2.2,<0.3
+sentence-transformers>=3.0,<4.0
+scikit-learn>=1.5,<2.0
+tqdm>=4.66,<5.0
+streamlit>=1.38,<2.0

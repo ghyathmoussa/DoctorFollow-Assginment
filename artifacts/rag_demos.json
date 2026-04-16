@@ -1,0 +1,169 @@
+{
+  "retrieval_method": "semantic",
+  "llm_provider": "gemini",
+  "llm_model": "gemini-2.0-flash",
+  "demos": [
+    {
+      "query": "Çocuklarda akut otitis media tedavisi nasıl yapılır?",
+      "retrieval_method": "semantic",
+      "retrieved_documents": [
+        {
+          "rank": 1,
+          "pmid": "41967279",
+          "title": "Long-term otologic and auditory sequelae in children with recurrent acute otitis media.",
+          "year": 2026,
+          "journal": "International journal of pediatric otorhinolaryngology",
+          "matched_terms": [
+            "acute otitis media"
+          ],
+          "abstract": "",
+          "has_abstract": false,
+          "score": 0.8450620770454407,
+          "score_label": "cosine_similarity"
+        },
+        {
+          "rank": 2,
+          "pmid": "41342403",
+          "title": "Optical Coherence Tomography as an Emerging Technique for Identifying Pediatric Middle Ear Effusion.",
+          "year": 2025,
+          "journal": "The Laryngoscope",
+          "matched_terms": [
+            "acute otitis media"
+          ],
+          "abstract": "OBJECTIVE: Acute otitis media (AOM) and otitis media with effusion (OME) rely on accurate characterization of middle ear effusion (MEE). Optical coherence tomography (OCT) is a potential modality for noninvasive analysis of MEE, thereby assisting with otitis media diagnosis. This study aims to compare the diagnostic performance of OCT with otoscopy and tympanometry in pediatric patients. METHODS: A prospective convenience sample of 164 pediatric patients aged 6 months to 12 years was recruited from two tertiary care pediatric otolaryngology clinics. During their visit, each child underwent otoscopy, tympanometry, and OCT evaluation. Scans were reviewed by both a fellowship-trained pediatric otolaryngologist and an individual with limited medical background. Pairwise comparisons between tests were performed to assess percent agreement, sensitivity, and specificity of OCT in the identification of MEE. RESULTS: A total of 164 pediatric patients (328 ears) were enrolled, with 32% of ears classified as having a middle ear effusion by otoscopy, 24% by tympanometry, and 18% by OCT. Across all age groups, otoscopy and tympanometry agreed 81.2% of the time, otoscopy and OCT 77.7% of the time, and tympanometry and OCT 80.5% of the time. Cohen's Kappa showed moderate agreement between clinical and non-clinical OCT raters (κ = 0.41). Analysis revealed a sensitivity of 74% and specificity of 93% for OCT, comparable to existing methods. CONCLUSION: Optical coherence tomography demonstrates promise as a valuable tool for MEE assessment in pediatric patients, with performance comparable to pneumatic otoscopy and tympanometry. These findings emphasize its potential for enhancing diagnostic accuracy and disease progression monitoring in clinical practice.",
+          "has_abstract": true,
+          "score": 0.8316444158554077,
+          "score_label": "cosine_similarity"
+        },
+        {
+          "rank": 3,
+          "pmid": "41964158",
+          "title": "Embedded AI-Assisted Otoscopic Image Screening for Pediatric Otitis Media.",
+          "year": 2026,
+          "journal": "Ear, nose, & throat journal",
+          "matched_terms": [
+            "acute otitis media"
+          ],
+          "abstract": "OBJECTIVE: To evaluate an embedded artificial intelligence (AI) system for otoscopic image-based screening and prediagnostic triage of pediatric otitis media, with an emphasis on point-of-care deployment on a microcontroller. METHODS: We retrospectively analyzed 19 522 tympanic membrane images labeled by otolaryngologists as acute otitis media, otitis media with effusion, or normal. A lightweight convolutional neural network derived from AlexNet was trained using a patient-level split. Two posttraining INT8 variants (per-channel and per-tensor quantization) were deployed on an STM32H7S78-DK board using STM32Cube.AI. We evaluated accuracy on a held-out test set (n=600) and measured activation memory, total random access memory (RAM) usage, and average inference latency on the target device. RESULTS: The full-precision model achieved 97.67% test accuracy. Per-channel INT8 preserved accuracy (97.67%). Per-tensor INT8 showed a small decrease (97.50%) but reduced activation memory by 16%, total RAM by 8%, and latency by 13%. CONCLUSION: On-device otoscopic image analysis is feasible on an STM32H7-class microcontroller and may support screening and triage workflows (eg, repeat examination, tympanometry, monitoring, or referral). The tool is not intended to provide a final diagnosis or to direct treatment decisions; clinical diagnosis and management remain clinician-led.",
+          "has_abstract": true,
+          "score": 0.8171788454055786,
+          "score_label": "cosine_similarity"
+        },
+        {
+          "rank": 4,
+          "pmid": "41090395",
+          "title": "Diagnostic accuracy of otitis media with and without a fictitious AI support among physicians in primary care and medical students.",
+          "year": 2025,
+          "journal": "Scandinavian journal of primary health care",
+          "matched_terms": [
+            "acute otitis media"
+          ],
+          "abstract": "BACKGROUND: Otitis media (OM) in children is a common infection in primary care, contributing to a significant global health and economic burden. In high-income countries, diagnostic inaccuracy leads to over-diagnosis of acute OM (AOM) and over-prescribing of antibiotics, which may contribute to antibiotic resistance. AIM: To investigate the diagnostic accuracy and the influence of artificial intelligence (AI) in diagnosing OM among primary care physicians and medical students. METHOD: A diagnostic accuracy study in which primary care physicians and medical students diagnosed AOM, OM with effusion (OME), and normal eardrums using 21 high-quality digital images, both without and with a fictitious AI support. We estimated the technological impact of the fictitious AI support. RESULTS: Overall diagnostic accuracy was 64% without, and 75% with AI support. The most experienced physicians reached 69% without, and 80% with AI; the least experienced 61% without, and 73% with AI; medical students reached 64% without, and 74% with AI. Accuracy for AOM was 77% without and 86% with AI, and for OME 46% without and 66% with AI. Mean diagnostic confidence increased significantly with AI support. The technological impact was 1.4. Automation bias was 1.2 overall, 0.9 for the most experienced and 1.2 for the least experienced physicians. CONCLUSION: We report modest diagnostic accuracy for OM among primary care physicians and medical students. The fictitious AI support system improved both accuracy and diagnostic confidence and reduced over-diagnosis. The most experienced physicians achieved the highest accuracy, the less experienced were more often misled by the fictitious AI.",
+          "has_abstract": true,
+          "score": 0.8138151168823242,
+          "score_label": "cosine_similarity"
+        },
+        {
+          "rank": 5,
+          "pmid": "41914737",
+          "title": "N6-methyladenosine modification of NEU1 mediated by METTL3 exacerbates angiotensin II-induced atrial fibrillation.",
+          "year": 2026,
+          "journal": "Cell adhesion & migration",
+          "matched_terms": [
+            "atrial fibrillation"
+          ],
+          "abstract": "Neuraminidase 1 (NEU1) regulation of atrial fibrillation (AF) progression via fibrosis remains unknown. Mice receiving AAV9-mediated NEU1 knockdown were infused with Ang II and subjected to programmed electrical stimulation to induce AF. Left atrial dilation and fibrosis were evaluated by echocardiography, histology, and fibrosis markers. Primary mouse atrial fibroblasts treated with Ang II were assessed for proliferation and migration by EdU staining and Transwell. The N6-methyladenosine (m6A) modification of NEU1 by methyltransferase-like 3 (METTL3) was confirmed through m6A quantification, RNA immunoprecipitation, MeRIP-qPCR and actinomycin D experiments. NEU1 knockdown attenuated atrial dilation, fibrosis, and AF susceptibility. Mechanistically, METTL3 stabilized NEU1 via m6A modification, promoting Ang II‑induced atrial fibroblast activation. Thus, NEU1, stabilized by METTL3 via m6A, exacerbates Ang II‑induced AF susceptibility.",
+          "has_abstract": true,
+          "score": 0.7889631390571594,
+          "score_label": "cosine_similarity"
+        }
+      ],
+      "system_prompt": "You are a medical literature QA assistant for Turkish-speaking doctors.\nAnswer only from the provided context.\nDo not use outside knowledge.\nIf the context is insufficient, say so clearly.\nCite every substantive claim using either PMID or article title from the provided sources.\nKeep the answer concise, clinically oriented, and faithful to the retrieved evidence.",
+      "user_prompt": "User query: Çocuklarda akut otitis media tedavisi nasıl yapılır?\n\nUse the following retrieved medical literature context and answer in the same language as the user query when reasonable.\n\nSource 1\nPMID: 41967279\nTitle: Long-term otologic and auditory sequelae in children with recurrent acute otitis media.\nYear: 2026\nJournal: International journal of pediatric otorhinolaryngology\nMatched Terms: acute otitis media\nAbstract: No abstract available.\n\nSource 2\nPMID: 41342403\nTitle: Optical Coherence Tomography as an Emerging Technique for Identifying Pediatric Middle Ear Effusion.\nYear: 2025\nJournal: The Laryngoscope\nMatched Terms: acute otitis media\nAbstract: OBJECTIVE: Acute otitis media (AOM) and otitis media with effusion (OME) rely on accurate characterization of middle ear effusion (MEE). Optical coherence tomography (OCT) is a potential modality for noninvasive analysis of MEE, thereby assisting with otitis media diagnosis. This study aims to compare the diagnostic performance of OCT with otoscopy and tympanometry in pediatric patients. METHODS: A prospective convenience sample of 164 pediatric patients aged 6 months to 12 years was recruited from two tertiary care pediatric otolaryngology clinics. During their visit, each child underwent otoscopy, tympanometry, and OCT evaluation. Scans were reviewed by both a fellowship-trained pediatric otolaryngologist and an individual with limited medical background. Pairwise comparisons between tests were performed to assess percent agreement, sensitivity, and specificity of OCT in the identification of MEE. RESULTS: A total of 164 pediatric patients (328 ears) were enrolled, with 32% of ears classified as having a middle ear effusion by otoscopy, 24% by tympanometry, and 18% by OCT. Across all age groups, otoscopy and tympanometry agreed 81.2% of the time, otoscopy and OCT 77.7% of the time, and tympanometry and OCT 80.5% of the time. Cohen's Kappa showed moderate agreement between clinical and non-clinical OCT raters (κ = 0.41). Analysis revealed a sensitivity of 74% and specificity of 93% for OCT, comparable to existing methods. CONCLUSION: Optical coherence tomography demonstrates promise as a valuable tool for MEE assessment in pediatric patients, with performance comparable to pneumatic otoscopy and tympanometry. These findings emphasize its potential for enhancing diagnostic accuracy and disease progression monitoring in clinical practice.\n\nSource 3\nPMID: 41964158\nTitle: Embedded AI-Assisted Otoscopic Image Screening for Pediatric Otitis Media.\nYear: 2026\nJournal: Ear, nose, & throat journal\nMatched Terms: acute otitis media\nAbstract: OBJECTIVE: To evaluate an embedded artificial intelligence (AI) system for otoscopic image-based screening and prediagnostic triage of pediatric otitis media, with an emphasis on point-of-care deployment on a microcontroller. METHODS: We retrospectively analyzed 19 522 tympanic membrane images labeled by otolaryngologists as acute otitis media, otitis media with effusion, or normal. A lightweight convolutional neural network derived from AlexNet was trained using a patient-level split. Two posttraining INT8 variants (per-channel and per-tensor quantization) were deployed on an STM32H7S78-DK board using STM32Cube.AI. We evaluated accuracy on a held-out test set (n=600) and measured activation memory, total random access memory (RAM) usage, and average inference latency on the target device. RESULTS: The full-precision model achieved 97.67% test accuracy. Per-channel INT8 preserved accuracy (97.67%). Per-tensor INT8 showed a small decrease (97.50%) but reduced activation memory by 16%, total RAM by 8%, and latency by 13%. CONCLUSION: On-device otoscopic image analysis is feasible on an STM32H7-class microcontroller and may support screening and triage workflows (eg, repeat examination, tympanometry, monitoring, or referral). The tool is not intended to provide a final diagnosis or to direct treatment decisions; clinical diagnosis and management remain clinician-led.\n\nSource 4\nPMID: 41090395\nTitle: Diagnostic accuracy of otitis media with and without a fictitious AI support among physicians in primary care and medical students.\nYear: 2025\nJournal: Scandinavian journal of primary health care\nMatched Terms: acute otitis media\nAbstract: BACKGROUND: Otitis media (OM) in children is a common infection in primary care, contributing to a significant global health and economic burden. In high-income countries, diagnostic inaccuracy leads to over-diagnosis of acute OM (AOM) and over-prescribing of antibiotics, which may contribute to antibiotic resistance. AIM: To investigate the diagnostic accuracy and the influence of artificial intelligence (AI) in diagnosing OM among primary care physicians and medical students. METHOD: A diagnostic accuracy study in which primary care physicians and medical students diagnosed AOM, OM with effusion (OME), and normal eardrums using 21 high-quality digital images, both without and with a fictitious AI support. We estimated the technological impact of the fictitious AI support. RESULTS: Overall diagnostic accuracy was 64% without, and 75% with AI support. The most experienced physicians reached 69% without, and 80% with AI; the least experienced 61% without, and 73% with AI; medical students reached 64% without, and 74% with AI. Accuracy for AOM was 77% without and 86% with AI, and for OME 46% without and 66% with AI. Mean diagnostic confidence increased significantly with AI support. The technological impact was 1.4. Automation bias was 1.2 overall, 0.9 for the most experienced and 1.2 for the least experienced physicians. CONCLUSION: We report modest diagnostic accuracy for OM among primary care physicians and medical students. The fictitious AI support system improved both accuracy and diagnostic confidence and reduced over-diagnosis. The most experienced physicians achieved the highest accuracy, the less experienced were more often misled by the fictitious AI.\n\nSource 5\nPMID: 41914737\nTitle: N6-methyladenosine modification of NEU1 mediated by METTL3 exacerbates angiotensin II-induced atrial fibrillation.\nYear: 2026\nJournal: Cell adhesion & migration\nMatched Terms: atrial fibrillation\nAbstract: Neuraminidase 1 (NEU1) regulation of atrial fibrillation (AF) progression via fibrosis remains unknown. Mice receiving AAV9-mediated NEU1 knockdown were infused with Ang II and subjected to programmed electrical stimulation to induce AF. Left atrial dilation and fibrosis were evaluated by echocardiography, histology, and fibrosis markers. Primary mouse atrial fibroblasts treated with Ang II were assessed for proliferation and migration by EdU staining and Transwell. The N6-methyladenosine (m6A) modification of NEU1 by methyltransferase-like 3 (METTL3) was confirmed through m6A quantification, RNA immunoprecipitation, MeRIP-qPCR and actinomycin D experiments. NEU1 knockdown attenuated atrial dilation, fibrosis, and AF susceptibility. Mechanistically, METTL3 stabilized NEU1 via m6A modification, promoting Ang II‑induced atrial fibroblast activation. Thus, NEU1, stabilized by METTL3 via m6A, exacerbates Ang II‑induced AF susceptibility.\n\nAnswer with short clinically useful bullets or a compact paragraph. Cite each key point with PMID or title.",
+      "answer": null,
+      "status": "failed",
+      "error": "429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyDKJB6IXUDhhUmz25_5OGAeP4Tgdk_GWQE"
+    },
+    {
+      "query": "Antibiotic resistance patterns in community acquired pneumonia",
+      "retrieval_method": "semantic",
+      "retrieved_documents": [
+        {
+          "rank": 1,
+          "pmid": "41719027",
+          "title": "External validation of risk scores and multivariate models for the diagnosis of community-acquired pneumonia in outpatients.",
+          "year": 2026,
+          "journal": "The European journal of general practice",
+          "matched_terms": [
+            "community acquired pneumonia"
+          ],
+          "abstract": "BACKGROUND: While several risk scores for the diagnosis of community-acquired pneumonia (CAP) have been developed, they require prospective external validation. OBJECTIVES: To externally validate existing prediction models, risk scores, and heuristics for the diagnosis of CAP in adults. METHODS: The Enhancing Antibiotic Stewardship in Primary Care (EAST-PC) study recorded signs, symptoms, demographics, and vitals in 718 adults presenting to primary or urgent care clinics with acute lower respiratory tract infection between 2019 and 2023. C-reactive protein (CRP) was available for 575. The diagnosis of CAP was based on the clinician diagnosis and/or chest radiograph. Literature was searched for previous risk scores. Using the EAST-PC population, the area under the receiver operating characteristic curve (AUROCC), calibration curves, and percentage with CAP in each risk group were calculated for each risk score. RESULTS: We identified 11 studies describing 4 risk scores, 9 multivariate models, and 5 simple heuristics. The Genomics to Combat Resistance Against Antibiotics in Community-acquired LRTI in Europe (GRACE) risk score using the absence of a runny nose, the presence of breathlessness, crackles, diminished vesicular breathing, heart rate > 100/min, temperature >37.8 °C, and CRP > 30 mg/L was the most accurate (AUROCC 0.81). It classified 280 patients as low (0.7% CAP), 265 as moderate (5.7%) and 30 as high risk (33.3%) for CAP. The GRACE score without CRP performed similarly. Other risk scores had poor calibration or failed to accurately classify patients as low or high risk. CONCLUSIONS: The previously derived GRACE risk scores were successfully externally validated in a contemporary US outpatient population.",
+          "has_abstract": true,
+          "score": 0.8778408765792847,
+          "score_label": "cosine_similarity"
+        },
+        {
+          "rank": 2,
+          "pmid": "41684123",
+          "title": "Clinical, laboratory, and radiological features of community-acquired pneumonia due to Chlamydia psittaci and Legionella pneumophila confirmed using next-generation sequencing.",
+          "year": 2026,
+          "journal": "Annals of medicine",
+          "matched_terms": [
+            "community acquired pneumonia"
+          ],
+          "abstract": "BACKGROUND AND OBJECTIVE: Chlamydia psittaci and Legionella pneumophila are common atypical pathogens that cause severe community-acquired pneumonia (CAP). This study aimed to compare the clinical features and outcomes of Chlamydia psittaci pneumonia (CPP) and Legionella pneumophila pneumonia (LPP) identified using next-generation sequencing (NGS) for accurate identification. METHODS: This retrospective study included 68 patients with CPP and 42 patients with LPP. All cases were confirmed by metagenomic or targeted next-generation sequencing (mNGS/tNGS) of bronchoalveolar lavage fluid, serum, or sputum samples. RESULTS: Patients with LPP had a higher prevalence of diabetes and were predominantly male. Poultry contact was common in CPP (64.7% vs. 14.3%), whereas recent travel was associated with LPP (47.6% vs. 2.9%). LPP presented with increased extrapulmonary symptoms. Inflammatory marker levels were higher in LPP, including leukocytosis, neutrophilia, C-reactive protein, and procalcitonin (all p < 0.05). Organ dysfunction was more frequent in LPP, with higher creatinine levels. Patients with LPP had more severe hypoxemia, required more respiratory support, and had higher intensive care admission rates. Targeted therapy guided by NGS was effective, with no significant differences in mortality or hospital stay between the two groups. CONCLUSION: LPP demonstrated greater initial clinical and laboratory severity compared to CPP. Under NGS-guided targeted therapy, both groups achieved comparable outcomes. The observational finding that both pathogens respond to azithromycin and cause severe disease when left undetected underscore the value of guideline-recommended β-lactams/macrolide combination therapy in CAP settings, particularly where these intracellular pathogens remain undiagnosed without NGS.",
+          "has_abstract": true,
+          "score": 0.8676127195358276,
+          "score_label": "cosine_similarity"
+        },
+        {
+          "rank": 3,
+          "pmid": "41854068",
+          "title": "Correspondence to 'Blood eosinopenia (≤30/µL) as an early predictor of respiratory failure in community-acquired pneumonia: A prospective multicentre study'.",
+          "year": 2026,
+          "journal": "Pulmonology",
+          "matched_terms": [
+            "community acquired pneumonia"
+          ],
+          "abstract": "",
+          "has_abstract": false,
+          "score": 0.8623017072677612,
+          "score_label": "cosine_similarity"
+        },
+        {
+          "rank": 4,
+          "pmid": "41906803",
+          "title": "Comment on 'Evolution of hospitalizations of adults for community-acquired pneumonia in Portugal and the impact of pediatric pneumococcal vaccination'.",
+          "year": 2026,
+          "journal": "Pulmonology",
+          "matched_terms": [
+            "community acquired pneumonia"
+          ],
+          "abstract": "",
+          "has_abstract": false,
+          "score": 0.8577931523323059,
+          "score_label": "cosine_similarity"
+        },
+        {
+          "rank": 5,
+          "pmid": "41810829",
+          "title": "Associations between patient risk factors, disease severity, and inflammatory markers in community-acquired pneumonia.",
+          "year": 2026,
+          "journal": "Journal of immunotoxicology",
+          "matched_terms": [
+            "community acquired pneumonia"
+          ],
+          "abstract": "Community-acquired pneumonia (CAP) remains a major cause of morbidity and mortality, particularly in older adults and patients with chronic co-morbidities. Cytokine patterns and simple hematological indices may improve risk stratification beyond conventional clinical scores. In this prospective single-center study, 41 adults with CAP treated at Kaunas Hospital of Lithuanian University of Health Sciences between November 2024 and March 2025 were enrolled. Clinical data, pneumonia severity index (PSI), complete blood count-derived indices (neutrophil-lymphocyte ratio [NLR], platelet-lymphocyte ratio [PLR], systemic immune-inflammation index [SII]), and serum concentrations of interleukin (IL)-6, IL-8, interferon (IFN)-γ, and G-CSF were obtained on admission (Visit 1) and after 7 days of treatment (Visit 2). Patients were stratified by age (≤65 vs >65 years), co-morbidities, and PSI class. Non-parametric tests and Spearman correlations were applied. The results indicate that patients with co-morbidities and those > 65 years had significantly higher IL-6 levels than younger and non-comorbid patients. IL-6, IFNγ, and G-CSF concentrations were highest at admission and declined by day 7, particularly in PSI Class II patients. Higher PSI classes were associated with increased IL-8, IL-6, and IFNγ. NLR and SII were significantly higher in older patients and in PSI III-IV compared with PSI I-II. IL-6 and G-CSF showed strong positive correlations with NLR and SII, especially in elderly and comorbid patients, whereas PLR displayed weaker and less consistent associations. From these data, it is concluded that in CAP, serum IL-6, IFNγ, and G-CSF reflect age, co-morbidity burden, and disease severity, while NLR and SII closely mirror cytokine-driven systemic inflammation. These readily available indices may serve as cost-effective prognostic markers and, combined with cytokine profiling, could enhance early risk stratification and guide individualized management in CAP.",
+          "has_abstract": true,
+          "score": 0.8508232831954956,
+          "score_label": "cosine_similarity"
+        }
+      ],
+      "system_prompt": "You are a medical literature QA assistant for Turkish-speaking doctors.\nAnswer only from the provided context.\nDo not use outside knowledge.\nIf the context is insufficient, say so clearly.\nCite every substantive claim using either PMID or article title from the provided sources.\nKeep the answer concise, clinically oriented, and faithful to the retrieved evidence.",
+      "user_prompt": "User query: Antibiotic resistance patterns in community acquired pneumonia\n\nUse the following retrieved medical literature context and answer in the same language as the user query when reasonable.\n\nSource 1\nPMID: 41719027\nTitle: External validation of risk scores and multivariate models for the diagnosis of community-acquired pneumonia in outpatients.\nYear: 2026\nJournal: The European journal of general practice\nMatched Terms: community acquired pneumonia\nAbstract: BACKGROUND: While several risk scores for the diagnosis of community-acquired pneumonia (CAP) have been developed, they require prospective external validation. OBJECTIVES: To externally validate existing prediction models, risk scores, and heuristics for the diagnosis of CAP in adults. METHODS: The Enhancing Antibiotic Stewardship in Primary Care (EAST-PC) study recorded signs, symptoms, demographics, and vitals in 718 adults presenting to primary or urgent care clinics with acute lower respiratory tract infection between 2019 and 2023. C-reactive protein (CRP) was available for 575. The diagnosis of CAP was based on the clinician diagnosis and/or chest radiograph. Literature was searched for previous risk scores. Using the EAST-PC population, the area under the receiver operating characteristic curve (AUROCC), calibration curves, and percentage with CAP in each risk group were calculated for each risk score. RESULTS: We identified 11 studies describing 4 risk scores, 9 multivariate models, and 5 simple heuristics. The Genomics to Combat Resistance Against Antibiotics in Community-acquired LRTI in Europe (GRACE) risk score using the absence of a runny nose, the presence of breathlessness, crackles, diminished vesicular breathing, heart rate > 100/min, temperature >37.8 °C, and CRP > 30 mg/L was the most accurate (AUROCC 0.81). It classified 280 patients as low (0.7% CAP), 265 as moderate (5.7%) and 30 as high risk (33.3%) for CAP. The GRACE score without CRP performed similarly. Other risk scores had poor calibration or failed to accurately classify patients as low or high risk. CONCLUSIONS: The previously derived GRACE risk scores were successfully externally validated in a contemporary US outpatient population.\n\nSource 2\nPMID: 41684123\nTitle: Clinical, laboratory, and radiological features of community-acquired pneumonia due to Chlamydia psittaci and Legionella pneumophila confirmed using next-generation sequencing.\nYear: 2026\nJournal: Annals of medicine\nMatched Terms: community acquired pneumonia\nAbstract: BACKGROUND AND OBJECTIVE: Chlamydia psittaci and Legionella pneumophila are common atypical pathogens that cause severe community-acquired pneumonia (CAP). This study aimed to compare the clinical features and outcomes of Chlamydia psittaci pneumonia (CPP) and Legionella pneumophila pneumonia (LPP) identified using next-generation sequencing (NGS) for accurate identification. METHODS: This retrospective study included 68 patients with CPP and 42 patients with LPP. All cases were confirmed by metagenomic or targeted next-generation sequencing (mNGS/tNGS) of bronchoalveolar lavage fluid, serum, or sputum samples. RESULTS: Patients with LPP had a higher prevalence of diabetes and were predominantly male. Poultry contact was common in CPP (64.7% vs. 14.3%), whereas recent travel was associated with LPP (47.6% vs. 2.9%). LPP presented with increased extrapulmonary symptoms. Inflammatory marker levels were higher in LPP, including leukocytosis, neutrophilia, C-reactive protein, and procalcitonin (all p < 0.05). Organ dysfunction was more frequent in LPP, with higher creatinine levels. Patients with LPP had more severe hypoxemia, required more respiratory support, and had higher intensive care admission rates. Targeted therapy guided by NGS was effective, with no significant differences in mortality or hospital stay between the two groups. CONCLUSION: LPP demonstrated greater initial clinical and laboratory severity compared to CPP. Under NGS-guided targeted therapy, both groups achieved comparable outcomes. The observational finding that both pathogens respond to azithromycin and cause severe disease when left undetected underscore the value of guideline-recommended β-lactams/macrolide combination therapy in CAP settings, particularly where these intracellular pathogens remain undiagnosed without NGS.\n\nSource 3\nPMID: 41854068\nTitle: Correspondence to 'Blood eosinopenia (≤30/µL) as an early predictor of respiratory failure in community-acquired pneumonia: A prospective multicentre study'.\nYear: 2026\nJournal: Pulmonology\nMatched Terms: community acquired pneumonia\nAbstract: No abstract available.\n\nSource 4\nPMID: 41906803\nTitle: Comment on 'Evolution of hospitalizations of adults for community-acquired pneumonia in Portugal and the impact of pediatric pneumococcal vaccination'.\nYear: 2026\nJournal: Pulmonology\nMatched Terms: community acquired pneumonia\nAbstract: No abstract available.\n\nSource 5\nPMID: 41810829\nTitle: Associations between patient risk factors, disease severity, and inflammatory markers in community-acquired pneumonia.\nYear: 2026\nJournal: Journal of immunotoxicology\nMatched Terms: community acquired pneumonia\nAbstract: Community-acquired pneumonia (CAP) remains a major cause of morbidity and mortality, particularly in older adults and patients with chronic co-morbidities. Cytokine patterns and simple hematological indices may improve risk stratification beyond conventional clinical scores. In this prospective single-center study, 41 adults with CAP treated at Kaunas Hospital of Lithuanian University of Health Sciences between November 2024 and March 2025 were enrolled. Clinical data, pneumonia severity index (PSI), complete blood count-derived indices (neutrophil-lymphocyte ratio [NLR], platelet-lymphocyte ratio [PLR], systemic immune-inflammation index [SII]), and serum concentrations of interleukin (IL)-6, IL-8, interferon (IFN)-γ, and G-CSF were obtained on admission (Visit 1) and after 7 days of treatment (Visit 2). Patients were stratified by age (≤65 vs >65 years), co-morbidities, and PSI class. Non-parametric tests and Spearman correlations were applied. The results indicate that patients with co-morbidities and those > 65 years had significantly higher IL-6 levels than younger and non-comorbid patients. IL-6, IFNγ, and G-CSF concentrations were highest at admission and declined by day 7, particularly in PSI Class II patients. Higher PSI classes were associated with increased IL-8, IL-6, and IFNγ. NLR and SII were significantly higher in older patients and in PSI III-IV compared with PSI I-II. IL-6 and G-CSF showed strong positive correlations with NLR and SII, especially in elderly and comorbid patients, whereas PLR displayed weaker and less consistent associations. From these data, it is concluded that in CAP, serum IL-6, IFNγ, and G-CSF reflect age, co-morbidity burden, and disease severity, while NLR and SII closely mirror cytokine-driven systemic inflammation. These readily available indices may serve as cost-effective prognostic markers and, combined with cytokine profiling, could enhance early risk stratification and guide individualized management in CAP.\n\nAnswer with short clinically useful bullets or a compact paragraph. Cite each key point with PMID or title.",
+      "answer": null,
+      "status": "failed",
+      "error": "429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyDKJB6IXUDhhUmz25_5OGAeP4Tgdk_GWQE"
+    }
+  ]
+}
