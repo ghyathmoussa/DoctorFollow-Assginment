@@ -11,7 +11,7 @@ from typing import Any
 import requests
 
 from src.config import settings
-from src.evaluation.run_eval import EVALUATION_QUERIES
+from src.evaluation.run_eval import EVALUATION_QUERIES, run_evaluation
 from src.retrieval.bm25_retriever import BM25Retriever
 from src.retrieval.corpus import RetrievalDocument, load_retrieval_documents, normalize_text
 from src.retrieval.hybrid_rrf import HybridRRFRetriever
@@ -89,16 +89,48 @@ def choose_best_method(evaluation_path: Path | None = None) -> str:
     return ranked[0][0]
 
 
+def choose_best_method_from_metrics(metrics: dict[str, Any]) -> str:
+    if not metrics:
+        return "semantic"
+
+    ranked = sorted(
+        metrics.items(),
+        key=lambda item: (
+            item[1].get("mean_ndcg_at_5", 0.0),
+            item[1].get("mean_precision_at_5", 0.0),
+        ),
+        reverse=True,
+    )
+    return ranked[0][0]
+
+
+def choose_best_method_for_setting(
+    documents: list[RetrievalDocument],
+    *,
+    top_k: int,
+    enable_query_translation: bool,
+) -> str:
+    evaluation_payload = run_evaluation(
+        documents,
+        top_k=top_k,
+        candidate_pool=max(top_k * 3, 10),
+        enable_query_translation=enable_query_translation,
+    )
+    return choose_best_method_from_metrics(evaluation_payload.get("aggregate_metrics", {}))
+
+
 def retrieve_context(
     query: str,
     documents: list[RetrievalDocument],
     method_name: str,
     top_k: int,
+    *,
+    enable_query_translation: bool = True,
 ) -> list[RetrievedContext]:
     document_by_pmid = {document.pmid: document for document in documents}
 
     if method_name == "bm25":
-        retriever = BM25Retriever(documents)
+        retriever = BM25Retriever(documents, enable_query_translation=enable_query_translation)
         results = retriever.search(query, top_k=top_k)
         return [
             RetrievedContext(
@@ -117,7 +149,7 @@ def retrieve_context(
         ]
 
     if method_name == "hybrid_rrf":
-        retriever = HybridRRFRetriever(documents)
+        retriever = HybridRRFRetriever(documents, enable_query_translation=enable_query_translation)
         results = retriever.search(query, top_k=top_k)
         return [
             RetrievedContext(
@@ -135,7 +167,7 @@ def retrieve_context(
             for result in results
         ]
 
-    retriever = SemanticRetriever(documents)
+    retriever = SemanticRetriever(documents, enable_query_translation=enable_query_translation)
     results = retriever.search(query, top_k=top_k)
     return [
         RetrievedContext(
@@ -340,13 +372,21 @@ def run_rag_query(
     method_name: str,
     top_k: int,
     llm_client: LLMClient,
+    enable_query_translation: bool = True,
 ) -> dict[str, Any]:
-    contexts = retrieve_context(query, documents, method_name=method_name, top_k=top_k)
+    contexts = retrieve_context(
+        query,
+        documents,
+        method_name=method_name,
+        top_k=top_k,
+        enable_query_translation=enable_query_translation,
+    )
     user_prompt = build_user_prompt(query, contexts)
     answer = llm_client.generate(SYSTEM_PROMPT, user_prompt)
     return {
         "query": query,
         "retrieval_method": method_name,
+        "query_translation_enabled": enable_query_translation,
         "retrieved_documents": [context.to_dict() for context in contexts],
         "system_prompt": SYSTEM_PROMPT,
         "user_prompt": user_prompt,
@@ -357,6 +397,60 @@ def run_rag_query(
 
 def _default_demo_queries() -> list[str]:
     return [EVALUATION_QUERIES[1].text, EVALUATION_QUERIES[4].text]
+
+
+def _all_evaluation_queries() -> list[str]:
+    return [query.text for query in EVALUATION_QUERIES]
+
+
+def _run_demo_batch(
+    queries: list[str],
+    documents: list[RetrievalDocument],
+    *,
+    method_name: str,
+    top_k: int,
+    llm_client: LLMClient,
+    enable_query_translation: bool,
+) -> list[dict[str, Any]]:
+    demos: list[dict[str, Any]] = []
+    for query in queries:
+        contexts = retrieve_context(
+            query,
+            documents,
+            method_name=method_name,
+            top_k=top_k,
+            enable_query_translation=enable_query_translation,
+        )
+        user_prompt = build_user_prompt(query, contexts)
+        try:
+            answer = llm_client.generate(SYSTEM_PROMPT, user_prompt)
+            demos.append(
+                {
+                    "query": query,
+                    "retrieval_method": method_name,
+                    "query_translation_enabled": enable_query_translation,
+                    "retrieved_documents": [context.to_dict() for context in contexts],
+                    "system_prompt": SYSTEM_PROMPT,
+                    "user_prompt": user_prompt,
+                    "answer": answer,
+                    "status": "completed",
+                }
+            )
+        except Exception as exc:
+            demos.append(
+                {
+                    "query": query,
+                    "retrieval_method": method_name,
+                    "query_translation_enabled": enable_query_translation,
+                    "retrieved_documents": [context.to_dict() for context in contexts],
+                    "system_prompt": SYSTEM_PROMPT,
+                    "user_prompt": user_prompt,
+                    "answer": None,
+                    "status": "failed",
+                    "error": str(exc),
+                }
+            )
+    return demos
 
 
 def _parse_args() -> argparse.Namespace:
@@ -386,53 +480,111 @@ def _parse_args() -> argparse.Namespace:
         default=settings.rag_demos_path,
         help="Where to write the RAG demo JSON artifact.",
     )
+    parser.add_argument(
+        "--comparison-output",
+        type=Path,
+        default=settings.rag_comparison_path,
+        help="Where to write the before/after bonus RAG comparison artifact.",
+    )
     parser.add_argument("--top-k", type=int, default=settings.top_k, help="How many documents to retrieve.")
+    parser.add_argument(
+        "--disable-query-translation",
+        action="store_true",
+        help="Use raw queries without Turkish-to-English expansion.",
+    )
+    parser.add_argument(
+        "--compare-query-translation",
+        action="store_true",
+        help="Generate side-by-side before/after bonus RAG outputs.",
+    )
     return parser.parse_args()
 
 
 def main() -> None:
     args = _parse_args()
     documents = load_retrieval_documents(args.corpus)
-    method_name = choose_best_method() if args.method == "best" else args.method
-    queries = args.queries or _default_demo_queries()
     llm_client = LLMClient(settings.llm_provider, settings.llm_api_key, settings.llm_model)
+    query_translation_enabled = not args.disable_query_translation
 
-    demos: list[dict[str, Any]] = []
-    for query in queries:
-        contexts = retrieve_context(query, documents, method_name=method_name, top_k=args.top_k)
-        user_prompt = build_user_prompt(query, contexts)
-        try:
-            answer = llm_client.generate(SYSTEM_PROMPT, user_prompt)
-            demos.append(
-                {
-                    "query": query,
-                    "retrieval_method": method_name,
-                    "retrieved_documents": [context.to_dict() for context in contexts],
-                    "system_prompt": SYSTEM_PROMPT,
-                    "user_prompt": user_prompt,
-                    "answer": answer,
-                    "status": "completed",
-                }
-            )
-        except Exception as exc:
-            demos.append(
-                {
-                    "query": query,
-                    "retrieval_method": method_name,
-                    "retrieved_documents": [context.to_dict() for context in contexts],
-                    "system_prompt": SYSTEM_PROMPT,
-                    "user_prompt": user_prompt,
-                    "answer": None,
-                    "status": "failed",
-                    "error": str(exc),
-                }
-            )
+    if args.compare_query_translation:
+        queries = args.queries or _all_evaluation_queries()
+        before_method = (
+            choose_best_method_for_setting(documents, top_k=args.top_k, enable_query_translation=False)
+            if args.method == "best"
+            else args.method
+        )
+        after_method = (
+            choose_best_method_for_setting(documents, top_k=args.top_k, enable_query_translation=True)
+            if args.method == "best"
+            else args.method
+        )
+        comparison_payload = {
+            "comparison_type": "query_translation_before_after",
+            "llm_provider": settings.llm_provider,
+            "llm_model": settings.llm_model,
+            "llm_min_interval_seconds": settings.llm_min_interval_seconds,
+            "rag_abstract_char_limit": settings.rag_abstract_char_limit,
+            "queries": queries,
+            "before_bonus": {
+                "label": "Before Bonus",
+                "retrieval_method": before_method,
+                "query_translation_enabled": False,
+                "demos": _run_demo_batch(
+                    queries,
+                    documents,
+                    method_name=before_method,
+                    top_k=args.top_k,
+                    llm_client=llm_client,
+                    enable_query_translation=False,
+                ),
+            },
+            "after_bonus": {
+                "label": "After Bonus",
+                "retrieval_method": after_method,
+                "query_translation_enabled": True,
+                "demos": _run_demo_batch(
+                    queries,
+                    documents,
+                    method_name=after_method,
+                    top_k=args.top_k,
+                    llm_client=llm_client,
+                    enable_query_translation=True,
+                ),
+            },
+        }
+        write_json(args.comparison_output, comparison_payload)
+        print(f"Saved RAG comparison to {args.comparison_output}")
+        print(f"Queries: {len(queries)}")
+        print(f"Before bonus method: {before_method}")
+        print(f"After bonus method: {after_method}")
+        return
+
+    queries = args.queries or _default_demo_queries()
+    method_name = (
+        choose_best_method_for_setting(
+            documents,
+            top_k=args.top_k,
+            enable_query_translation=query_translation_enabled,
+        )
+        if args.method == "best"
+        else args.method
+    )
+
+    demos = _run_demo_batch(
+        queries,
+        documents,
+        method_name=method_name,
+        top_k=args.top_k,
+        llm_client=llm_client,
+        enable_query_translation=query_translation_enabled,
+    )
     payload = {
         "retrieval_method": method_name,
         "llm_provider": settings.llm_provider,
         "llm_model": settings.llm_model,
         "llm_min_interval_seconds": settings.llm_min_interval_seconds,
         "rag_abstract_char_limit": settings.rag_abstract_char_limit,
+        "query_translation_enabled": query_translation_enabled,
         "demos": demos,
     }
     write_json(args.output, payload)

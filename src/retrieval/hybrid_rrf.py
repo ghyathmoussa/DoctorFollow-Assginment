@@ -58,16 +58,23 @@ class HybridRRFRetriever:
         semantic_model_name: str | None = None,
         embeddings_path: Path | None = None,
         metadata_path: Path | None = None,
+        enable_query_translation: bool = True,
     ) -> None:
         self.documents = documents
         self.rrf_k = settings.rrf_k if rrf_k is None else rrf_k
         self.document_by_pmid = {document.pmid: document for document in documents}
-        self.bm25 = BM25Retriever(documents, k1=bm25_k1, b=bm25_b)
+        self.bm25 = BM25Retriever(
+            documents,
+            k1=bm25_k1,
+            b=bm25_b,
+            enable_query_translation=enable_query_translation,
+        )
         self.semantic = SemanticRetriever(
             documents,
             model_name=semantic_model_name,
             embeddings_path=embeddings_path,
             metadata_path=metadata_path,
+            enable_query_translation=enable_query_translation,
         )
 
     def search(self, query: str, top_k: int | None = None, candidate_pool: int | None = None) -> list[HybridRRFResult]:
@@ -156,6 +163,11 @@ def _parse_args() -> argparse.Namespace:
         default=settings.embeddings_metadata_path,
         help="Path to the embeddings metadata JSON file.",
     )
+    parser.add_argument(
+        "--disable-query-translation",
+        action="store_true",
+        help="Use the raw query without Turkish-to-English expansion.",
+    )
     return parser.parse_args()
 
 
@@ -170,6 +182,7 @@ def main() -> None:
         semantic_model_name=args.model,
         embeddings_path=args.embeddings_path,
         metadata_path=args.metadata_path,
+        enable_query_translation=not args.disable_query_translation,
     )
     results = retriever.search(args.query, top_k=args.top_k, candidate_pool=args.candidate_pool)
     for result in results:

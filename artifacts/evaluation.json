@@ -247,13 +247,13 @@
       "methods": {
         "bm25": {
           "metrics": {
-            "precision_at_5": 1.0,
-            "ndcg_at_5": 1.0
+            "precision_at_5": 0.8,
+            "ndcg_at_5": 0.8539316501572934
           },
           "results": [
             {
               "rank": 1,
-              "score": 7.784360476932381,
+              "score": 29.360134269683233,
               "pmid": "41964158",
               "title": "Embedded AI-Assisted Otoscopic Image Screening for Pediatric Otitis Media.",
               "year": 2026,
@@ -266,20 +266,7 @@
             },
             {
               "rank": 2,
-              "score": 7.348937073431451,
-              "pmid": "41967279",
-              "title": "Long-term otologic and auditory sequelae in children with recurrent acute otitis media.",
-              "year": 2026,
-              "journal": "International journal of pediatric otorhinolaryngology",
-              "matched_terms": [
-                "acute otitis media"
-              ],
-              "has_abstract": false,
-              "relevance": 2
-            },
-            {
-              "rank": 3,
-              "score": 6.61861720507676,
+              "score": 26.633425376590107,
               "pmid": "41342403",
               "title": "Optical Coherence Tomography as an Emerging Technique for Identifying Pediatric Middle Ear Effusion.",
               "year": 2025,
@@ -291,21 +278,34 @@
               "relevance": 2
             },
             {
-              "rank": 4,
-              "score": 5.554098753340146,
-              "pmid": "41090395",
-              "title": "Diagnostic accuracy of otitis media with and without a fictitious AI support among physicians in primary care and medical students.",
-              "year": 2025,
-              "journal": "Scandinavian journal of primary health care",
+              "rank": 3,
+              "score": 23.1711894567662,
+              "pmid": "41967279",
+              "title": "Long-term otologic and auditory sequelae in children with recurrent acute otitis media.",
+              "year": 2026,
+              "journal": "International journal of pediatric otorhinolaryngology",
               "matched_terms": [
                 "acute otitis media"
               ],
-              "has_abstract": true,
+              "has_abstract": false,
               "relevance": 2
             },
             {
+              "rank": 4,
+              "score": 21.268003893613535,
+              "pmid": "41934309",
+              "title": "Collaborative management model combined with inhaled corticosteroids in CPAP treatment of acute exacerbations of pediatric bronchial asthma: A retrospective cohort study.",
+              "year": 2026,
+              "journal": "Pakistan journal of pharmaceutical sciences",
+              "matched_terms": [
+                "pediatric asthma management"
+              ],
+              "has_abstract": true,
+              "relevance": 0
+            },
+            {
               "rank": 5,
-              "score": 4.474861576660731,
+              "score": 15.877836515224821,
               "pmid": "41980359",
               "title": "Biomaterials for bacterial recruitment function: A review.",
               "year": 2025,
@@ -326,7 +326,7 @@
           "results": [
             {
               "rank": 1,
-              "score": 0.8450621366500854,
+              "score": 0.8680698871612549,
               "pmid": "41967279",
               "title": "Long-term otologic and auditory sequelae in children with recurrent acute otitis media.",
               "year": 2026,
@@ -339,7 +339,7 @@
             },
             {
               "rank": 2,
-              "score": 0.8316445350646973,
+              "score": 0.849589467048645,
               "pmid": "41342403",
               "title": "Optical Coherence Tomography as an Emerging Technique for Identifying Pediatric Middle Ear Effusion.",
               "year": 2025,
@@ -352,7 +352,7 @@
             },
             {
               "rank": 3,
-              "score": 0.8171789646148682,
+              "score": 0.8366872072219849,
               "pmid": "41964158",
               "title": "Embedded AI-Assisted Otoscopic Image Screening for Pediatric Otitis Media.",
               "year": 2026,
@@ -365,7 +365,7 @@
             },
             {
               "rank": 4,
-              "score": 0.8138152360916138,
+              "score": 0.823392927646637,
               "pmid": "41090395",
               "title": "Diagnostic accuracy of otitis media with and without a fictitious AI support among physicians in primary care and medical students.",
               "year": 2025,
@@ -378,13 +378,13 @@
             },
             {
               "rank": 5,
-              "score": 0.788963258266449,
-              "pmid": "41914737",
-              "title": "N6-methyladenosine modification of NEU1 mediated by METTL3 exacerbates angiotensin II-induced atrial fibrillation.",
+              "score": 0.8183240294456482,
+              "pmid": "41934309",
+              "title": "Collaborative management model combined with inhaled corticosteroids in CPAP treatment of acute exacerbations of pediatric bronchial asthma: A retrospective cohort study.",
               "year": 2026,
-              "journal": "Cell adhesion & migration",
+              "journal": "Pakistan journal of pharmaceutical sciences",
               "matched_terms": [
-                "atrial fibrillation"
+                "pediatric asthma management"
               ],
               "has_abstract": true,
               "relevance": 0
@@ -394,12 +394,12 @@
         "hybrid_rrf": {
           "metrics": {
             "precision_at_5": 0.8,
-            "ndcg_at_5": 0.8687949224876581
+            "ndcg_at_5": 0.8539316501572934
           },
           "results": [
             {
               "rank": 1,
-              "rrf_score": 0.03252247488101534,
+              "rrf_score": 0.032266458495966696,
               "pmid": "41967279",
               "title": "Long-term otologic and auditory sequelae in children with recurrent acute otitis media.",
               "year": 2026,
@@ -408,7 +408,7 @@
                 "acute otitis media"
               ],
               "has_abstract": false,
-              "bm25_rank": 2,
+              "bm25_rank": 3,
               "semantic_rank": 1,
               "relevance": 2
             },
@@ -429,7 +429,7 @@
             },
             {
               "rank": 3,
-              "rrf_score": 0.03200204813108039,
+              "rrf_score": 0.03225806451612903,
               "pmid": "41342403",
               "title": "Optical Coherence Tomography as an Emerging Technique for Identifying Pediatric Middle Ear Effusion.",
               "year": 2025,
@@ -438,13 +438,28 @@
                 "acute otitis media"
               ],
               "has_abstract": true,
-              "bm25_rank": 3,
+              "bm25_rank": 2,
               "semantic_rank": 2,
               "relevance": 2
             },
             {
               "rank": 4,
-              "rrf_score": 0.03125,
+              "rrf_score": 0.031009615384615385,
+              "pmid": "41934309",
+              "title": "Collaborative management model combined with inhaled corticosteroids in CPAP treatment of acute exacerbations of pediatric bronchial asthma: A retrospective cohort study.",
+              "year": 2026,
+              "journal": "Pakistan journal of pharmaceutical sciences",
+              "matched_terms": [
+                "pediatric asthma management"
+              ],
+              "has_abstract": true,
+              "bm25_rank": 4,
+              "semantic_rank": 5,
+              "relevance": 0
+            },
+            {
+              "rank": 5,
+              "rrf_score": 0.030776515151515152,
               "pmid": "41090395",
               "title": "Diagnostic accuracy of otitis media with and without a fictitious AI support among physicians in primary care and medical students.",
               "year": 2025,
@@ -453,24 +468,9 @@
                 "acute otitis media"
               ],
               "has_abstract": true,
-              "bm25_rank": 4,
+              "bm25_rank": 6,
               "semantic_rank": 4,
               "relevance": 2
-            },
-            {
-              "rank": 5,
-              "rrf_score": 0.02819138376017471,
-              "pmid": "41774050",
-              "title": "Incidence of silent cerebral lesions during pulsed field ablation for paroxysmal atrial fibrillation.",
-              "year": 2026,
-              "journal": "Annals of medicine",
-              "matched_terms": [
-                "atrial fibrillation"
-              ],
-              "has_abstract": true,
-              "bm25_rank": 13,
-              "semantic_rank": 9,
-              "relevance": 0
             }
           ]
         }
@@ -723,99 +723,13 @@
       "methods": {
         "bm25": {
           "metrics": {
-            "precision_at_5": 0.0,
-            "ndcg_at_5": 0.0
+            "precision_at_5": 1.0,
+            "ndcg_at_5": 1.0
           },
           "results": [
             {
               "rank": 1,
-              "score": 0.0,
-              "pmid": "41520281",
-              "title": "Comparative insights into the gut-heart axis: cross-species and cross-population perspectives.",
-              "year": 2026,
-              "journal": "Gut microbes",
-              "matched_terms": [
-                "atrial fibrillation"
-              ],
-              "has_abstract": true,
-              "relevance": 0
-            },
-            {
-              "rank": 2,
-              "score": 0.0,
-              "pmid": "41620634",
-              "title": "Dynamic involvement of the core gut microbiome XNP_Guild1 in the evolution of gestational diabetes mellitus.",
-              "year": 2026,
-              "journal": "Gut microbes",
-              "matched_terms": [
-                "gestational diabetes"
-              ],
-              "has_abstract": true,
-              "relevance": 0
-            },
-            {
-              "rank": 3,
-              "score": 0.0,
-              "pmid": "41672571",
-              "title": "Application of Shengxuening tablets for the prevention of anemia in pregnancy: stratified efficacy analysis based on serum ferritin levels and thalassemia subgroups.",
-              "year": 2026,
-              "journal": "The journal of maternal-fetal & neonatal medicine : the official journal of the European Association of Perinatal Medicine, the Federation of Asia and Oceania Perinatal Societies, the International Society of Perinatal Obstetricians",
-              "matched_terms": [
-                "iron deficiency anemia"
-              ],
-              "has_abstract": true,
-              "relevance": 0
-            },
-            {
-              "rank": 4,
-              "score": 0.0,
-              "pmid": "41684123",
-              "title": "Clinical, laboratory, and radiological features of community-acquired pneumonia due to Chlamydia psittaci and Legionella pneumophila confirmed using next-generation sequencing.",
-              "year": 2026,
-              "journal": "Annals of medicine",
-              "matched_terms": [
-                "community acquired pneumonia"
-              ],
-              "has_abstract": true,
-              "relevance": 0
-            },
-            {
-              "rank": 5,
-              "score": 0.0,
-              "pmid": "41693486",
-              "title": "SII serves as an independent diagnostic indicator for GDM and is regulated by placental 5-HT/NF-κB signaling.",
-              "year": 2026,
-              "journal": "Hypertension in pregnancy",
-              "matched_terms": [
-                "gestational diabetes"
-              ],
-              "has_abstract": true,
-              "relevance": 0
-            }
-          ]
-        },
-        "semantic": {
-          "metrics": {
-            "precision_at_5": 0.6,
-            "ndcg_at_5": 0.7227265726449517
-          },
-          "results": [
-            {
-              "rank": 1,
-              "score": 0.8006018400192261,
-              "pmid": "41665666",
-              "title": "Feasibility and performance of minimal-volume capillary blood screening for type 1 diabetes and coeliac disease autoantibodies across all age groups: the UNISCREEN population study.",
-              "year": 2025,
-              "journal": "Diabetologia",
-              "matched_terms": [
-                "celiac disease diagnosis"
-              ],
-              "has_abstract": true,
-              "relevance": 2
-            },
-            {
-              "rank": 2,
-              "score": 0.7984126806259155,
+              "score": 22.363877140636074,
               "pmid": "41782401",
               "title": "Immune-related enteropathy.",
               "year": 2026,
@@ -827,8 +741,94 @@
               "relevance": 2
             },
             {
+              "rank": 2,
+              "score": 19.43009213868792,
+              "pmid": "41714845",
+              "title": "The shared mechanisms and potential diagnostic markers for IgA nephropathy and celiac disease.",
+              "year": 2026,
+              "journal": "Autoimmunity",
+              "matched_terms": [
+                "celiac disease diagnosis"
+              ],
+              "has_abstract": true,
+              "relevance": 2
+            },
+            {
               "rank": 3,
-              "score": 0.7955445051193237,
+              "score": 12.813513339715982,
+              "pmid": "41665666",
+              "title": "Feasibility and performance of minimal-volume capillary blood screening for type 1 diabetes and coeliac disease autoantibodies across all age groups: the UNISCREEN population study.",
+              "year": 2025,
+              "journal": "Diabetologia",
+              "matched_terms": [
+                "celiac disease diagnosis"
+              ],
+              "has_abstract": true,
+              "relevance": 2
+            },
+            {
+              "rank": 4,
+              "score": 12.490704304901046,
+              "pmid": "41808736",
+              "title": "Disseminated Mycobacterium haemophilum causing granulomatous mastitis.",
+              "year": 2026,
+              "journal": "Journal of clinical tuberculosis and other mycobacterial diseases",
+              "matched_terms": [
+                "celiac disease diagnosis"
+              ],
+              "has_abstract": true,
+              "relevance": 2
+            },
+            {
+              "rank": 5,
+              "score": 12.454171142560252,
+              "pmid": "41782402",
+              "title": "Are we missing early pancreatic dysfunction? Expanding faecal elastase testing beyond pancreatic disease.",
+              "year": 2026,
+              "journal": "Current opinion in gastroenterology",
+              "matched_terms": [
+                "celiac disease diagnosis"
+              ],
+              "has_abstract": true,
+              "relevance": 2
+            }
+          ]
+        },
+        "semantic": {
+          "metrics": {
+            "precision_at_5": 0.6,
+            "ndcg_at_5": 0.7227265726449517
+          },
+          "results": [
+            {
+              "rank": 1,
+              "score": 0.8462035655975342,
+              "pmid": "41782401",
+              "title": "Immune-related enteropathy.",
+              "year": 2026,
+              "journal": "Current opinion in gastroenterology",
+              "matched_terms": [
+                "celiac disease diagnosis"
+              ],
+              "has_abstract": true,
+              "relevance": 2
+            },
+            {
+              "rank": 2,
+              "score": 0.8413937091827393,
+              "pmid": "41665666",
+              "title": "Feasibility and performance of minimal-volume capillary blood screening for type 1 diabetes and coeliac disease autoantibodies across all age groups: the UNISCREEN population study.",
+              "year": 2025,
+              "journal": "Diabetologia",
+              "matched_terms": [
+                "celiac disease diagnosis"
+              ],
+              "has_abstract": true,
+              "relevance": 2
+            },
+            {
+              "rank": 3,
+              "score": 0.83745938539505,
               "pmid": "41714845",
               "title": "The shared mechanisms and potential diagnostic markers for IgA nephropathy and celiac disease.",
               "year": 2026,
@@ -841,7 +841,7 @@
             },
             {
               "rank": 4,
-              "score": 0.7843078970909119,
+              "score": 0.8238257765769958,
               "pmid": "41944044",
               "title": "Plasma proteomic signatures linking preserved ratio impaired spirometry to cardiometabolic diseases and multimorbidity: A longitudinal cohort study.",
               "year": 2026,
@@ -854,13 +854,13 @@
             },
             {
               "rank": 5,
-              "score": 0.7834371328353882,
-              "pmid": "41945665",
-              "title": "M6A-dependent regulation of microRNAs from CKD stage 5 patients: insights from epigenetic modification analysis.",
-              "year": 2026,
-              "journal": "Epigenetics",
+              "score": 0.8221144676208496,
+              "pmid": "41454671",
+              "title": "Neutrophil/albumin ratio positively associates with type 2 diabetes mellitus risk in women with prior gestational diabetes mellitus: moderation by body mass index.",
+              "year": 2025,
+              "journal": "Gynecological endocrinology : the official journal of the International Society of Gynecological Endocrinology",
               "matched_terms": [
-                "chronic kidney disease"
+                "gestational diabetes"
               ],
               "has_abstract": true,
               "relevance": 0
@@ -869,28 +869,13 @@
         },
         "hybrid_rrf": {
           "metrics": {
-            "precision_at_5": 0.4,
-            "ndcg_at_5": 0.5531464700081437
+            "precision_at_5": 0.8,
+            "ndcg_at_5": 0.8687949224876581
           },
           "results": [
             {
               "rank": 1,
-              "rrf_score": 0.031024531024531024,
-              "pmid": "41714845",
-              "title": "The shared mechanisms and potential diagnostic markers for IgA nephropathy and celiac disease.",
-              "year": 2026,
-              "journal": "Autoimmunity",
-              "matched_terms": [
-                "celiac disease diagnosis"
-              ],
-              "has_abstract": true,
-              "bm25_rank": 6,
-              "semantic_rank": 3,
-              "relevance": 2
-            },
-            {
-              "rank": 2,
-              "rrf_score": 0.030621785881252923,
+              "rrf_score": 0.03278688524590164,
               "pmid": "41782401",
               "title": "Immune-related enteropathy.",
               "year": 2026,
@@ -899,28 +884,58 @@
                 "celiac disease diagnosis"
               ],
               "has_abstract": true,
-              "bm25_rank": 9,
+              "bm25_rank": 1,
+              "semantic_rank": 1,
+              "relevance": 2
+            },
+            {
+              "rank": 2,
+              "rrf_score": 0.03200204813108039,
+              "pmid": "41665666",
+              "title": "Feasibility and performance of minimal-volume capillary blood screening for type 1 diabetes and coeliac disease autoantibodies across all age groups: the UNISCREEN population study.",
+              "year": 2025,
+              "journal": "Diabetologia",
+              "matched_terms": [
+                "celiac disease diagnosis"
+              ],
+              "has_abstract": true,
+              "bm25_rank": 3,
               "semantic_rank": 2,
               "relevance": 2
             },
             {
               "rank": 3,
-              "rrf_score": 0.03047794966520434,
-              "pmid": "41520281",
-              "title": "Comparative insights into the gut-heart axis: cross-species and cross-population perspectives.",
+              "rrf_score": 0.03200204813108039,
+              "pmid": "41714845",
+              "title": "The shared mechanisms and potential diagnostic markers for IgA nephropathy and celiac disease.",
               "year": 2026,
-              "journal": "Gut microbes",
+              "journal": "Autoimmunity",
               "matched_terms": [
-                "atrial fibrillation"
+                "celiac disease diagnosis"
               ],
               "has_abstract": true,
-              "bm25_rank": 1,
-              "semantic_rank": 11,
-              "relevance": 0
+              "bm25_rank": 2,
+              "semantic_rank": 3,
+              "relevance": 2
             },
             {
               "rank": 4,
               "rrf_score": 0.030309988518943745,
+              "pmid": "41782402",
+              "title": "Are we missing early pancreatic dysfunction? Expanding faecal elastase testing beyond pancreatic disease.",
+              "year": 2026,
+              "journal": "Current opinion in gastroenterology",
+              "matched_terms": [
+                "celiac disease diagnosis"
+              ],
+              "has_abstract": true,
+              "bm25_rank": 5,
+              "semantic_rank": 7,
+              "relevance": 2
+            },
+            {
+              "rank": 5,
+              "rrf_score": 0.030303030303030304,
               "pmid": "41693486",
               "title": "SII serves as an independent diagnostic indicator for GDM and is regulated by placental 5-HT/NF-κB signaling.",
               "year": 2026,
@@ -929,23 +944,8 @@
                 "gestational diabetes"
               ],
               "has_abstract": true,
-              "bm25_rank": 5,
-              "semantic_rank": 7,
-              "relevance": 0
-            },
-            {
-              "rank": 5,
-              "rrf_score": 0.030017921146953404,
-              "pmid": "41620634",
-              "title": "Dynamic involvement of the core gut microbiome XNP_Guild1 in the evolution of gestational diabetes mellitus.",
-              "year": 2026,
-              "journal": "Gut microbes",
-              "matched_terms": [
-                "gestational diabetes"
-              ],
-              "has_abstract": true,
-              "bm25_rank": 2,
-              "semantic_rank": 12,
+              "bm25_rank": 6,
+              "semantic_rank": 6,
               "relevance": 0
             }
           ]
@@ -1193,16 +1193,16 @@
   ],
   "aggregate_metrics": {
     "bm25": {
-      "mean_precision_at_5": 0.5599999999999999,
-      "mean_ndcg_at_5": 0.578461335056352
+      "mean_precision_at_5": 0.72,
+      "mean_ndcg_at_5": 0.7492476650878107
     },
     "semantic": {
       "mean_precision_at_5": 0.76,
       "mean_ndcg_at_5": 0.7737589844975317
     },
     "hybrid_rrf": {
-      "mean_precision_at_5": 0.68,
-      "mean_ndcg_at_5": 0.7153316445604491
+      "mean_precision_at_5": 0.76,
+      "mean_ndcg_at_5": 0.775488680590279
     }
   },
   "metric_notes": {
@@ -1210,5 +1210,8 @@
     "relevance_scale": "0=not relevant, 1=topically relevant, 2=highly relevant",
     "precision_at_5": "Counts results with relevance > 0 in the top 5.",
     "ndcg_at_5": "Uses graded relevance to reward highly relevant results appearing earlier."
+  },
+  "retrieval_config": {
+    "query_translation_enabled": true
   }
 }

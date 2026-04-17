@@ -108,10 +108,11 @@ def run_evaluation(
     *,
     top_k: int = 5,
     candidate_pool: int = 10,
+    enable_query_translation: bool = True,
 ) -> dict[str, Any]:
-    bm25 = BM25Retriever(documents)
-    semantic = SemanticRetriever(documents)
-    hybrid = HybridRRFRetriever(documents)
+    bm25 = BM25Retriever(documents, enable_query_translation=enable_query_translation)
+    semantic = SemanticRetriever(documents, enable_query_translation=enable_query_translation)
+    hybrid = HybridRRFRetriever(documents, enable_query_translation=enable_query_translation)
     document_by_pmid = {document.pmid: document for document in documents}
 
     methods = {
@@ -128,6 +129,9 @@ def run_evaluation(
             "relevance_scale": "0=not relevant, 1=topically relevant, 2=highly relevant",
             "precision_at_5": "Counts results with relevance > 0 in the top 5.",
             "ndcg_at_5": "Uses graded relevance to reward highly relevant results appearing earlier.",
+        },
+        "retrieval_config": {
+            "query_translation_enabled": enable_query_translation,
         },
     }
 
@@ -199,13 +203,23 @@ def _parse_args() -> argparse.Namespace:
         default=max(settings.top_k * 3, 10),
         help="Candidate pool used by hybrid RRF before fusion.",
     )
+    parser.add_argument(
+        "--disable-query-translation",
+        action="store_true",
+        help="Use the raw queries without Turkish-to-English expansion.",
+    )
     return parser.parse_args()
 
 
 def main() -> None:
     args = _parse_args()
     documents = load_retrieval_documents(args.corpus)
-    payload = run_evaluation(documents, top_k=args.top_k, candidate_pool=args.candidate_pool)
+    payload = run_evaluation(
+        documents,
+        top_k=args.top_k,
+        candidate_pool=args.candidate_pool,
+        enable_query_translation=not args.disable_query_translation,
+    )
     write_json(args.output, payload)
     print(f"Saved evaluation to {args.output}")
     print(payload["aggregate_metrics"])

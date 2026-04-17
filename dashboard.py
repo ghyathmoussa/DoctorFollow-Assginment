@@ -241,6 +241,121 @@ def render_rag_demos(rag_payload: dict[str, Any] | None) -> None:
             st.write(document.get("abstract") or "No abstract available.")
 
 
+def _demo_by_query(payload: dict[str, Any] | None, query: str) -> dict[str, Any] | None:
+    if not payload:
+        return None
+    for demo in payload.get("demos", []):
+        if demo.get("query") == query:
+            return demo
+    return None
+
+
+def _retrieved_document_rows(demo: dict[str, Any] | None) -> list[dict[str, Any]]:
+    if not demo:
+        return []
+    return [
+        {
+            "Rank": document.get("rank"),
+            "PMID": document.get("pmid"),
+            "Title": document.get("title"),
+            "Year": document.get("year"),
+            "Matched Terms": ", ".join(document.get("matched_terms", [])),
+            "Score": format_metric(document.get("score")),
+        }
+        for document in demo.get("retrieved_documents", [])
+    ]
+
+
+def _render_demo_panel(title: str, demo: dict[str, Any] | None, fallback_method: str | None = None) -> None:
+    st.markdown(f"**{title}**")
+    if not demo:
+        st.info("No demo found for this query.")
+        return
+
+    metric_col1, metric_col2, metric_col3 = st.columns(3)
+    metric_col1.metric("Status", demo.get("status", "unknown"))
+    metric_col2.metric("Method", demo.get("retrieval_method", fallback_method or "-"))
+    metric_col3.metric("Retrieved Docs", len(demo.get("retrieved_documents", [])))
+
+    st.caption(
+        "Query translation: "
+        + ("enabled" if demo.get("query_translation_enabled") else "disabled")
+    )
+
+    if demo.get("status") == "completed":
+        st.markdown("**Generated Answer**")
+        st.write(demo.get("answer") or "No answer returned.")
+    else:
+        st.error(demo.get("error", "The demo failed without an error message."))
+
+    st.markdown("**Retrieved Context**")
+    st.dataframe(_retrieved_document_rows(demo), use_container_width=True, hide_index=True)
+
+
+def _pmid_set(demo: dict[str, Any] | None) -> set[str]:
+    if not demo:
+        return set()
+    return {
+        str(document.get("pmid"))
+        for document in demo.get("retrieved_documents", [])
+        if document.get("pmid") is not None
+    }
+
+
+def render_rag_comparison(comparison_payload: dict[str, Any] | None) -> None:
+    st.subheader("RAG Before vs After Bonus")
+    if not comparison_payload:
+        st.info(
+            "Run `python -m src.rag.generate_answer --compare-query-translation` "
+            "to generate the before/after bonus comparison artifact."
+        )
+        return
+
+    before_payload = comparison_payload.get("before_bonus", {})
+    after_payload = comparison_payload.get("after_bonus", {})
+    before_queries = [demo.get("query") for demo in before_payload.get("demos", []) if demo.get("query")]
+    after_queries = [demo.get("query") for demo in after_payload.get("demos", []) if demo.get("query")]
+    query_options = sorted(set(before_queries) | set(after_queries))
+
+    if not query_options:
+        st.info("No comparison demos were found.")
+        return
+
+    selected_query = st.selectbox("Choose a comparison query", query_options, key="rag_comparison_query")
+
+    info_col1, info_col2 = st.columns(2)
+    info_col1.metric("Before Method", before_payload.get("retrieval_method", "-"))
+    info_col2.metric("After Method", after_payload.get("retrieval_method", "-"))
+
+    before_demo = _demo_by_query(before_payload, selected_query)
+    after_demo = _demo_by_query(after_payload, selected_query)
+
+    before_pmids = _pmid_set(before_demo)
+    after_pmids = _pmid_set(after_demo)
+    shared_pmids = sorted(before_pmids & after_pmids)
+    before_only_pmids = sorted(before_pmids - after_pmids)
+    after_only_pmids = sorted(after_pmids - before_pmids)
+
+    st.markdown("**Retrieval Diff Summary**")
+    diff_col1, diff_col2, diff_col3 = st.columns(3)
+    diff_col1.metric("Shared PMIDs", len(shared_pmids))
+    diff_col2.metric("Before-Only PMIDs", len(before_only_pmids))
+    diff_col3.metric("After-Only PMIDs", len(after_only_pmids))
+
+    st.caption(
+        "Before-only: "
+        + (", ".join(before_only_pmids) if before_only_pmids else "-")
+        + " | After-only: "
+        + (", ".join(after_only_pmids) if after_only_pmids else "-")
+    )
+
+    col1, col2 = st.columns(2)
+    with col1:
+        _render_demo_panel(before_payload.get("label", "Before Bonus"), before_demo, before_payload.get("retrieval_method"))
+    with col2:
+        _render_demo_panel(after_payload.get("label", "After Bonus"), after_demo, after_payload.get("retrieval_method"))
+
+
 def render_sidebar(errors: list[str]) -> None:
     st.sidebar.title("Artifacts")
     st.sidebar.caption("This dashboard is read-only and uses the generated JSON files in `artifacts/`.")
@@ -256,8 +371,10 @@ def main() -> None:
     corpus_payload, corpus_error = load_artifact(settings.corpus_path)
     evaluation_payload, evaluation_error = load_artifact(settings.evaluation_path)
     rag_payload, rag_error = load_artifact(settings.rag_demos_path)
+    rag_comparison_payload, rag_comparison_error = load_artifact(settings.rag_comparison_path)
 
     errors = [error for error in [corpus_error, evaluation_error, rag_error] if error]
+    optional_errors = [error for error in [rag_comparison_error] if error]
 
     st.title("Medical RAG Dashboard")
     st.caption("Basic project dashboard for corpus health, retrieval evaluation, and RAG demo inspection.")
@@ -265,8 +382,8 @@ def main() -> None:
     render_sidebar(errors)
     render_overview(corpus_payload, evaluation_payload, rag_payload)
 
-    overview_tab, corpus_tab, evaluation_tab, rag_tab = st.tabs(
-        ["Overview", "Corpus", "Evaluation", "RAG Demos"]
+    overview_tab, corpus_tab, evaluation_tab, rag_tab, comparison_tab = st.tabs(
+        ["Overview", "Corpus", "Evaluation", "RAG Demos", "RAG Comparison"]
     )
 
     with overview_tab:
@@ -280,6 +397,11 @@ def main() -> None:
 
     with rag_tab:
         render_rag_demos(rag_payload)
+
+    with comparison_tab:
+        if optional_errors and not rag_comparison_payload:
+            st.info(optional_errors[0])
+        render_rag_comparison(rag_comparison_payload)
 
 
 if __name__ == "__main__":

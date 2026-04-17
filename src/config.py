@@ -51,6 +51,7 @@ class Settings:
     retrieval_corpus_path: Path
     evaluation_path: Path
     rag_demos_path: Path
+    rag_comparison_path: Path
     embeddings_path: Path
     embeddings_metadata_path: Path
     llm_provider: str
@@ -88,6 +89,9 @@ def get_settings() -> Settings:
         ),
         evaluation_path=PROJECT_ROOT / _get_env_str("EVALUATION_PATH", "artifacts/evaluation.json"),
         rag_demos_path=PROJECT_ROOT / _get_env_str("RAG_DEMOS_PATH", "artifacts/rag_demos.json"),
+        rag_comparison_path=PROJECT_ROOT / _get_env_str(
+            "RAG_COMPARISON_PATH", "artifacts/rag_comparison.json"
+        ),
         embeddings_path=PROJECT_ROOT / _get_env_str("EMBEDDINGS_PATH", "artifacts/document_embeddings.npy"),
         embeddings_metadata_path=PROJECT_ROOT
         / _get_env_str("EMBEDDINGS_METADATA_PATH", "artifacts/document_embeddings_metadata.json"),

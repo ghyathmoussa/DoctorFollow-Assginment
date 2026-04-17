@@ -156,6 +156,13 @@ python -m src.evaluation.run_eval
 python -m src.rag.generate_answer
 ```
 
+#### Run before/after bonus RAG comparison
+```bash
+python -m src.rag.generate_answer --compare-query-translation
+```
+
+This writes `artifacts/rag_comparison.json`, which is shown in the dashboard under the `RAG Comparison` tab.
+
 #### Run the dashboard
 ```bash
 streamlit run dashboard.py
@@ -204,7 +211,7 @@ This makes the system easier to debug and avoids repeated PubMed calls.
 I selected `intfloat/multilingual-e5-small` for semantic retrieval.
 
 Why:
-- the assignment includes Turkish queries over English literature
+- the corpuse and queries contain Turkish queries over English literature
 - E5 is strong for multilingual retrieval
 - it is much smaller and more practical than `bge-m3`
 
@@ -229,7 +236,7 @@ Interpretation:
 - higher `k1`: repeated term matches keep contributing more strongly
 
 ### What `b` controls
-`b` controls document length normalization by adjusting the influence of document length relative to the average document length (avgdlavgdl).
+`b` controls document length normalization by adjusting the influence of document length relative to the average document length.
 
 Interpretation:
 - `b = 0`: little or no penalty for longer documents
@@ -328,13 +335,13 @@ As a result, `artifacts/rag_demos.json` currently contains:
 - failed generation status
 - explicit error messages
 
-Once a real API key is configured, rerunning:
+run:
 
 ```bash
 python -m src.rag.generate_answer
 ```
 
-should produce the final cited answers for the required 2 queries.
+should produce the final cited answers for the all required queries.
 
 ## Hardest Problem
 The hardest part was making semantic retrieval reliable in an offline / partially restricted environment.
@@ -350,29 +357,78 @@ I solved it by:
 
 That made semantic retrieval repeatable and much faster after the first successful model fetch.
 
+## Bonus Improvement
+I added a lightweight Turkish-to-English medical query translation layer before retrieval.
+
+What it does:
+- keeps the original user query unchanged
+- detects Turkish medical phrasing such as `çölyak hastalığı`, `tanı kriterleri`, and `tedavisi`
+- appends English retrieval hints like `celiac disease`, `diagnosis criteria`, and `treatment management`
+- feeds the expanded query into BM25, semantic retrieval, and hybrid RRF
+
+Why this was a good fit:
+- the corpus is English-heavy, while part of the assignment query set is Turkish
+- BM25 benefits immediately from English term overlap
+- the change is deterministic, fast, and does not require another model or API call
+
+How it works in practice:
+- a query like `Çölyak hastalığı tanı kriterleri nelerdir?`
+- is expanded into the original Turkish text plus English hints such as `celiac disease`, `coeliac disease`, `diagnosis`, and `criteria`
+- this gives BM25 English term overlap against the PubMed abstracts while still letting the semantic retriever see the original multilingual phrasing
+
+Why I chose this over a heavier improvement:
+- it directly targets the Turkish doctor-facing use case
+- it improves retrieval without rebuilding the corpus or adding a second-stage model
+- it is easy to ablate with a single flag: `--disable-query-translation`
+
+Measured effect:
+
+| Method | Baseline Precision | Improved Precision | Baseline nDCG | Improved nDCG |
+|---|---:|---:|---:|---:|
+| BM25 | 0.56 | 0.72 | 0.5785 | 0.7492 |
+| Semantic | 0.76 | 0.76 | 0.7738 | 0.7738 |
+| Hybrid RRF | 0.68 | 0.76 | 0.7153 | 0.7755 |
+
+Main takeaway:
+- the biggest gain came from the Turkish celiac query `Çölyak hastalığı tanı kriterleri nelerdir?`
+- BM25 improved from `Precision = 0.0` / `nDCG = 0.0`
+- to `Precision = 1.0` / `nDCG = 1.0`
+- hybrid also improved because it could now benefit from the stronger BM25 lexical ranking on Turkish queries
+
+Trade-off:
+- benefit: much better recall and ranking for Turkish medical queries over an English literature corpus
+- cost: expansion can make some queries slightly broader and introduce extra lexical matches
+- example: the acute otitis media query stayed relevant, but BM25 `nDCG` dipped a bit because words like `treatment` and `management` match more broadly
+- the operational cost is low because this runs only at query time and does not require a new index, API call, or reranker
+
+
 ## Scenario Question
 Your team needs to benchmark a 70B open-source LLM for medical QA. Your usual GPU provider doesn't have L40S available today. Your manager is busy all day. Results needed by end of week. What do you do?
 
 I would move immediately on parallel tracks and optimize for getting benchmarkable results, not waiting for a perfect GPU match.
 
 Concrete plan:
+
+1. Make 70B actually runnable
+Use 4–8 bit quantization via bitsandbytes
+Serve with vLLM
+   - Fit in Fewer GPUs.
+   - Slight accuracy drop (it affect the benchmarks hardly :) ).
 1. Check alternative inference platforms the same day:
    - Together AI
    - Fireworks AI
    - Groq if the target model is supported
-   - Modal or RunPod for on-demand GPUs
+   - RunPod or other providors for on-demand GPUs
    - Lambda Labs, Vast.ai, or Paperspace for temporary GPU availability
    - Hugging Face Inference Endpoints if the target model is supported
-2. If the exact 70B model is unavailable, pick the closest viable alternative and document the trade-off:
-   - same family, different quantization
-   - same family on A100/H100 instead of L40S
-   - smaller model for pipeline shakeout, then 70B for final benchmark
-3. Separate benchmarking goals:
+
+2. Separate benchmarking goals:
    - quality benchmark
    - latency benchmark
    - cost benchmark
+   
    This matters because a non-L40S platform may still be acceptable for quality evaluation even if latency is not directly comparable.
-4. Freeze the benchmark protocol before running:
+3. Freeze the benchmark protocol before running:
    - dataset
    - prompts
    - decoding parameters
@@ -387,19 +443,11 @@ Concrete plan:
    - any comparability limitations
 
 Trade-off summary:
-- L40S availability matters for apples-to-apples latency and cost comparisons.
+- L40S availability matters for latency and cost comparisons.
 - It matters much less if the urgent goal is model quality benchmarking by end of week.
 - I would prioritize getting a documented, reproducible benchmark done now, while clearly labeling any hardware mismatch in the final report.
+- Running the model with quantization and vLLM produce accuracy drop.
+- Using inference APIs can produce fasst results, but it less control and weaker reproducibility.
 
 ## AI Usage
-AI tools were used during development for implementation assistance and iteration. The code, structure, and final documentation were reviewed and adjusted to fit the assignment requirements and the actual project outputs.
-
-## Submission Notes
-- Python only
-- no API keys hardcoded in source files
-- environment-driven configuration for credentials and tunable parameters
-- artifacts included for corpus build, evaluation, and RAG demo wiring
-
-## Remaining Gaps
-- Phase 8 still needs a real `LLM_API_KEY` to generate the final 2 cited answers
-- Phase 9 bonus work has not been implemented yet
+AI tools were used during development for implementation assistance and iteration. The code, structure, and final documentation were reviewed and adjusted to fit the actual project outputs.

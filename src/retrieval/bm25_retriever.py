@@ -16,6 +16,7 @@ except ModuleNotFoundError:  # pragma: no cover - dependency availability varies
 
 from src.config import settings
 from src.retrieval.corpus import RetrievalDocument, load_retrieval_documents, normalize_text
+from src.retrieval.query_processing import expand_query
 
 
 TOKEN_PATTERN = re.compile(r"\w+(?:[-']\w+)*", flags=re.UNICODE)
@@ -108,17 +109,20 @@ class BM25Retriever:
         *,
         k1: float | None = None,
         b: float | None = None,
+        enable_query_translation: bool = True,
     ) -> None:
         self.documents = documents
         self.k1 = settings.bm25_k1 if k1 is None else k1
         self.b = settings.bm25_b if b is None else b
+        self.enable_query_translation = enable_query_translation
         self.tokenized_corpus = [tokenize_text(doc.retrieval_text) for doc in documents]
         bm25_cls = BM25Okapi or _FallbackBM25Okapi
         self.backend_name = "rank_bm25" if BM25Okapi is not None else "fallback"
         self.index = bm25_cls(self.tokenized_corpus, k1=self.k1, b=self.b)
 
     def search(self, query: str, top_k: int | None = None) -> list[BM25SearchResult]:
-        query_tokens = tokenize_text(query)
+        processed_query = expand_query(query, enable_translation=self.enable_query_translation)
+        query_tokens = tokenize_text(processed_query)
         if not query_tokens:
             return []
 
@@ -160,13 +164,23 @@ def _parse_args() -> argparse.Namespace:
     parser.add_argument("--top-k", type=int, default=settings.top_k, help="Number of results to return.")
     parser.add_argument("--k1", type=float, default=settings.bm25_k1, help="BM25 term frequency scaling.")
     parser.add_argument("--b", type=float, default=settings.bm25_b, help="BM25 document length normalization.")
+    parser.add_argument(
+        "--disable-query-translation",
+        action="store_true",
+        help="Use the raw query without Turkish-to-English expansion.",
+    )
     return parser.parse_args()
 
 
 def main() -> None:
     args = _parse_args()
     documents = load_retrieval_documents(args.corpus)
-    retriever = BM25Retriever(documents, k1=args.k1, b=args.b)
+    retriever = BM25Retriever(
+        documents,
+        k1=args.k1,
+        b=args.b,
+        enable_query_translation=not args.disable_query_translation,
+    )
     results = retriever.search(args.query, top_k=args.top_k)
     for result in results:
         print(result.to_dict())

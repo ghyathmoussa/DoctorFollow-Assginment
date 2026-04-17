@@ -14,6 +14,7 @@ from sentence_transformers import SentenceTransformer
 
 from src.config import settings
 from src.retrieval.corpus import RetrievalDocument, load_retrieval_documents, normalize_text
+from src.retrieval.query_processing import expand_query
 from src.utils.io import ensure_parent_dir
 
 
@@ -69,16 +70,19 @@ class SemanticRetriever:
         model_name: str | None = None,
         embeddings_path: Path | None = None,
         metadata_path: Path | None = None,
+        enable_query_translation: bool = True,
     ) -> None:
         self.documents = documents
         self.model_name = model_name or settings.embedding_model
         self.embeddings_path = embeddings_path or settings.embeddings_path
         self.metadata_path = metadata_path or settings.embeddings_metadata_path
+        self.enable_query_translation = enable_query_translation
         self.model = self._load_model()
         self.document_embeddings = self._load_or_create_document_embeddings()
 
     def search(self, query: str, top_k: int | None = None) -> list[SemanticSearchResult]:
-        query_text = _format_query_text(query, self.model_name)
+        processed_query = expand_query(query, enable_translation=self.enable_query_translation)
+        query_text = _format_query_text(processed_query, self.model_name)
         query_embedding = self.model.encode(
             [query_text],
             normalize_embeddings=True,
@@ -217,6 +221,11 @@ def _parse_args() -> argparse.Namespace:
         default=settings.embeddings_metadata_path,
         help="Path to the embeddings metadata JSON file.",
     )
+    parser.add_argument(
+        "--disable-query-translation",
+        action="store_true",
+        help="Use the raw query without Turkish-to-English expansion.",
+    )
     return parser.parse_args()
 
 
@@ -228,6 +237,7 @@ def main() -> None:
         model_name=args.model,
         embeddings_path=args.embeddings_path,
         metadata_path=args.metadata_path,
+        enable_query_translation=not args.disable_query_translation,
     )
     results = retriever.search(args.query, top_k=args.top_k)
     for result in results:
